@@ -102,7 +102,7 @@ claude plugin marketplace add brissonjo-sudo/DirFi-fpt
 
 ```
 python3 scripts/package_skill.py
-# produit dist/dirfi-fpt-1.0.0.zip
+# produit dist/dirfi-fpt-1.0.3.zip
 ```
 
 ## Validation
@@ -125,7 +125,18 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
 
-**v1.0.2 — l'effet de la saisine de la CRC n'est pas le même selon son fondement.**
+**v1.0.3 — nommer le fichier, pas seulement la notion.**
+
+La campagne `r2` a fait remonter, sous la plume des quatre juges et déjà sous
+celle des juges de `r1`, un même reproche non éliminatoire : les réponses
+nomment la notion mobilisée — « la branche exécution », « la fiche régie » —
+sans jamais nommer le **fichier**. L'utilisateur ne peut alors ni vérifier la
+règle, ni la corriger, ni distinguer ce qui vient du skill de ce qui vient de la
+mémoire du modèle. Cette exigence ne figurait que dans le jeu de test : elle
+était **mesurée sans être prescrite**. La v1.0.3 la porte dans le skill
+(`SKILL.md` §4, et point 16 de l'auto-vérification §7) : toute branche, tout
+objet, tout générateur réellement mobilisé est **nommé par son chemin**, à
+l'endroit où sa règle est utilisée.
 
 **Dernier score de suite — campagne `claude-v1.0.1-r2`**, achevée le 2026-09-15
 sur les 28 cas, **mesure la v1.0.1** (skill lu depuis le dépôt, non invoqué
@@ -142,8 +153,7 @@ pas atteint**.
 de `r1` passent tous en réussite, comme les quatre autres échecs, qui relevaient
 du même mécanisme. **Aucune auto-attestation nue n'est relevée sur l'ensemble du
 run** : les valeurs portent source, point d'entrée et date, ou sont marquées non
-vérifiées. La règle de provenance à trois éléments a été décisive sur plusieurs
-cas, où elle a distingué une valeur réellement vérifiée d'une valeur habillée.
+vérifiées.
 
 **L'échec restant a servi à quelque chose** : il a révélé une **erreur de fond**
 que ni la rédaction ni la relecture n'avaient vue. Le skill affirmait que la
@@ -159,11 +169,13 @@ pour le cas le plus fréquent :
   délibération.
 
 Une règle unique énoncée pour « toute saisine de la CRC » est donc fausse dans
-un sens ou dans l'autre. La **v1.0.2 corrige** la branche, le registre et le
+un sens ou dans l'autre. La **v1.0.2 a corrigé** la branche, le registre et le
 piège correspondant.
 
-Cette version étant **postérieure à la mesure**, une campagne `r3` reste requise
-pour la scorer. Aucun chiffre n'est annoncé pour la v1.0.2 avant cette mesure.
+**Ni la v1.0.2 ni la v1.0.3 ne sont couvertes par une campagne.** Toutes deux
+sont postérieures à `r2` : la campagne **`r3` mesurera les deux correctifs à la
+fois** — le correctif de fond et le correctif de traçabilité. Aucun chiffre
+n'est annoncé pour ces versions avant cette mesure.
 
 ## Licence
 

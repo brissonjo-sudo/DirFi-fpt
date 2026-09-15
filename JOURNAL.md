@@ -167,3 +167,23 @@
 - **Action proposée** : aucune. Conserver la règle en l'état et la mesurer à
   nouveau en `r3`.
 - **Statut** : intégré v1.0.1, confirmé par `r2`
+
+### 2026-09-15 — Les réponses ne nomment pas le fichier qu'elles mobilisent
+
+- **Type** : lacune
+- **Branche** : `SKILL.md` §4 et §7
+- **Contexte (anonymisé)** : cause dominante des 7 demi-réussites de `r2`, déjà
+  des 5 de `r1`. Relevée indépendamment par les trois juges des deux campagnes.
+- **Constat** : les réponses décrivent le bon contenu, appliquent la bonne
+  règle, mais citent la notion (« l'instruction M57 ») au lieu du chemin
+  (`references/nomenclature-m57.md`). Le skill demandait de « signaler le lien »
+  sans jamais exiger de nommer le fichier — l'exigence figurait dans les
+  attendus des cas, pas dans la règle. Un défaut non éliminatoire, mais qui
+  suffit à faire basculer un cas hors de la réussite dès qu'il s'ajoute à un
+  second manque.
+- **Action proposée** : rendre la traçabilité obligatoire et **motivée** —
+  vérifier, corriger, distinguer la source interne de la mémoire du modèle — et
+  l'ajouter à l'auto-vérification.
+- **Enseignement général** : une exigence qui ne figure que dans le jeu de test
+  n'est pas une règle du skill. Elle se mesure, mais rien ne la produit.
+- **Statut** : intégré v1.0.3

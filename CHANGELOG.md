@@ -8,6 +8,44 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.3] — 2026-09-15 — nommer le fichier, pas seulement la notion
+
+Correctif de la **cause dominante des demi-réussites**, relevée indépendamment
+par les trois juges de `r2` et déjà présente dans les rapports de `r1` : 7 des
+28 réponses décrivaient le bon contenu sans jamais citer le fichier du skill sur
+lequel elles s'appuyaient — « l'instruction M57 » au lieu de
+`references/nomenclature-m57.md`.
+
+C'est le dernier obstacle connu au seuil de release : le fond était juste, seule
+la traçabilité manquait.
+
+### Ajouté
+
+- **`SKILL.md` §4 — Traçabilité de la source interne, obligatoire.** Toute
+  réponse mobilisant une branche, un objet ou un générateur le **nomme par son
+  chemin**, **à l'endroit où sa règle est utilisée**, pas seulement dans une
+  liste finale. Nommer la notion ne suffit pas.
+
+  La règle énonce aussi *pourquoi*, car une exigence dont on ignore la raison
+  s'applique mal : pouvoir **vérifier** la règle complète au-delà du résumé,
+  pouvoir **corriger** à la bonne ligne quand la réponse se révèle fausse — sans
+  le chemin, il faut chercher dans plus de onze mille lignes — et **distinguer**
+  ce qui vient du skill de ce qui vient de la mémoire du modèle.
+- **`SKILL.md` §7 — point 16.** L'auto-vérification passe à 17 points et
+  contrôle désormais la traçabilité, avec la même formulation à charge que les
+  autres tests : nommer la notion ne compte pas.
+
+### À faire
+
+Campagne `r3` requise. Elle mesurera **deux** correctifs d'un coup — la v1.0.2
+sur le fond, la v1.0.3 sur la traçabilité — ce qui était jusqu'ici évité. C'est
+assumé : les deux portent sur des dimensions distinctes et séparables à la
+lecture des jugements (un échec de fond n'est pas une demi-réussite de
+traçabilité), et attendre une campagne de plus pour la seule v1.0.3 coûterait
+davantage que la perte de résolution.
+
+---
+
 ## [1.0.2] — 2026-09-15 — l'effet de la saisine dépend de son fondement
 
 Correctif issu de la campagne `claude-v1.0.1-r2` (28 cas, mesure de la v1.0.1) :
