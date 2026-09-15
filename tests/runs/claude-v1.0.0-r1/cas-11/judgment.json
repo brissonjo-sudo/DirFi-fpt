@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Expose l'ordre de réquisition, acte écrit et motivé, notifié avec accusé de réception",
+    "Indique les cas où le comptable doit refuser de déférer (absence de crédits, absence de service fait, caractère non libératoire, atteinte à la sincérité de la dépense)",
+    "Signale le transfert de responsabilité sur l'ordonnateur et l'exigence de traçabilité de l'échange",
+    "Recommande d'abord de récupérer et qualifier le motif écrit du rejet et de régulariser si le motif est fondé (DM, pièce, service fait)"
+  ],
+  "attendus_manques": [
+    "Ne nomme pas references/controle-interne-financier.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse pose la bonne séquence — obtenir le motif exact avant tout — distingue contrôle de régularité et d'opportunité, liste les cas d'exclusion de la réquisition et rappelle l'engagement de la responsabilité personnelle devant le juge des comptes. Elle refuse explicitement de citer un article non vérifié (« Je ne cite aucun numéro d'article sur ce point tant qu'il n'a pas été vérifié à la source »), donc aucun identifiant reconstitué ni valeur chiffrée non sourcée. Seul le renvoi au fichier de référence manque."
+}

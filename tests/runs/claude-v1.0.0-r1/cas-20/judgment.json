@@ -1,0 +1,13 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "Cession identifiée comme sortie de l'actif avec écritures propres",
+    "Distinction produit de cession / plus ou moins-value",
+    "Délibération du conseil et estimation domaniale signalées",
+    "Mise à jour de l'inventaire et de l'état de l'actif mentionnée",
+    "Aucun numéro de compte inventé (comptes cités exacts)"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": "Valeur chiffrée non vérifiée donnée comme un fait : le seuil de consultation du service du Domaine annoncé à 180 000 € HT (et 75 000 € comme seuil antérieur), alors que la réponse reconnaît elle-même ne pas l'avoir vérifié",
+  "justification": "Le fond est solide sur tous les attendus listés (domanialité, délibération motivée, chapitre 024 et comptes 675/775/192/676/776 exacts, concordance inventaire / état de l'actif). Mais la réponse énonce un seuil chiffré en gras — « seuil identifié à 180 000 € HT par un arrêté de 2016 » — tout en admettant « je n'ai pas revérifié aujourd'hui sur Légifrance » puis « identifiant Légifrance non vérifié dans cette session ». C'est exactement le cas visé par le §3.3 du barème : la valeur est livrée quand même, assortie d'une réserve, et reste retenue par le lecteur ; le seuil antérieur de 75 000 € est avancé dans les mêmes conditions. L'éliminatoire tombe malgré la qualité du reste."
+}

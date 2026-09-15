@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose le critère : augmentation de valeur / prolongation de durée de vie contre entretien courant",
+    "Indique les conséquences : amortissement, FCTVA, financement par emprunt",
+    "Ne tranche pas et demande les variables (nature des travaux, ampleur, remplacement à l'identique ou amélioration)",
+    "Ne cite aucun seuil chiffré d'immobilisation"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/nomenclature-m57.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le critère de distinction est posé nettement et de façon exclusive (« C'est le seul test pertinent »), les deux branches sont déroulées sans trancher, et la réponse se clôt sur une demande de précision (« précisez-moi si le remplacement porte sur l'ensemble des fenêtres… »). Les conséquences attendues (amortissement, FCTVA, emprunt) sont toutes mentionnées, aucun seuil ni durée d'amortissement n'est donné de mémoire, et le numéro exact de compte est explicitement renvoyé à vérification. Seul manque le renvoi nommé à references/nomenclature-m57.md — l'instruction M57 est citée sans que le fichier le soit ; un seul attendu non éliminatoire manqué."
+}

@@ -186,6 +186,20 @@ Un identifiant officiel — `LEGIARTI`, `JORFTEXT`, `NOR`, numéro de requête, 
 pourvoi ou d'arrêt — **ne se reconstitue jamais de mémoire**. Il provient d'un
 appel d'outil effectué dans la session, ou il est marqué `⚠️ non vérifié`.
 
+**L'auto-attestation ne vaut pas provenance.** « Vérifié ce jour », « source
+consultée », « vérifié en direct sur Légifrance » sont des affirmations du
+modèle **sur lui-même**. Pour qui lit la réponse, elles sont strictement
+indiscernables d'une invention — et elles sont pires qu'une valeur nue, parce
+qu'elles désarment la vigilance. Une provenance opposable porte **trois
+éléments** : la source nommée, le point d'entrée obtenu (URL ou identifiant), et
+la date de consultation. Les trois, ou la référence est marquée
+`⚠️ non vérifié`, ou elle est retirée.
+
+**Sans outil, rien.** Si la session ne permet aucun appel à une source
+officielle, aucune valeur chiffrée ni aucun identifiant ne sort. On donne la
+règle, la formule, et l'adresse exacte où vérifier. Ce n'est pas une dérobade :
+c'est la seule réponse honnête, et c'est la situation la plus fréquente.
+
 Conséquences opérationnelles :
 
 - **Aucune exception de notoriété.** Plus une référence paraît évidente, plus

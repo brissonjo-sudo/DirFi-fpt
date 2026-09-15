@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Orientation vers le mécanisme AP/CP",
+    "Articulation autorisation pluriannuelle / crédits de paiement annuels expliquée",
+    "Plan de financement et échéancier demandés avant conclusion",
+    "Articulation avec la PPI mentionnée"
+  ],
+  "attendus_manques": [
+    "Renvoi nommé à objets/operation-investissement.md et references/budget-cycle.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse oriente immédiatement vers l'AP/CP et explique correctement que le vote de l'AP « n'ouvre le mandatement qu'à hauteur des CP votés chaque année », avec révision délibérée en cas de dépassement. Elle réclame le plan de financement (part acquise / part sollicitée) et l'échéancier de CP avant toute rédaction, et traite la cohérence avec la PPI. Taux de subvention et taux de FCTVA sont qualifiés de « valeurs volatiles » et non cités ; la passation du marché est explicitement mise hors périmètre. Seul le renvoi nommé aux fichiers manque."
+}

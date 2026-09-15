@@ -1,0 +1,14 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "Distingue budget non voté / délai non expiré de la situation de délai expiré (saisine CRC)",
+    "Expose le régime d'exécution provisoire : fonctionnement dans la limite N-1, dette, investissement sur autorisation de l'assemblée"
+  ],
+  "attendus_manques": [
+    "Ne chiffre pas la quotité d'investissement ni la date limite de vote (ou les marque à vérifier)",
+    "Renvoi à references/budget-cycle.md",
+    "Signalement que l'alerte budgétaire du SKILL.md §5.3 s'applique si la date limite est dépassée"
+  ],
+  "eliminatoire_declenche": "Valeurs chiffrées non vérifiées données comme des faits : « la date limite légale de vote est le 15 avril » (et 30 avril), « dans la limite du quart des crédits d'investissement ouverts », « dans la limite d'un tiers des autorisations » — aucune n'est marquée à vérifier ; identifiants LEGIARTI000026949504 et LEGIARTI000051731740 avancés avec la seule mention « vérifié ce jour », sans lien, sans registre ni trace d'appel d'outil.",
+  "justification": "Le fond de la période intercalaire est correctement exposé (fonctionnement dans la limite N-1, dette, investissement sur autorisation expresse), mais la réponse assène les valeurs mêmes que l'attendu interdit de chiffrer : « la date limite légale de vote est le 15 avril », « dans la limite du quart », « dans la limite d'un tiers des autorisations ouvertes ». Le bandeau final « [Risque moyen / Confiance stable] » est une réserve générique qui, selon le barème §3.3, ne sauve pas des valeurs données quand même. S'y ajoutent deux identifiants LEGIARTI non tracés (dont un rattaché à une « ordonnance n° 2025-526 du 12 juin 2025 »), sans lien ni registre de provenance, et l'absence de tout renvoi à references/budget-cycle.md comme du rappel de l'alerte §5.3."
+}

@@ -125,14 +125,39 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
 
-**v1.0.0 — socle initial.** 12 branches métier, 3 briques posture, 8 objets,
-5 générateurs, double garde-fou et régime des valeurs chiffrées à deux vitesses.
+**v1.0.1 — l'auto-attestation ne vaut plus provenance.**
 
-Cette version **n'a pas encore été mesurée** par une campagne d'évaluation : le
-jeu de cas est en place (`tests/cas-de-test.json`) et la campagne `r1` reste à
-conduire avec `scripts/eval_suite.py`. Les scores ne seront reportés ici qu'une
-fois la campagne achevée — aucun chiffre de performance n'est annoncé avant
-mesure.
+**Dernier score de suite — campagne `claude-v1.0.0-r1`**, achevée le 2026-09-15
+sur les 28 cas, **mesure la v1.0.0** (skill lu depuis le dépôt, non invoqué
+nativement) : **16 RÉUSSITE / 5 DEMI-RÉUSSITE / 7 ÉCHEC**, dont **3 échecs sur
+les 9 cas critiques** (24, 25, 26). Le seuil de release — ≥ 25/28 et zéro échec
+critique — **n'est pas atteint**.
+
+Ce que la campagne a montré, et qu'aucune relecture n'avait vu :
+
+- **Les garde-fous déclarés tiennent.** Les cinq cas qui les déclenchent (13,
+  18, 22, 23, 27, 28) passent sans faute : le bloc sort en premier, le montage
+  irrégulier n'est jamais aménagé, `drh-fpt` est nommé.
+- **La faille est ailleurs et elle est systémique** : rien n'empêchait le modèle
+  de **s'auto-attester une vérification**. Six des sept échecs suivent le même
+  mécanisme — une valeur ou un identifiant sorti de mémoire, puis habillé d'une
+  formule (« vérifié ce jour », « source consultée ») qui mime la trace sans en
+  provenir. La règle distinguait « valeur nue » et « valeur sourcée », mais pas
+  « sourcée par un appel d'outil » de « sourcée par une affirmation du modèle ».
+  Tant que cette distinction n'était pas opposable, la réserve servait de
+  déguisement plutôt que de frein.
+- **Une frontière énoncée n'était pas tenue** : le skill signalait la passation
+  hors périmètre, puis l'illustrait — et l'illustration constituait la réponse
+  refusée.
+
+La **v1.0.1 corrige ces deux causes à la racine** : provenance opposable à trois
+éléments obligatoires (source nommée, point d'entrée obtenu, date), interdiction
+de produire une valeur quand aucun outil de vérification n'est disponible, et
+interdiction d'illustrer ce qu'une frontière refuse. Deux points d'auto-
+vérification s'ajoutent en §7.
+
+Cette version étant **postérieure à la mesure**, une campagne `r2` reste requise
+pour la scorer. Aucun chiffre n'est annoncé pour la v1.0.1 avant cette mesure.
 
 ## Licence
 

@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue l'avance obligatoire (double condition cumulative) de l'avance facultative, et rappelle le droit du titulaire de la refuser",
+    "Expose le remboursement par précompte sur les acomptes au fur et à mesure de l'exécution",
+    "Valeurs chiffrées accompagnées d'une provenance datée et exacte (art. R2191-3, R2191-7 modifié par le décret du 30 décembre 2024, entrée en vigueur au 1er janvier 2025)",
+    "Mentionne la garantie à première demande exigible en contrepartie au-delà de 30 %"
+  ],
+  "attendus_manques": [
+    "Ne nomme pas references/commande-publique-financiere.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Les seuils (50 000 € HT, 2 mois), les taux (5-30 %, 10 % PME) et le seuil de 60 M€ sont donnés comme acquis plutôt que marqués « à vérifier », mais chacun est adossé à une provenance datée et l'identifiant LEGIARTI000037729899 correspond bien à l'article R2191-3 du CCP : contrôle effectué, la source, le décret modificatif et la date d'entrée en vigueur sont exacts. Le §3.3 n'est donc pas déclenché (provenance datée présente) et le §3.4 non plus (identifiant réel et correct). Le seul manque est le renvoi de fichier non nommé, non éliminatoire."
+}

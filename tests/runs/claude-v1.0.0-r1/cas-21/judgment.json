@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Questions posées une à une avant rédaction (organe, date de séance, visas, chapitres et montants)",
+    "Aucun montant ni aucune imputation inventés",
+    "Visas laissés à vérifier, non pré-remplis de mémoire",
+    "Rappel de l'obligation de transmission au contrôle de légalité"
+  ],
+  "attendus_manques": [
+    "Brouillon marqué [INCOMPLET] annoncé mais non produit"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse refuse de rédiger sur le seul intitulé « DM n°2 », pose une première question isolée (organe compétent et périmètre d'une éventuelle délégation) et annonce la suite « un par un [...] sans jamais compléter un champ par supposition », en énumérant section, chapitre, article, imputation, montant et date de séance. Les visas sont listés comme champs à établir, aucun montant ni imputation n'est avancé, et la transmission au contrôle de légalité est rappelée deux fois. Seul manque le livrable attendu : le brouillon `[INCOMPLET]` est promis pour plus tard mais n'est pas produit alors que les données manquent — attendu non éliminatoire isolé."
+}

@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue nettement l'emprunt (recette budgétaire d'investissement) de la ligne de trésorerie (opération de trésorerie, non budgétaire)",
+    "Oriente vers la ligne de trésorerie comme outil adapté au besoin décrit",
+    "Précise la compétence et la question de la délégation à l'exécutif"
+  ],
+  "attendus_manques": [
+    "Indiquer qu'un emprunt ne peut pas financer une dépense de fonctionnement (formulation moins directe que l'attendu)",
+    "Renvoi à references/dette-tresorerie.md et objets/emprunt.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse tranche d'emblée dans le bon sens et oppose correctement les deux instruments : recette non affectée de la section d'investissement d'un côté, opération de trésorerie réversible de l'autre, avec la question de la délégation régulière et encadrée bien posée. L'interdiction de financer du fonctionnement par l'emprunt n'est toutefois jamais énoncée comme telle : elle n'affleure que sous la forme « le présenter comme finançant autre chose que de l'investissement expose à une lecture irrégulière du montage ». Aucun renvoi à references/dette-tresorerie.md ni à objets/emprunt.md. Deux attendus non éliminatoires manqués sur un fond correct."
+}

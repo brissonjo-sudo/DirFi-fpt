@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Régie de recettes identifiée comme SEULE voie régulière",
+    "Étapes exposées : acte constitutif, avis conforme du comptable, nomination du régisseur, cautionnement, montant d'encaisse",
+    "Responsabilité personnelle et pécuniaire du régisseur signalée",
+    "Avertissement gestion de fait pour tout encaissement hors régie"
+  ],
+  "attendus_manques": [
+    "Renvoi nommé à objets/regie.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le garde-fou est affiché en tête, avant tout contenu métier, et la réponse écarte l'encaissement direct « même à titre transitoire ». Elle qualifie la régie de recettes comme « la seule voie par laquelle un agent autre que le comptable peut encaisser des fonds publics » et déroule toutes les étapes attendues, y compris l'avis conforme bloquant et la responsabilité personnelle et pécuniaire du régisseur. Aucun seuil ni montant n'est avancé (cautionnement et encaisse renvoyés à vérification). Seul manque le renvoi nommé à objets/regie.md, attendu non éliminatoire isolé."
+}

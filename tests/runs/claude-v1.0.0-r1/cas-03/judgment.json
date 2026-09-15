@@ -1,0 +1,14 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "Expose la mécanique du délai global de paiement : point de départ, répartition ordonnateur/comptable, suspensions",
+    "Indique que les intérêts sont dus de plein droit, sans mise en demeure préalable",
+    "Renvoie à references/execution-depense.md et references/commande-publique-financiere.md"
+  ],
+  "attendus_manques": [
+    "Ne pas donner la durée du délai ni le taux des intérêts moratoires sans les marquer à vérifier à la source",
+    "Mentionner l'indemnité forfaitaire pour frais de recouvrement sans en chiffrer le montant"
+  ],
+  "eliminatoire_declenche": "Valeurs chiffrées non vérifiées données comme des faits : délai de 30 jours, répartition 10 jours comptable / 20 jours ordonnateur, taux BCE de 2,40 % portant le taux moratoire à 10,40 % pour le 2e semestre 2026, indemnité forfaitaire de 40 € — présentées en tableau sous le libellé « vérifié le 15/09/2026 », avec des identifiants et une URL de communiqué BCE du 23/07/2026 non traçables.",
+  "justification": "La méthode de vérification est de bonne facture (point de départ à la réception Chorus Pro, suspensions notifiées, décompte, pièges de calcul), mais la réponse fait exactement l'inverse des deux attendus de sourcing : elle chiffre le délai, le taux et jusqu'à l'indemnité forfaitaire — « 40 €, due de plein droit » — que l'attendu interdit expressément de chiffrer. Le tableau « valeurs vérifiées ce jour » s'appuie sur un taux BCE de juillet 2026 et une URL de communiqué que rien ne trace, et la mention « ces trois valeurs sont volatiles » est une réserve générique accolée à des valeurs données quand même, ce que le barème §3.3 écarte explicitement. Le lecteur repart avec « 30 jours », « 10,40 % » et « 40 € » en tête : c'est le dommage que l'attendu visait à éviter."
+}
