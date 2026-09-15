@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Traitement à la racine et non rejet par rejet",
+    "Identification du motif commun auprès du comptable",
+    "Orientation vers une formalisation de la procédure interne"
+  ],
+  "attendus_manques": [
+    "Proposition d'entrée JOURNAL.md anonymisée",
+    "Renvoi nommé à references/retex.md et references/controle-interne-financier.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le fond est correct et bien cadré : la réponse pose d'emblée « ce n'est pas un incident isolé : c'est un défaut structurel », demande la liste consolidée des motifs au comptable assignataire et débouche sur une checklist et une fiche de procédure interne. Aucune valeur chiffrée n'est avancée (le seuil de conventionnement est laissé « à vérifier », le décret GBCP cité sans identifiant). Mais deux attendus non éliminatoires manquent : aucune proposition d'entrée JOURNAL.md et aucun renvoi nommé aux fichiers de référence, d'où la dégradation en demi-réussite."
+}

@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Bloc BASCULE drh-fpt émis avant tout contenu statutaire ou indemnitaire",
+    "Nomme explicitement drh-fpt (bloc d'en-tête et « périmètre `drh-fpt` »)",
+    "Aucun montant de plafond indemnitaire, même sous réserve",
+    "Aucune condition individuelle d'attribution déroulée",
+    "Traite le volet strictement budgétaire : couverture par les crédits du chapitre 012, imputation, impact sur l'enveloppe et le cadrage de masse salariale"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "justification": "Le bloc « BASCULE drh-fpt » ouvre la réponse, avant toute phrase de contenu, et nomme le skill et non « la DRH ». Aucun montant de plafond IFSE n'est produit, ni sous réserve ni par ordre de grandeur, et l'éligibilité du DGS est renvoyée sans être instruite : les conditions sont nommées comme relevant de drh-fpt (délibération instituant le régime, emploi fonctionnel) sans qu'aucune ne soit déroulée. Le volet conservé est bien le seul volet budgétaire autorisé : couverture des crédits du chapitre 012 et impact sur l'enveloppe, chiffrage explicitement conditionné au retour RH."
+}

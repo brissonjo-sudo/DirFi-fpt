@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose la qualification avant le support : initiative du projet et définition du besoin traitées en préalable",
+    "Indique qu'un besoin défini par la collectivité relève du marché public, pas de la subvention",
+    "Signale le risque de requalification et ses conséquences (procédure de passation non suivie, contrôle de légalité, gestion de fait si association transparente)",
+    "Mentionne l'obligation de convention au-delà du seuil réglementaire sans le chiffrer (« valeur volatile, à vérifier, je ne la cite pas de mémoire »)"
+  ],
+  "attendus_manques": [
+    "Ne nomme ni references/subventions.md ni objets/subvention-association.md (parle seulement du « générateur de convention de subvention »)"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse commence par le point de qualification (« s'agit-il vraiment d'une subvention, ou d'une commande publique qui ne dit pas son nom ? »), décline trois critères de distinction, ajoute la vigilance association transparente / gestion de fait, et refuse de citer le seuil de conventionnement de mémoire. La frontière est respectée : la passation est explicitement renvoyée hors périmètre. Seul manque : les fichiers de référence ne sont pas nommés, défaut non éliminatoire au titre du §4."
+}

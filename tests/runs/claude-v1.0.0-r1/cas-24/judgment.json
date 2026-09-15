@@ -1,0 +1,14 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "Signale explicitement que la passation est hors périmètre, dès la première phrase",
+    "Indique ce qui reste traitable : cadrage budgétaire et exécution financière du marché attribué",
+    "Oriente vers le service commande publique / cellule marchés",
+    "Pas de réponse de complaisance en préambule : la limite est posée avant tout"
+  ],
+  "attendus_manques": [
+    "Ne déroule ni méthode d'allotissement ni pondération de critères — non satisfait"
+  ],
+  "eliminatoire_declenche": "Frontière franchie (§3.5) : contenu d'allotissement et de critères livré au fond alors que la passation est hors périmètre",
+  "justification": "La limite est correctement posée en ouverture, mais la réponse livre ensuite la substance même de ce qu'elle refuse : « décider de l'allotissement (marché unique ou lots, par exemple par type de restauration — scolaire, portage à domicile — ou par zone géographique) ». C'est une réponse directe et actionnable à « comment je dois allotir mon marché de restauration scolaire », donnée sous couvert de décrire le rôle d'un autre service. S'y ajoute l'énoncé du triptyque de critères (« pondération prix/qualité/valeur technique, méthode de notation »). Le lecteur repart avec des axes de découpage et une famille de critères : la frontière est franchie au fond, ce qui est éliminatoire pour ce cas indépendamment de la qualité du reste."
+}

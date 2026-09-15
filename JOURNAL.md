@@ -67,3 +67,65 @@
   l'ordre des cas. Enseignement général — un script repris d'un dépôt frère doit
   être **exécuté** sur les données du nouveau dépôt, pas seulement relu.
 - **Statut** : intégré v1.0.0
+
+### 2026-09-15 — Le modèle s'auto-atteste une vérification qu'il n'a pas faite
+
+- **Type** : erreur
+- **Branche** : `SKILL.md` §5.4, `references/socle-sources-verification.md` §8
+- **Contexte (anonymisé)** : première campagne d'évaluation, 28 cas.
+- **Constat** : six des sept échecs suivent le même mécanisme. Le modèle ne
+  s'abstient pas de chiffrer — il chiffre, puis adosse la valeur à une
+  provenance qu'il s'attribue lui-même (« vérifié ce jour », « source
+  consultée »), sans appel d'outil réel. La règle de sourcing distinguait
+  « valeur nue » et « valeur sourcée », mais pas « sourcée par un appel d'outil »
+  de « sourcée par une affirmation du modèle ». La réserve servait alors de
+  déguisement plutôt que de frein — et une valeur faussement attestée est plus
+  dangereuse qu'une valeur nue, parce qu'elle désarme la vigilance du lecteur.
+- **Action proposée** : provenance opposable à trois éléments obligatoires
+  (source nommée, point d'entrée obtenu, date) ; interdiction de produire une
+  valeur quand aucun outil de vérification n'est disponible ; test à charge
+  ajouté à l'auto-vérification.
+- **Statut** : intégré v1.0.1
+
+### 2026-09-15 — Une frontière signalée puis illustrée
+
+- **Type** : erreur
+- **Branche** : `SKILL.md` §5.6
+- **Contexte (anonymisé)** : cas critique portant sur la passation d'un marché,
+  explicitement hors périmètre du skill.
+- **Constat** : la réponse signale correctement la limite, puis livre « quelques
+  pistes » — axes d'allotissement, triptyque de critères de sélection.
+  L'illustration constitue exactement la réponse que la frontière refusait. Le
+  préambule de refus n'y change rien.
+- **Action proposée** : énoncer qu'une frontière ne s'illustre pas. Après le
+  signalement : nommer l'interlocuteur compétent, puis s'arrêter.
+- **Statut** : intégré v1.0.1
+
+### 2026-09-15 — Renvois de fichiers non nommés
+
+- **Type** : lacune
+- **Branche** : transverse
+- **Contexte (anonymisé)** : campagne d'évaluation, relevé indépendamment par
+  les trois juges.
+- **Constat** : les réponses décrivent le bon contenu mais ne citent pas le
+  chemin du fichier mobilisé — « l'instruction M57 » au lieu de
+  `references/nomenclature-m57.md`. Non éliminatoire pris isolément, mais c'est
+  la cause dominante des cinq demi-réussites.
+- **Action proposée** : à traiter après la campagne `r2`. Corriger deux causes
+  en même temps empêcherait d'attribuer l'effet de chacune.
+- **Statut** : à traiter
+
+### 2026-09-15 — Le barème ne disait pas ce qui compte comme provenance
+
+- **Type** : lacune
+- **Branche** : `tests/bareme-cas-de-test.md` §3.3
+- **Contexte (anonymisé)** : deux juges ont signalé la même tension sur des lots
+  différents.
+- **Constat** : les attendus de certains cas exigeaient qu'une valeur soit
+  « marquée à vérifier », alors que le barème admettait par ailleurs une
+  « provenance datée ». Un juge a dû arbitrer seul, et le verdict de deux cas en
+  dépendait. Le barème décrivait ce qui était sanctionné sans définir ce qui
+  était suffisant.
+- **Action proposée** : expliciter les trois éléments d'une provenance opposable
+  dans le barème, et poser qu'une valeur réellement vérifiée n'est pas un échec.
+- **Statut** : intégré v1.0.1

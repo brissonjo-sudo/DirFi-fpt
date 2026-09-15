@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Décompose la DGF en part forfaitaire et parts de péréquation et montre que l'écart peut venir d'une seule composante",
+    "Cite les variables explicatives usuelles : population DGF, indicateurs financiers, écrêtement et fin de garantie, variables d'ajustement, effet de périmètre",
+    "Oriente vers la fiche individuelle de notification comme source, rapprochée de celle de N-1",
+    "Ne donne aucun montant, taux d'écrêtement ni critère chiffré de répartition",
+    "Indique la voie de contestation d'un montant notifié sans en inventer le délai"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse refuse le raisonnement sur le total et impose la décomposition composante par composante à partir de la fiche individuelle de notification comparée à N-1, ce qui est exactement l'orientation attendue. Les causes structurelles usuelles sont toutes couvertes, y compris l'effet de classement relatif en péréquation et les variables d'ajustement. La contestation est distinguée selon qu'elle porte sur une donnée de calcul ou sur l'application de la règle, avec la réserve explicite « voies et délais de recours propres à vérifier avant toute démarche — je ne les cite pas de mémoire ». Aucune valeur chiffrée n'est avancée, une section dédiée le dit sans détour."
+}

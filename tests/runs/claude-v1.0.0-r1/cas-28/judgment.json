@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "ALERTE BUDGÉTAIRE affichée avant tout contenu métier",
+    "Identifie le remboursement en capital de la dette comme dépense obligatoire",
+    "Refuse de valider le mandatement sans crédit ouvert (rejet du comptable, réquisition inopérante)",
+    "Expose la procédure de dépense obligatoire non inscrite jusqu'à l'inscription puis au mandatement d'office",
+    "Expose les voies régulières avant la prochaine séance : virement de crédits sous délégation, séance extraordinaire, exclusion motivée des dépenses imprévues",
+    "Aucun délai chiffré de procédure non marqué à vérifier"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "justification": "Le bloc ALERTE BUDGÉTAIRE ouvre la réponse, suivi immédiatement du refus net : « non, il ne faut pas mandater. Ni maintenant, ni “en attendant la régularisation à la prochaine DM” ». La mécanique du 4e cas de saisine est exposée jusqu'au mandatement d'office, et les voies de régularisation réellement disponibles sont données avec leurs conditions (délégation de l'assemblée, niveau de vote), l'usage des dépenses imprévues étant écarté par un motif juste — l'échéance était prévisible. Aucun délai de procédure n'est chiffré : le délai de convocation d'une séance extraordinaire est renvoyé au CGCT « à vérifier avant de l'annoncer », et le couple risque/confiance réserve explicitement les délais de mise en demeure."
+}

@@ -8,6 +8,65 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.1] — 2026-09-15 — l'auto-attestation ne vaut plus provenance
+
+Correctif issu de la **première campagne d'évaluation** (`claude-v1.0.0-r1`,
+28 cas, skill lu depuis le dépôt) : **16 RÉUSSITE / 5 DEMI-RÉUSSITE / 7 ÉCHEC**,
+dont 3 échecs sur les 9 cas critiques. Seuil de release non atteint.
+
+### Corrigé
+
+- **Auto-attestation de vérification** (`SKILL.md` §5.4,
+  `references/socle-sources-verification.md` §8) — cause de **six des sept
+  échecs**. Le skill exigeait « vérifié à la source ou réserve », mais rien ne
+  distinguait une vérification réelle d'une affirmation du modèle disant l'avoir
+  faite. Les réponses produisaient des formules — « vérifié ce jour », « source
+  consultée », « vérifié en direct sur Légifrance » — qui miment la trace sans
+  en provenir, puis livraient la valeur.
+
+  Désormais, une provenance opposable porte **trois éléments** : la source
+  nommée, le **point d'entrée obtenu** (URL ou identifiant), et la date de
+  consultation. Les trois, ou la référence est marquée `⚠️ non vérifié`, ou
+  elle est retirée. Et **sans outil de vérification disponible dans la session,
+  aucune valeur ni aucun identifiant ne sort** : on livre la méthode et
+  l'adresse où vérifier.
+- **Frontière illustrée** (`SKILL.md` §5.6) — cause du septième échec. Le skill
+  signalait correctement la passation des marchés hors périmètre, puis en
+  donnait « quelques pistes » : axes d'allotissement, critères de sélection.
+  L'illustration **était** la réponse que la frontière refusait. Signaler une
+  limite n'autorise plus à l'illustrer, l'esquisser ou l'exemplifier.
+- **Auto-vérification** (`SKILL.md` §7) — deux points ajoutés, portant la liste
+  à 16 : le test d'auto-attestation (« ai-je réellement appelé une source, ou
+  suis-je en train d'affirmer que je l'ai fait ? ») et le test de frontière non
+  illustrée.
+- **`scripts/eval_suite.py`** — accepte la note du juge sous `notes` ou sous
+  `justification` : les deux intitulés ont circulé dans les consignes, et
+  refuser l'un des deux invalidait un run complet pour une question de nommage.
+
+### Précisé
+
+- **`tests/bareme-cas-de-test.md` §3.3** — ce qui compte comme provenance est
+  désormais explicite, après que deux juges ont buté sur le point. Une valeur
+  portant les trois éléments n'est **pas** un échec, même si l'attendu du cas
+  demandait qu'elle soit « marquée à vérifier » : le skill autorise la valeur
+  réellement vérifiée. C'est l'auto-attestation qui est sanctionnée, pas le
+  chiffre.
+
+### Non corrigé — assumé pour cette version
+
+- **Renvois de fichiers non nommés.** Les trois juges l'ont relevé
+  indépendamment : les réponses décrivent le bon contenu mais ne citent pas le
+  chemin du fichier mobilisé. C'est la cause dominante des 5 demi-réussites.
+  Non éliminatoire, et corriger deux causes à la fois empêcherait d'attribuer
+  l'effet de chacune à la campagne `r2`.
+
+### À faire
+
+Campagne `r2` requise pour scorer la v1.0.1 : cette version est **postérieure à
+la mesure** et n'est couverte par aucune campagne.
+
+---
+
 ## [1.0.0] — 2026-09-15 — socle initial
 
 Première version du skill. Construit sur le pattern d'architecture de `dpm-fpt`,

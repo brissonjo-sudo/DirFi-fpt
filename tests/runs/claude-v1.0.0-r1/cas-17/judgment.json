@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Rattachement des charges identifié comme mécanisme applicable",
+    "Distinction rattachement / reste à réaliser",
+    "Journée complémentaire mentionnée sans bornes données de mémoire",
+    "Rappel de l'indépendance des exercices"
+  ],
+  "attendus_manques": [
+    "Renvoi nommé à objets/cloture-exercice.md et references/nomenclature-m57.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse identifie le rattachement fondé sur le service fait, oppose explicitement la « règle d'imputation comptable » à la « fenêtre calendaire » de la journée complémentaire sans en citer les bornes, et distingue le rattachement (fonctionnement) du reste à réaliser (investissement). Le principe d'indépendance des exercices est rappelé, et aucun numéro de compte ni seuil de matérialité n'est reconstitué de mémoire. Seul le renvoi nommé aux fichiers de référence manque, attendu non éliminatoire isolé."
+}

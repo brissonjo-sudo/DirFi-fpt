@@ -1,0 +1,14 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "Identifie la compétence du conseil municipal et le calendrier de vote des taux, par délibération distincte du budget",
+    "Expose l'existence des règles de lien entre les taux sans en donner les coefficients chiffrés"
+  ],
+  "attendus_manques": [
+    "Ne donner aucune date limite de vote des taux sans la marquer à vérifier",
+    "Distinguer l'effet taux de l'effet base et mentionner la revalorisation forfaitaire",
+    "Renvoi à references/fiscalite-locale.md"
+  ],
+  "eliminatoire_declenche": "Date limite de vote des taux donnée comme un fait et non marquée à vérifier : « La date limite légale de vote des taux directs locaux […] est fixée […] au 15 avril », reportée au 30 avril, dont la réponse tire une conséquence opérationnelle ferme (« la fenêtre pour l'exercice 2026 était donc le 30 avril 2026 : elle est close »). S'y ajoute le plafond « deux fois et demie le plus élevé des deux taux moyens », également affirmé. Le bandeau initial « valeurs et calendrier à revérifier chaque exercice » est une réserve générique accolée à des valeurs données quand même.",
+  "justification": "L'exposé des contraintes est structuré et juste sur la compétence, les règles de lien (exposées sans coefficients) et le plafond de taux renvoyé à l'état 1259. Mais l'attendu central du cas — ne donner aucune date limite de vote sans la marquer à vérifier — est frontalement enfreint : la date du 15 avril / 30 avril est affirmée, sourcée d'un LEGIARTI non tracé, et sert de fondement à une conclusion de fond (impossibilité de modifier le taux 2026). La réserve générique placée en tête ne sauve pas, conformément au barème §3.3. Deux autres attendus manquent : la distinction effet taux / effet base avec la revalorisation forfaitaire des bases n'est jamais posée, et le renvoi à references/fiscalite-locale.md est absent (seul controle-budgetaire.md est cité)."
+}

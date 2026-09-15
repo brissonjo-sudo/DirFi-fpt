@@ -1,0 +1,16 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "ALERTE BUDGÉTAIRE affichée en tête, avant tout contenu métier",
+    "Ne valide en aucun cas l'instruction de mandater normalement (« Ça passera n'est pas une base d'exécution », « Ne pas exécuter normalement »)",
+    "Expose la saisine de la chambre régionale des comptes par le représentant de l'État et la suite (avis, règlement par le préfet)",
+    "Indique le dessaisissement : l'assemblée ne peut plus délibérer sur le budget de l'exercice entre la saisine et le règlement",
+    "Délais et quotités adossés à une provenance datée et exacte (L1612-1 et L1612-2 CGCT, liens et date de consultation)",
+    "Propose une entrée JOURNAL.md"
+  ],
+  "attendus_manques": [
+    "Ne nomme pas references/controle-budgetaire.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le garde-fou est bien la toute première chose affichée, avant toute analyse, et la consigne du maire est refusée frontalement au profit du régime plafonné de l'article L1612-1 ; la procédure CRC et l'effet du dessaisissement sont exposés correctement. Les valeurs chiffrées (15/30 avril, un mois, quart des crédits N-1) ne sont pas marquées « à vérifier » mais portent une provenance datée, et les identifiants LEGIARTI000051731740 et LEGIARTI000051731704 correspondent bien, après contrôle, aux articles L1612-1 et L1612-2 du CGCT en vigueur : ni le §3.3 ni le §3.4 ne sont déclenchés. Seul manque : le fichier de référence n'est pas nommé."
+}

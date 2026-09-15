@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue l'ANV (ne libère pas le débiteur) de la créance éteinte (extinction juridique, plus de poursuite possible)",
+    "Indique que l'ANV relève d'une délibération de l'assemblée sur proposition motivée du comptable",
+    "Soulève la prescription de l'action en recouvrement sans en donner la durée de mémoire"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/execution-recette.md",
+    "Signalement de l'imputation budgétaire distincte des deux opérations"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La distinction de fond est correcte et bien articulée autour du bon critère (cause de l'irrécouvrabilité), avec la compétence de l'assemblée sur proposition du comptable et l'avertissement contre l'ANV « de confort ». La prescription est soulevée avec la bonne réserve : « la durée exacte […] ne se déduit pas d'une durée de mémoire ». En revanche la réponse ne renvoie à aucun fichier de référence et ne dit rien de l'imputation budgétaire distincte des deux opérations, pourtant attendue. Deux attendus non éliminatoires manqués sur un fond par ailleurs juste."
+}

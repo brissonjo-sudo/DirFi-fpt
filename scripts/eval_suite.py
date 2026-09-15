@@ -99,8 +99,16 @@ def validate_run(run_dir: Path) -> dict[str, int]:
         verdict = data.get("verdict")
         if verdict not in VALID_VERDICTS:
             raise ValueError(f"{case['id']} : verdict invalide ({verdict!r})")
-        if not isinstance(data.get("notes"), str) or not data["notes"].strip():
-            raise ValueError(f"{case['id']} : notes de jugement absentes")
+        # La note explicative du juge est acceptée sous "notes" ou sous
+        # "justification" : les deux intitulés ont circulé dans les consignes
+        # de jugement, et refuser l'un des deux invaliderait un run complet
+        # pour une question de nommage.
+        note = data.get("notes") or data.get("justification")
+        if not isinstance(note, str) or not note.strip():
+            raise ValueError(
+                f"{case['id']} : note de jugement absente "
+                "(champ 'notes' ou 'justification' attendu)"
+            )
         totals[verdict] += 1
     if missing:
         raise ValueError("Artefacts manquants : " + ", ".join(missing))

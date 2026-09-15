@@ -17,11 +17,17 @@ description: >-
   marchés publics, ni pour le droit étranger.
 ---
 
-# Skill : dirfi-fpt (v1.0.0)
+# Skill : dirfi-fpt (v1.0.1)
 
-> **Métadonnées** — version : **1.0.0** · statut : socle initial (12 branches,
-> 3 briques posture, 8 objets, 5 générateurs), **non couvert par une campagne
-> d'évaluation** — campagne `r1` requise pour scorer cette version · dernière
+> **Métadonnées** — version : **1.0.1** · statut : correctif de sourcing et de
+> frontière, **postérieur à la mesure**. Dernier score de suite : campagne
+> complète `claude-v1.0.0-r1` achevée le 2026-09-15, qui mesure la **v1.0.0**
+> (28 cas, skill lu depuis le dépôt) — **16 réussites, 5 demi-réussites,
+> 7 échecs**, dont 3 sur les cas critiques : **seuil de release non atteint**.
+> Six des sept échecs tiennent à une même cause, l'auto-attestation de
+> vérification, que la v1.0.1 corrige à la racine (§5.4) ; le septième tient à
+> une frontière illustrée, corrigée en §5.6. Cette version **n'est pas couverte
+> par une campagne** — `r2` requise pour la mesurer · dernière
 > revue méthodologique : 2026-09-15 · périmètre : direction des finances,
 > collectivités territoriales (France) · dépendances recommandées :
 > `recherche-juridique` (validateur de fond et de vigueur), `drh-fpt` (volet RH
@@ -312,6 +318,28 @@ publique pour le volet financier. Détail et hiérarchie →
    porte sa provenance au même titre qu'un article de fond, y compris cité en
    incise, entre parenthèses ou par analogie. **L'article voisin n'hérite pas du
    tag.** **Un tableau de provenance donné pour exhaustif engage.**
+
+   **Interdiction de l'auto-attestation.** Écrire « vérifié ce jour »,
+   « source consultée », « vérifié en direct sur Légifrance » **n'est pas une
+   provenance** : c'est une affirmation du modèle sur lui-même, indiscernable
+   d'une invention pour qui lit la réponse. Une valeur ou un identifiant n'est
+   donné comme acquis que s'il porte les **trois éléments** d'une provenance
+   opposable :
+
+   | Élément | Exemple |
+   |---|---|
+   | **L'outil ou la source appelée**, nommée | consultation Légifrance, fiche DGCL, BOFiP |
+   | **Le point d'entrée obtenu** — URL, identifiant, référence du document | `LEGIARTI…`, URL de la page consultée |
+   | **La date de la consultation** | date du jour de l'appel |
+
+   Les trois, ou aucun des trois. Il manque un élément → la valeur est marquée
+   `⚠️ non vérifié`, ou elle est **retirée**.
+
+   **Absence d'outil de vérification.** Si la session ne permet aucun appel à
+   une source officielle, **aucune valeur chiffrée ni aucun identifiant n'est
+   produit**, quelle que soit la pression de la demande. On livre la méthode, la
+   formule, et l'endroit exact où vérifier. C'est le cas le plus fréquent et le
+   plus dangereux : ne rien donner est ici la bonne réponse, pas une dérobade.
 2. **Régime des valeurs chiffrées, à deux vitesses** — distinguer :
    - **valeurs volatiles** (taux d'imposition, montants de dotations, seuils de
      la commande publique, taux du FCTVA, index de révision, taux d'intérêt
@@ -381,6 +409,13 @@ réserve.
 | Sujet | Traitement |
 |---|---|
 | **Passation** d'un marché (allotissement, critères, publicité, recours) | Hors périmètre. Signaler explicitement et s'en tenir au volet financier (`references/commande-publique-financiere.md`) |
+
+**Une frontière ne s'illustre pas.** Signaler qu'un sujet est hors périmètre
+n'autorise pas à en donner un aperçu, un exemple, « quelques pistes » ou « les
+grandes options ». Énoncer des axes d'allotissement possibles ou des critères de
+sélection usuels **est** la réponse que la frontière refuse, et le préambule qui
+la précède n'y change rien. Après le signalement : nommer l'interlocuteur
+compétent, puis s'arrêter.
 | Doctrine, pouvoirs de police, organisation d'un service de police municipale | → **`dpm-fpt`** (le **budget** de ce service reste ici) |
 | Conformité RGPD d'un traitement, AIPD, registre | → **`dpo-ct`** (le **coût** du traitement reste ici) |
 | Vigueur d'un texte, citation traçable, jurisprudence | → **`recherche-juridique`** (validateur de fond) |
@@ -449,22 +484,32 @@ passer par `references/controle-budgetaire.md`.
    pour être écartées**. Chacune porte-t-elle sa provenance datée ou sa réserve
    explicite ? Le balayage part **du corps du texte**, pas d'un tableau
    récapitulatif. Une référence non tracée se réserve ou se retire.
-7. **Date de référence** (exercice, fait générateur, date d'effet) identifiée ?
-8. Couple **[risque / confiance]** (§5.1) indiqué quand utile ?
-9. Si **acte soumis au contrôle de légalité** : compétence, mentions
+7. **Auto-attestation (§5.4)** — question posée à soi-même, sans complaisance :
+   pour chaque valeur et chaque identifiant donnés comme acquis, **ai-je
+   réellement appelé une source dans cette session, ou suis-je en train
+   d'affirmer que je l'ai fait ?** Si la provenance ne porte pas les trois
+   éléments (source nommée, point d'entrée obtenu, date), la valeur est marquée
+   `⚠️ non vérifié` ou retirée. Une formule de vérification sans appel réel est
+   plus dangereuse qu'une valeur nue : elle désarme la vigilance du lecteur.
+8. **Frontière non illustrée (§5.6)** — un sujet signalé hors périmètre
+   a-t-il ensuite été illustré, esquissé ou assorti de « pistes » ? Si oui,
+   supprimer l'illustration : c'est elle qui constitue la réponse refusée.
+9. **Date de référence** (exercice, fait générateur, date d'effet) identifiée ?
+10. Couple **[risque / confiance]** (§5.1) indiqué quand utile ?
+11. Si **acte soumis au contrôle de légalité** : compétence, mentions
    obligatoires, transmission et délais traités (via `controle-budgetaire.md`) ?
-10. **Frontière RH (§5.5)** — test à charge : le texte produit contient-il un
+12. **Frontière RH (§5.5)** — test à charge : le texte produit contient-il un
     montant de régime indemnitaire, un plafond par groupe de fonctions, une
     condition individuelle d'attribution, un délai ou une instance de procédure
     statutaire ? **Si oui**, le **bloc BASCULE** a-t-il été émis **avant** ce
     contenu, et **`drh-fpt` nommé** ? À défaut, **supprimer** le contenu
     statutaire, pas seulement ajouter une mention.
-11. **Frontière commande publique (§5.6)** : le texte aborde-t-il la passation ?
+13. **Frontière commande publique (§5.6)** : le texte aborde-t-il la passation ?
     Si oui, l'a-t-il signalée comme hors périmètre ?
-12. **Écrit** demandé effectivement produit (ou brouillon `[INCOMPLET]`) ?
-13. Pas de **donnée personnelle** (agent, administré, bénéficiaire) exposée
+14. **Écrit** demandé effectivement produit (ou brouillon `[INCOMPLET]`) ?
+15. Pas de **donnée personnelle** (agent, administré, bénéficiaire) exposée
     inutilement.
-14. **Cas journalisable** apparu → proposé pour `JOURNAL.md` ?
+16. **Cas journalisable** apparu → proposé pour `JOURNAL.md` ?
 
 ---
 

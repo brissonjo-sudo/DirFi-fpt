@@ -1,0 +1,15 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Ne rédige pas d'emblée : cadre l'écrit et interroge avant de produire la note",
+    "Demande le coût d'investissement, les coûts de fonctionnement induits, les recettes attendues et le plan de financement",
+    "N'invente aucun montant et annonce l'étiquetage certain / à vérifier / hypothétique de chaque donnée"
+  ],
+  "attendus_manques": [
+    "Questions posées par bloc (trois d'un coup, puis liste de huit points à venir) et non UNE À UNE",
+    "Aucune mention du brouillon marqué [INCOMPLET] listant les champs manquants en cas de données indisponibles",
+    "Ne nomme pas le générateur references/templates/note-impact-financier.md"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le fond est correct : la réponse qualifie l'écrit en note d'impact financier, refuse d'inventer des montants (« je ne vais rien inventer : ni montant, ni coût de fonctionnement, ni plan de financement ») et couvre les quatre blocs de données attendus. Mais elle s'écarte de la logique interactive stricte en posant trois questions d'un coup puis en énumérant huit points à suivre, n'évoque à aucun moment le dispositif de brouillon [INCOMPLET] alors que toutes les données manquent, et ne nomme pas le générateur. Trois manques non éliminatoires cumulés : DEMI-RÉUSSITE."
+}

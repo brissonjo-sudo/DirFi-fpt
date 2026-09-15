@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Formule de l'indicateur (encours de dette / épargne brute) donnée explicitement",
+    "Aucun seuil chiffré présenté comme norme juridique opposable — aucun chiffre de seuil n'est donné",
+    "Limites de l'indicateur exposées, dont la sensibilité à une épargne brute dégradée ponctuellement (« effet de ciseau ponctuel »)",
+    "Propose de croiser (série 3-5 ans, épargne nette, profil et structure de l'encours, prospective) plutôt que de conclure sur un seul ratio"
+  ],
+  "attendus_manques": [
+    "Ne qualifie pas les seuils d'alerte comme relevant de la DOCTRINE et non de la réglementation"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "La réponse refuse explicitement de citer un seuil chiffré (« Je ne vous en donne aucun chiffre ici »), donne la formule exacte du ratio, en expose les limites méthodologiques et propose un faisceau d'indicateurs — aucun éliminatoire n'est déclenché. Seul manque non éliminatoire : au lieu de qualifier les repères de désendettement comme doctrinaux et non opposables, elle les rattache à « certains textes ou pratiques de contrôle », ce qui laisse planer l'idée d'une norme. Un seul attendu non éliminatoire manquant : RÉUSSITE."
+}

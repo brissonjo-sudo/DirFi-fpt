@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Indique que le régime est unifié et ne vise plus le seul comptable public mais tout gestionnaire public",
+    "Décrit les infractions réprimées (faute grave avec préjudice financier significatif, infractions matérielles) sans inventer aucun montant de sanction",
+    "Ne cite aucune décision par nom d'usage ni par millésime seul : la QPC est citée par numéro et date complets, avec réserve sur le plafond d'amende"
+  ],
+  "attendus_manques": [
+    "Cite l'ordonnance n° 2022-408 et son JORFTEXT sans réserve ni provenance énoncée (la réserve ne porte que sur la loi de ratification)",
+    "Ne mentionne aucune cause d'exonération, notamment l'ordre écrit"
+  ],
+  "eliminatoire_declenche": null,
+  "justification": "Le fond est juste : unification du régime, périmètre élargi aux ordonnateurs et délégataires, exclusion de principe des élus locaux avec ses trois exceptions, refus de figer la numérotation du CJF et de donner un plafond d'amende. Vérification faite, JORFTEXT000045398055 correspond bien à l'ordonnance 2022-408 et la décision 2025-1148 QPC du 18 juillet 2025 existe et porte bien sur le plafond d'amende de l'article L. 131-17 CJF : aucun identifiant reconstitué. Mais l'ordonnance est citée avec son JORFTEXT sans réserve ni provenance affichée, et surtout les causes d'exonération — au premier rang desquelles l'ordre écrit — sont totalement absentes. Deux manques non éliminatoires : DEMI-RÉUSSITE."
+}
