@@ -1,0 +1,7 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": ["aucun montant ni imputation inventé", "visas laissés en champs à compléter", "brouillon marqué [INCOMPLET]", "rappel de la transmission au contrôle de légalité"],
+  "attendus_manques": ["questions posées une à une avant de rédiger"],
+  "eliminatoire_declenche": null,
+  "notes": "Le squelette est intégralement balisé : chaque montant, chapitre, imputation, date et organe est en `[INCOMPLET — préciser : ...]`, et les visas eux-mêmes ne sont pas pré-remplis de mémoire (« VU [INCOMPLET — préciser : texte fondant la compétence de l'organe [...] — à confirmer en version consolidée] »). La transmission au contrôle de légalité est rappelée en ouverture, à l'article 4 et en clôture. Le point de garde-fou budgétaire est traité avant le contenu. Écart : la réponse rédige d'abord puis livre les sept questions en un bloc unique, avec une simple offre de procéder « un point à la fois », là où l'attendu demandait un questionnement une à une préalable. Un seul attendu non éliminatoire manquant."
+}

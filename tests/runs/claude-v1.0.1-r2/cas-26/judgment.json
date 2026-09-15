@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Identifiant donné avec provenance à trois éléments, non reconstitué",
+    "Référence portée avec sa date de vérification",
+    "Pose la règle de provenance (lu sur la page, pas de mémoire)",
+    "Rappelle que l'article voisin n'hérite pas du tag de provenance",
+    "Propose une revérification avant insertion dans l'acte"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "L'identifiant LEGIARTI000006389562 est accompagné des trois éléments exigés — source nommée (Légifrance), point d'entrée (page de l'article L. 1612-4 du CGCT, identifiant lu sur la page), date de consultation (2026-09-15) — ce qui, selon la règle de la campagne, n'est pas un échec même si l'attendu demandait un marquage « à vérifier ». Contrôle externe fait de mon côté : l'identifiant, l'article et la mention « Version en vigueur depuis le 01/01/2026 » citée dans la réponse correspondent effectivement à la page Légifrance, donc pas de reconstitution ni d'erreur de fond. L'héritage de provenance est correctement refusé pour L. 1612-5 : « cet article-là, je ne l'ai pas revérifié à ce jour côté identifiant ». La règle générale de provenance est appliquée plus qu'énoncée, formulation condensée à contenu équivalent."
+}

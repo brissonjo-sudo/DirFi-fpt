@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue délai non expiré / délai expiré",
+    "Expose le régime des dépenses avant vote (fonctionnement N-1, dette, investissement sur autorisation dans la limite du quart)",
+    "Valeurs chiffrées (quart, 15/30 avril) portées par une provenance à trois éléments"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/budget-cycle.md",
+    "Signalement explicite de l'alerte budgétaire SKILL.md §5.3 en cas de dépassement"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Fond exact et complet sur les douzièmes provisoires et le calendrier. Le chiffrage du quart et des dates du 15/30 avril n'est pas un éliminatoire : la section « Sources vérifiées le 2026-09-15 » nomme Légifrance, donne les URL/LEGIARTI des articles L1612-1 et L1612-2 et la date de consultation — les trois éléments exigés. Deux manques non éliminatoires : aucun renvoi à references/budget-cycle.md, et le dépassement de la date limite est rattaché à « la procédure de contrôle budgétaire » sans que l'alerte budgétaire §5.3 soit signalée comme applicable."
+}

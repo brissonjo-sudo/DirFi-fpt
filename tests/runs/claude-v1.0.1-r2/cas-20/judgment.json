@@ -1,0 +1,7 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": ["cession = sortie de l'actif avec écritures propres", "distinction produit de cession / plus ou moins-value", "délibération nécessaire et estimation domaniale", "mise à jour de l'inventaire et de l'état de l'actif", "aucun numéro de compte inventé"],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "Les trois opérations sont correctement séparées (encaissement réel, sortie d'actif en opération d'ordre pour la valeur nette comptable, constatation de la plus ou moins-value), avec la formule décisive « c'est ce solde, pas le prix de vente brut, qui constitue le résultat de l'opération ». La délibération et l'évaluation domaniale sont exigées, le seuil de saisine étant laissé à vérifier sans chiffrage. La concordance inventaire / état de l'actif est traitée. Aucun numéro de compte n'est cité, avec refus motivé explicite ; aucun seuil, taux ou durée n'est énoncé comme un fait. Tous les attendus sont satisfaits."
+}

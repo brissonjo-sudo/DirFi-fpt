@@ -1,0 +1,7 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": ["rattachement des charges identifié", "journée complémentaire mentionnée sans bornes de mémoire", "principe d'indépendance des exercices"],
+  "attendus_manques": ["distinction rattachement / reste à réaliser", "renvoi à objets/cloture-exercice.md et references/nomenclature-m57.md"],
+  "eliminatoire_declenche": null,
+  "notes": "Le mécanisme est correctement identifié et raisonné sur le fait générateur, et la journée complémentaire est présentée comme une fenêtre calendaire distincte dont « l'existence et la durée [...] sont à vérifier ». En revanche la réponse ne mentionne nulle part le reste à réaliser : la seule distinction opérée est rattachement / journée complémentaire, ce qui laisse entière la confusion que l'attendu visait. Les fichiers du skill ne sont pas non plus nommés. Le compte 408 est donné mais assorti d'une provenance à trois éléments (Légibase, URL, 2026-09-15), donc conforme à la règle de provenance : pas d'éliminatoire, mais deux attendus non éliminatoires manquent."
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": ["régie de recettes = seule voie régulière", "étapes acte constitutif / avis conforme / nomination / cautionnement / encaisse", "responsabilité personnelle du régisseur", "avertissement gestion de fait hors régie"],
+  "attendus_manques": ["renvoi à objets/regie.md"],
+  "eliminatoire_declenche": null,
+  "notes": "Le garde-fou gestion de fait est affiché en tête, avant tout contenu métier, et la régie est posée comme « la seule voie régulière de maniement de fonds par un agent autre que le comptable ». Les sept étapes sont ordonnées avec l'avis conforme du comptable identifié comme bloquant, et la responsabilité personnelle et pécuniaire du régisseur est explicite. Aucun montant (encaisse, cautionnement) n'est avancé ; le seul identifiant cité (JORFTEXT000026597003) porte les trois éléments exigés — registre `references-verifiees.md`, identifiant, date du 2026-09-15 — donc pas d'éliminatoire. La fiche `objets/regie.md` n'est jamais nommée (« notre fiche régie » n'apparaît même pas ici) : un seul manque non éliminatoire."
+}

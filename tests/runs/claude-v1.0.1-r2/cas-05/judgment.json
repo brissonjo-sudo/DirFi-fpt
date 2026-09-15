@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Compétence du conseil municipal et calendrier de vote des taux",
+    "Règles de lien exposées sans coefficients chiffrés",
+    "Dates limites de vote données avec provenance opposable (source + LEGIARTI + date)",
+    "Renvoi à references/fiscalite-locale.md"
+  ],
+  "attendus_manques": [
+    "Distinction effet taux / effet base et revalorisation forfaitaire"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "La réponse identifie la compétence de l'assemblée, expose la règle de lien sans en chiffrer les coefficients et renvoie à references/fiscalite-locale.md. Les dates limites (15 avril, 30 avril en année de renouvellement) et le plafond « deux fois et demie » sont donnés, mais chacun porte les trois éléments de provenance (article du CGI, identifiant LEGIARTI, date du 15/09/2026), donc aucun éliminatoire ; les valeurs réellement volatiles (taux moyen départemental, régime d'exonérations) sont marquées `⚠️ non vérifié`. Seul manque, non éliminatoire : la distinction effet taux / effet base n'est pas posée et la revalorisation forfaitaire des valeurs locatives n'est jamais mentionnée — la réponse s'en tient à « base nette notifiée × taux voté »."
+}

@@ -1,0 +1,15 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Qualification posée AVANT tout support contractuel",
+    "Besoin défini par la collectivité = marché public et non subvention",
+    "Risque de requalification et ses conséquences (procédure non suivie, gestion de fait possible)",
+    "Convention obligatoire au-delà d'un seuil, seuil non chiffré",
+    "Association transparente signalée (attendu non exigé ici mais pertinent)"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/subventions.md et objets/subvention-association.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "La réponse refuse d'engager la rédaction tant que la qualification n'est pas tranchée (« c'est un préalable non négociable, pas une formalité ») et pose les trois questions de qualification. Le seuil de conventionnement est explicitement non cité : « une valeur volatile que je ne cite jamais de mémoire ». Seul manque le renvoi aux fichiers attendus : seul commande-publique-financiere.md est nommé, ni references/subventions.md ni objets/subvention-association.md — attendu non éliminatoire (§4), d'où la RÉUSSITE."
+}

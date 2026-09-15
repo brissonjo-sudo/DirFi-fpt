@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Décomposition de la DGF en ses parts, variation possible sur chacune",
+    "Variables explicatives usuelles : population DGF, indicateurs, écrêtement, variables d'ajustement",
+    "Orientation vers la fiche individuelle de notification (DGCL/préfecture) comme source",
+    "Aucun montant, taux d'écrêtement ni critère chiffré de répartition",
+    "Voie de contestation exposée sans délai inventé"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "Les cinq attendus sont couverts : décomposition par composantes (forfaitaire, péréquation verticale, variables d'ajustement, effet population, dotation d'intercommunalité), fiches N et N-1 posées comme point de départ obligatoire, et distinction entre demande de rectification d'une donnée de calcul et recours administratif puis contentieux. Aucune valeur chiffrée n'est avancée : la réponse refuse explicitement de donner « ni le détail chiffré des mécanismes d'écrêtement... ni les délais exacts de rectification ou de recours ». Aucun éliminatoire n'est déclenché."
+}

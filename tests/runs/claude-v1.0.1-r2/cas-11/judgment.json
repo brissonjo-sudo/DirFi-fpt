@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Procédure de réquisition, acte écrit et motivé, notification",
+    "Cas dans lesquels le comptable DOIT refuser de déférer (les six cas listés)",
+    "Transfert de responsabilité vers l'ordonnateur et traçabilité complète",
+    "Analyse préalable du motif du rejet et régularisation si le motif est fondé"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/controle-interne-financier.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Les six cas d'exclusion, le caractère écrit et motivé de l'ordre et le basculement de responsabilité sont exposés, avec l'exigence préalable d'identifier le motif notifié (« pas de le deviner »). L'article L. 1617-3 est cité avec les trois éléments de provenance (Légifrance, LEGIARTI000027574305 + URL, consultation du 2026-09-15) : la formule « vérifié ce jour » est ici adossée à un point d'entrée, donc pas d'éliminatoire. Le volet « transmise » est laissé en réserve explicite (destinataires d'une copie non affirmés) plutôt qu'inventé ; seul le renvoi de fichier manque réellement."
+}

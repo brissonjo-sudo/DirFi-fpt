@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue ANV (mesure d'ordre budgétaire, dette toujours due) et créance éteinte (s'impose, poursuite interdite)",
+    "ANV = délibération de l'assemblée sur proposition du comptable (avec la délégation L. 2122-22, 30°)",
+    "Soulève la prescription de l'action en recouvrement"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/execution-recette.md",
+    "Imputation budgétaire distincte des deux opérations"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "La distinction de fond est exacte et complète, et la compétence de l'assemblée est correctement posée. Le délai de prescription de quatre ans et le plafond de 100 € sont chiffrés, mais chaque valeur porte les trois éléments de provenance exigés (Légifrance nommée, identifiant LEGIARTI/JORFTEXT en URL, « consulté sur Légifrance le 15/09/2026 ») : aucun éliminatoire n'est déclenché, y compris sur les identifiants. Manquent en revanche deux attendus non éliminatoires : aucun renvoi à references/execution-recette.md, et aucune mention de l'imputation budgétaire distincte des deux opérations — la réponse s'en tient à « apurement comptable et budgétaire »."
+}
