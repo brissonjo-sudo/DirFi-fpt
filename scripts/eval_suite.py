@@ -56,9 +56,23 @@ def prepare_run(run_dir: Path, responder: str, judge: str) -> None:
         encoding="utf-8",
     )
     for case in cases:
-        case_dir = run_dir / case["id"]
+        case_dir = run_dir / case_dir_name(case)
         case_dir.mkdir(parents=True, exist_ok=False)
         (case_dir / "prompt.md").write_text(case["prompt"] + "\n", encoding="utf-8")
+
+
+
+def case_dir_name(case: dict) -> str:
+    """Nom de dossier d'un cas.
+
+    L'identifiant peut être numérique dans ``cas-de-test.json`` : le convertir
+    en chaîne (``Path / int`` lève une ``TypeError``) et le zéro-padder pour que
+    l'ordre alphabétique des dossiers suive l'ordre des cas.
+    """
+    case_id = case["id"]
+    if isinstance(case_id, int):
+        return f"cas-{case_id:02d}"
+    return str(case_id)
 
 
 def validate_run(run_dir: Path) -> dict[str, int]:
@@ -73,13 +87,13 @@ def validate_run(run_dir: Path) -> dict[str, int]:
     totals = {verdict: 0 for verdict in sorted(VALID_VERDICTS)}
     missing: list[str] = []
     for case in load_cases(suite_path):
-        case_dir = run_dir / case["id"]
+        case_dir = run_dir / case_dir_name(case)
         response = case_dir / "response.md"
         judgment = case_dir / "judgment.json"
         if not response.is_file() or not response.read_text(encoding="utf-8").strip():
-            missing.append(f"{case['id']}/response.md")
+            missing.append(f"{case_dir_name(case)}/response.md")
         if not judgment.is_file():
-            missing.append(f"{case['id']}/judgment.json")
+            missing.append(f"{case_dir_name(case)}/judgment.json")
             continue
         data = json.loads(judgment.read_text(encoding="utf-8"))
         verdict = data.get("verdict")

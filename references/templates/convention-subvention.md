@@ -1,4 +1,4 @@
-# Générateur interactif — Convention de subvention (v0.1.0)
+# Générateur interactif — Convention de subvention (v1.0.0)
 
 > Couche 4 (`references/templates/`), piloté par `references/ecrits-financiers.md`
 > et par `SKILL.md` §6. Mécanique de dialogue alignée sur les générateurs du

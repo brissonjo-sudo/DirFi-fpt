@@ -404,10 +404,39 @@ def validate_anti_pii(validation: Validation) -> None:
         )
 
 
+def validate_plugin_adapter(validation: Validation) -> None:
+    """Vérifie l'adaptateur de plugin et sa cohérence avec le noyau.
+
+    Le paquet plugin expose le skill via ``skills/<nom>/SKILL.md``, qui ne
+    duplique pas le noyau mais doit en porter exactement le même frontmatter :
+    une divergence ferait déclencher le skill sur un périmètre différent selon
+    le mode d'installation, sans que rien ne le signale.
+    """
+    adapter_path = ROOT / "skills" / SKILL_NAME / "SKILL.md"
+    skill_path = ROOT / "SKILL.md"
+    if not adapter_path.is_file():
+        validation.require(False, f"skills/{SKILL_NAME}/SKILL.md : adaptateur de plugin absent")
+        return
+    if not skill_path.is_file():
+        return
+    adapter_fields = parse_frontmatter(read_text(adapter_path))
+    skill_fields = parse_frontmatter(read_text(skill_path))
+    validation.require(
+        adapter_fields == skill_fields,
+        f"skills/{SKILL_NAME}/SKILL.md : le frontmatter diverge de celui de SKILL.md",
+    )
+    body = read_text(adapter_path)
+    validation.require(
+        "../../SKILL.md" in body,
+        f"skills/{SKILL_NAME}/SKILL.md : l'adaptateur doit renvoyer vers ../../SKILL.md",
+    )
+
+
 def main() -> int:
     """Exécute tous les contrôles et retourne un code compatible CI."""
     validation = Validation()
     validate_frontmatter(validation)
+    validate_plugin_adapter(validation)
     validate_guardrail_invariants(validation)
     validate_versions(validation)
     validate_runtime_file_inventory(validation)

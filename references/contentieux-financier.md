@@ -90,7 +90,7 @@ financière compétente.
 
 ## 5. Règles métier
 
-### 4.1 Organisation des juridictions financières
+### 5.1 Organisation des juridictions financières
 
 - **Chambres régionales des comptes (CRC)** : juridictions financières de
   premier ressort, territorialement compétentes ; elles jugent les comptes
@@ -116,7 +116,7 @@ financière compétente.
   poursuites (réquisitoire) et représente l'intérêt de la loi à l'audience,
   distinct de la formation de jugement.
 
-### 4.2 Le régime unifié de responsabilité financière des gestionnaires publics
+### 5.2 Le régime unifié de responsabilité financière des gestionnaires publics
 
 - **Ce qui change par rapport à l'ancien régime** : avant la réforme, le
   comptable public relevait d'une **responsabilité personnelle et pécuniaire
@@ -158,7 +158,7 @@ financière compétente.
   vérifier** avant toute réponse engageante — un ordre écrit ne couvre pas
   systématiquement son destinataire.
 
-### 4.3 La gestion de fait
+### 5.3 La gestion de fait
 
 - **Définition** : le maniement de deniers publics, en recettes ou en
   dépenses, par une personne **n'ayant pas la qualité de comptable public**
@@ -195,7 +195,7 @@ financière compétente.
   systématiquement — jamais d'effet automatique affirmé sans confirmation sur
   source officielle.
 
-### 4.4 Les contrôles non juridictionnels
+### 5.4 Les contrôles non juridictionnels
 
 - **Examen de la gestion** : contrôle exercé par la CRC (ou la Cour des
   comptes selon l'organisme) sur la **régularité**, l'**économie**,
@@ -214,7 +214,7 @@ financière compétente.
   Examen de la gestion et mise en cause de la responsabilité (§5.2) restent
   deux démarches **distinctes**, la première pouvant déclencher la seconde.
 
-### 4.5 Le contentieux administratif des actes budgétaires et fiscaux
+### 5.5 Le contentieux administratif des actes budgétaires et fiscaux
 
 - **Recours pour excès de pouvoir (REP)** : une délibération budgétaire ou
   fiscale peut être attaquée devant le tribunal administratif par toute
@@ -239,7 +239,7 @@ financière compétente.
 
 ## 6. Calculs et procédures
 
-### 5.1 Déroulé type d'une procédure de responsabilité financière
+### 6.1 Déroulé type d'une procédure de responsabilité financière
 
 | Étape | Contenu |
 |---|---|
@@ -250,7 +250,7 @@ financière compétente.
 | 5. Décision | Jugement motivé, qualifiant ou non les faits, prononçant le cas échéant une sanction |
 | 6. Voies de recours | Appel devant la juridiction d'appel unifiée (§5.1), puis pourvoi en cassation devant le Conseil d'État |
 
-### 5.2 Déroulé type d'une procédure de gestion de fait
+### 6.2 Déroulé type d'une procédure de gestion de fait
 
 | Étape | Contenu |
 |---|---|

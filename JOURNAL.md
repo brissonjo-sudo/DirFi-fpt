@@ -52,3 +52,18 @@
   `validate_repo.py` tiennent sur une seule ligne. Enseignement général — une
   chaîne d'invariant ne doit jamais être coupée par le rehabillage du texte.
 - **Statut** : intégré v1.0.0
+
+### 2026-09-15 — Identifiants de cas numériques non supportés par la suite d'évaluation
+
+- **Type** : erreur
+- **Branche** : `scripts/eval_suite.py`
+- **Contexte (anonymisé)** : premier essai de préparation d'une campagne.
+- **Constat** : `eval_suite.py prepare` levait une `TypeError` parce que les
+  identifiants de `tests/cas-de-test.json` sont numériques et qu'un chemin ne
+  se construit pas avec un entier. Le script frère dont il dérive utilisait des
+  identifiants textuels, l'incompatibilité était invisible à la lecture.
+- **Action proposée** : normaliser le nom de dossier d'un cas dans une fonction
+  dédiée, avec un zéro-padding pour que l'ordre alphabétique des dossiers suive
+  l'ordre des cas. Enseignement général — un script repris d'un dépôt frère doit
+  être **exécuté** sur les données du nouveau dépôt, pas seulement relu.
+- **Statut** : intégré v1.0.0

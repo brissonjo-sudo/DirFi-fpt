@@ -7,7 +7,7 @@
 > dès qu'un acte budgétaire paraît irrégulier. Aucun numéro d'article, aucun
 > délai en jours et aucun seuil chiffré n'est énoncé ici de mémoire : chacun
 > est **nommé** puis marqué **« à vérifier »**, conformément à la matrice
-> §3.2 du `SKILL.md` (toute case de cette procédure y relève d'une ligne
+> §2.2 du `SKILL.md` (toute case de cette procédure y relève d'une ligne
 > « Oui »).
 
 ## 1. Périmètre / Exclusions
@@ -53,15 +53,15 @@
 ## 3. Arbre de traitement
 
 `acte ou situation budgétaire signalé → qualifier lequel des quatre cas de
-saisine est concerné (§6.1) → identifier l'autorité de saisine et le fait
-générateur (§6.1) → vérifier si le délai de régularisation court encore
-(§7.2) → engager la régularisation volontaire si elle est encore possible
-(§7.4) → si la saisine est déjà intervenue, situer l'étape de la procédure
-(§7.1) et les pouvoirs encore ouverts à l'assemblée (§7.3) → vérifier les
-valeurs et délais mobilisés (§10) → écrit adapté (§11)`
+saisine est concerné (§5.1) → identifier l'autorité de saisine et le fait
+générateur (§5.1) → vérifier si le délai de régularisation court encore
+(§6.3) → engager la régularisation volontaire si elle est encore possible
+(§6.3) → si la saisine est déjà intervenue, situer l'étape de la procédure
+(§6.1) et les pouvoirs encore ouverts à l'assemblée (§6.2) → vérifier les
+valeurs et délais mobilisés (§9) → écrit adapté (§10)`
 
 **Réflexe impératif** : ne jamais répondre « rien à faire, le préfet
-tranchera » — la marge de régularisation (§7.4) existe à presque tous les
+tranchera » — la marge de régularisation (§6.3) existe à presque tous les
 stades tant que le préfet n'a pas rendu son acte de règlement. La qualifier
 et la chiffrer en calendrier est le premier apport utile d'une direction des
 finances.
@@ -78,7 +78,7 @@ finances.
   le budget principal, et inversement une consolidation peut être exigée
   selon le cas.
 - **Section en cause** : fonctionnement, investissement, ou les deux — la
-  qualification du déséquilibre en dépend directement (§6.2).
+  qualification du déséquilibre en dépend directement (§5.2).
 - **Stade de la procédure** : simple détection interne, saisine déjà
   intervenue, avis de la CRC déjà rendu, ou règlement d'office déjà notifié —
   chaque stade ferme des options et en ouvre d'autres.
@@ -90,20 +90,20 @@ finances.
 - **Nature exacte de la dépense contestée comme obligatoire** : certaines
   dépenses sont obligatoires par détermination de la loi, d'autres résultent
   d'une décision de justice ou d'un engagement contractuel — la qualification
-  n'est jamais automatique (§6.4).
+  n'est jamais automatique (§5.4).
 
 ---
 
 ## 5. Règles métier
 
-### 4.1 Les quatre cas de saisine
+### 5.1 Les quatre cas de saisine
 
 | Cas | Qualification | Autorité de saisine | Effet sur l'exécution | Voie de régularisation |
 |---|---|---|---|---|
 | **Budget non voté** dans les délais | Carence de l'assemblée délibérante à adopter le budget primitif avant la date limite | Représentant de l'État saisit la CRC | Exécution provisoire limitée dans l'attente (mécanisme de continuité, à vérifier dans `budget-cycle.md`) ; l'assemblée reste compétente tant que le préfet n'a pas réglé le budget | Vote tardif du budget par l'assemblée avant que le préfet ne le règle d'office, sur la base des propositions de la CRC |
-| Budget voté **en déséquilibre réel** | Non-respect de l'équilibre réel au sens de la notion définie en §6.2 | Représentant de l'État saisit la CRC dans un délai suivant la transmission du budget | Le budget reste en principe applicable jusqu'au règlement, sous réserve des effets propres à chaque étape (à vérifier) | Nouvelle délibération de l'assemblée reprenant les mesures de redressement proposées par la CRC, dans le délai imparti |
+| Budget voté **en déséquilibre réel** | Non-respect de l'équilibre réel au sens de la notion définie en §5.2 | Représentant de l'État saisit la CRC dans un délai suivant la transmission du budget | Le budget reste en principe applicable jusqu'au règlement, sous réserve des effets propres à chaque étape (à vérifier) | Nouvelle délibération de l'assemblée reprenant les mesures de redressement proposées par la CRC, dans le délai imparti |
 | **Compte administratif** en déficit au-delà du seuil légal | Le déficit constaté au compte administratif dépasse un seuil, exprimé en proportion des recettes de fonctionnement et variable selon la strate | Représentant de l'État saisit la CRC | Le budget primitif suivant doit intégrer les mesures de redressement ; jusque-là le déficit reste supporté par le budget en cours | Mesures de redressement inscrites au budget primitif de l'exercice suivant, sur proposition de la CRC |
-| **Dépense obligatoire** non ou insuffisamment inscrite | Une dépense répondant à la notion de dépense obligatoire (§6.4) est absente du budget ou sous-dotée | Saisine ouverte à un cercle de personnes intéressées (créancier, préfet, comptable public, autres — à vérifier), qui saisissent la CRC | La dépense reste due indépendamment de son inscription ; le créancier n'est pas privé de sa créance | Mise en demeure d'inscrire les crédits ; à défaut, inscription d'office par le préfet ; à défaut d'exécution, mandatement d'office |
+| **Dépense obligatoire** non ou insuffisamment inscrite | Une dépense répondant à la notion de dépense obligatoire (§5.4) est absente du budget ou sous-dotée | Saisine ouverte à un cercle de personnes intéressées (créancier, préfet, comptable public, autres — à vérifier), qui saisissent la CRC | La dépense reste due indépendamment de son inscription ; le créancier n'est pas privé de sa créance | Mise en demeure d'inscrire les crédits ; à défaut, inscription d'office par le préfet ; à défaut d'exécution, mandatement d'office |
 
 **Lecture transversale** : dans les trois premiers cas, la CRC **formule des
 propositions ou un avis** que l'assemblée est invitée à suivre avant toute
@@ -113,7 +113,7 @@ la procédure va, en cas d'inertie persistante, jusqu'au **mandatement
 d'office** — c'est-à-dire que le préfet peut se substituer non seulement à
 l'assemblée (inscription) mais aussi à l'**ordonnateur** (mandatement).
 
-### 4.2 La notion d'équilibre réel
+### 5.2 La notion d'équilibre réel
 
 L'équilibre réel ne se réduit pas à un solde global nul. Il suppose la
 réunion de plusieurs conditions cumulatives :
@@ -142,16 +142,16 @@ comptable. Une maquette budgétaire qui « boucle » à zéro sur le total gén�
 peut néanmoins être en déséquilibre réel si l'une de ces trois conditions
 n'est pas remplie.
 
-### 4.3 Le compte administratif en déficit
+### 5.3 Le compte administratif en déficit
 
 Le seuil au-delà duquel un déficit du compte administratif déclenche la
 procédure est **variable selon la strate et la catégorie de la collectivité**
 et s'exprime en proportion des recettes de fonctionnement. Ce taux ne se cite
-**jamais** de mémoire (§10). Le déficit s'apprécie sur le compte administratif
+**jamais** de mémoire (§9). Le déficit s'apprécie sur le compte administratif
 (ou le compte financier unique selon le régime applicable), pas sur une
 simple prévision d'exécution en cours d'exercice.
 
-### 4.4 La notion de dépense obligatoire
+### 5.4 La notion de dépense obligatoire
 
 Une dépense obligatoire est une dépense que la collectivité est **tenue
 d'inscrire et d'exécuter**, indépendamment de sa volonté budgétaire :
@@ -169,7 +169,7 @@ de cette procédure.
 
 ## 6. Calculs et procédures
 
-### 5.1 Déroulé procédural type
+### 6.1 Déroulé procédural type
 
 | Étape | Acteur | Contenu |
 |---|---|---|
@@ -184,10 +184,10 @@ de cette procédure.
 **Point de méthode** : chaque délai de cette chaîne (saisine, instruction,
 réponse de l'assemblée) est **spécifique à la procédure de contrôle
 budgétaire** et **distinct** des délais de droit commun du contrôle de
-légalité (§8). Ne jamais transposer un délai de l'un à l'autre sans
+légalité (§6.4). Ne jamais transposer un délai de l'un à l'autre sans
 vérification.
 
-### 5.2 Effets de la saisine sur les pouvoirs budgétaires de l'assemblée
+### 6.2 Effets de la saisine sur les pouvoirs budgétaires de l'assemblée
 
 - La saisine **ne dessaisit pas immédiatement** l'assemblée délibérante :
   celle-ci conserve, jusqu'à l'expiration du délai qui lui est imparti, la
@@ -205,7 +205,7 @@ vérification.
   cas le plus intrusif des quatre, car il touche à l'exécution, pas
   seulement à l'acte budgétaire.
 
-### 5.3 Marge de régularisation
+### 6.3 Marge de régularisation
 
 - La marge la plus large existe **avant toute saisine** : une direction des
   finances qui détecte l'un des quatre cas en interne peut proposer une
@@ -220,7 +220,7 @@ vérification.
   à l'équilibre réel effectif, résorption du déficit dans les proportions
   attendues, inscription intégrale de la dépense).
 
-### 5.4 Articulation avec le contrôle de légalité de droit commun
+### 6.4 Articulation avec le contrôle de légalité de droit commun
 
 - Les actes budgétaires (délibération de budget primitif, décision
   modificative, délibération arrêtant le compte administratif) figurent
@@ -294,7 +294,7 @@ Appliquer systématiquement le socle-sources (`SKILL.md` §5.4,
    omettre de proposer la régularisation volontaire, qui reste la voie la
    plus rapide et la moins risquée pour la collectivité.
 8. Citer un délai ou un seuil de mémoire « parce que c'est classique » — toute
-   valeur de cette procédure est une ligne « Oui » de la matrice §3.2 :
+   valeur de cette procédure est une ligne « Oui » de la matrice §2.2 :
    aucune exception de notoriété.
 
 ---
@@ -386,7 +386,7 @@ référence :
    métier si le déclencheur était déjà avéré au moment de la question ?
 10. Un éventuel **maniement de fonds hors circuit du comptable** envisagé
     pour « reboucler » artificiellement le budget a-t-il été écarté et, le
-    cas échéant, le garde-fou §6.2 opposé ?
+    cas échéant, le garde-fou `SKILL.md` §5.2 opposé ?
 11. Couple **[risque / confiance]** (§11) restitué pour le sous-cas traité ?
 12. Cas journalisable (nouveau motif de déséquilibre, écrit récurrent,
     lacune de méthode) proposé pour `JOURNAL.md` (`SKILL.md` §9) ?

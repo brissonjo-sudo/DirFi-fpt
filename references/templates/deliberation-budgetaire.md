@@ -1,12 +1,10 @@
-# Générateur interactif — Délibération budgétaire (v0.1.0)
+# Générateur interactif — Délibération budgétaire (v1.0.0)
 
 > Couche 4 (`references/templates/`), piloté par `references/ecrits-financiers.md`
 > et par `SKILL.md` §6. Mécanique de dialogue alignée sur les générateurs du
-> skill frère `Dpm-fpt` (`Dpm-fpt/references/templates/note-maire-modele.md`,
-> `Dpm-fpt/references/templates/arrete-modele.md`) : questions posées **une à
-> une**, aucune donnée inventée, règle `[INCOMPLET]` stricte, checklist finale
-> avant remise. Le contenu métier propre aux finances locales est développé
-> ici, pas recopié des modèles de `Dpm-fpt`.
+> skill frère dpm-fpt : questions posées **une à une**, aucune donnée inventée,
+> règle `[INCOMPLET]` stricte, checklist finale avant remise. Le contenu métier
+> propre aux finances locales est développé ici.
 >
 > **Nature de l'écrit** : la délibération budgétaire est un **acte
 > administratif** de l'assemblée délibérante, susceptible de **faire grief**
