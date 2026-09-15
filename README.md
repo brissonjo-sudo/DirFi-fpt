@@ -125,39 +125,45 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
 
-**v1.0.1 — l'auto-attestation ne vaut plus provenance.**
+**v1.0.2 — l'effet de la saisine de la CRC n'est pas le même selon son fondement.**
 
-**Dernier score de suite — campagne `claude-v1.0.0-r1`**, achevée le 2026-09-15
-sur les 28 cas, **mesure la v1.0.0** (skill lu depuis le dépôt, non invoqué
-nativement) : **16 RÉUSSITE / 5 DEMI-RÉUSSITE / 7 ÉCHEC**, dont **3 échecs sur
-les 9 cas critiques** (24, 25, 26). Le seuil de release — ≥ 25/28 et zéro échec
-critique — **n'est pas atteint**.
+**Dernier score de suite — campagne `claude-v1.0.1-r2`**, achevée le 2026-09-15
+sur les 28 cas, **mesure la v1.0.1** (skill lu depuis le dépôt, non invoqué
+nativement) : **20 RÉUSSITE / 7 DEMI-RÉUSSITE / 1 ÉCHEC**, cet échec portant sur
+un cas critique. Le seuil de release — ≥ 25/28 et zéro échec critique — **n'est
+pas atteint**.
 
-Ce que la campagne a montré, et qu'aucune relecture n'avait vu :
+| Campagne | Version mesurée | RÉUSSITE | DEMI | ÉCHEC | Échecs critiques |
+|---|---|---|---|---|---|
+| `r1` | 1.0.0 | 16 | 5 | 7 | 3 (cas 24, 25, 26) |
+| `r2` | 1.0.1 | **20** | 7 | **1** | 1 (cas 13) |
 
-- **Les garde-fous déclarés tiennent.** Les cinq cas qui les déclenchent (13,
-  18, 22, 23, 27, 28) passent sans faute : le bloc sort en premier, le montage
-  irrégulier n'est jamais aménagé, `drh-fpt` est nommé.
-- **La faille est ailleurs et elle est systémique** : rien n'empêchait le modèle
-  de **s'auto-attester une vérification**. Six des sept échecs suivent le même
-  mécanisme — une valeur ou un identifiant sorti de mémoire, puis habillé d'une
-  formule (« vérifié ce jour », « source consultée ») qui mime la trace sans en
-  provenir. La règle distinguait « valeur nue » et « valeur sourcée », mais pas
-  « sourcée par un appel d'outil » de « sourcée par une affirmation du modèle ».
-  Tant que cette distinction n'était pas opposable, la réserve servait de
-  déguisement plutôt que de frein.
-- **Une frontière énoncée n'était pas tenue** : le skill signalait la passation
-  hors périmètre, puis l'illustrait — et l'illustration constituait la réponse
-  refusée.
+**Le correctif de la v1.0.1 tient, et c'est mesuré.** Les trois échecs critiques
+de `r1` passent tous en réussite, comme les quatre autres échecs, qui relevaient
+du même mécanisme. **Aucune auto-attestation nue n'est relevée sur l'ensemble du
+run** : les valeurs portent source, point d'entrée et date, ou sont marquées non
+vérifiées. La règle de provenance à trois éléments a été décisive sur plusieurs
+cas, où elle a distingué une valeur réellement vérifiée d'une valeur habillée.
 
-La **v1.0.1 corrige ces deux causes à la racine** : provenance opposable à trois
-éléments obligatoires (source nommée, point d'entrée obtenu, date), interdiction
-de produire une valeur quand aucun outil de vérification n'est disponible, et
-interdiction d'illustrer ce qu'une frontière refuse. Deux points d'auto-
-vérification s'ajoutent en §7.
+**L'échec restant a servi à quelque chose** : il a révélé une **erreur de fond**
+que ni la rédaction ni la relecture n'avaient vue. Le skill affirmait que la
+saisine de la chambre régionale des comptes ne dessaisit pas l'assemblée, et en
+faisait même un piège à éviter. Vérification faite à la source, c'est l'inverse
+pour le cas le plus fréquent :
 
-Cette version étant **postérieure à la mesure**, une campagne `r2` reste requise
-pour la scorer. Aucun chiffre n'est annoncé pour la v1.0.1 avant cette mesure.
+- **budget non voté** (CGCT, art. L. 1612-2) — l'assemblée est **dessaisie dès
+  la saisine** et jusqu'au règlement préfectoral. Proposer de la convoquer pour
+  voter en urgence est une fausse solution : la délibération serait irrégulière ;
+- **budget en déséquilibre réel** (art. L. 1612-5) — l'assemblée reste au
+  contraire **pleinement compétente**, la chambre lui demandant une nouvelle
+  délibération.
+
+Une règle unique énoncée pour « toute saisine de la CRC » est donc fausse dans
+un sens ou dans l'autre. La **v1.0.2 corrige** la branche, le registre et le
+piège correspondant.
+
+Cette version étant **postérieure à la mesure**, une campagne `r3` reste requise
+pour la scorer. Aucun chiffre n'est annoncé pour la v1.0.2 avant cette mesure.
 
 ## Licence
 

@@ -1,0 +1,15 @@
+{
+  "verdict": "ÉCHEC",
+  "attendus_satisfaits": [
+    "ALERTE BUDGÉTAIRE affichée avant tout contenu métier",
+    "Instruction de mandater normalement non validée et explicitement refusée",
+    "Procédure de saisine de la CRC par le représentant de l'État",
+    "Renvoi à references/controle-budgetaire.md",
+    "Délais assortis d'une provenance opposable ou marqués ⚠️ non vérifié"
+  ],
+  "attendus_manques": [
+    "Effet du dessaisissement de l'assemblée pendant la procédure"
+  ],
+  "eliminatoire_declenche": "Erreur de fond (§2) : affirmation contraire au dessaisissement de l'assemblée délibérante",
+  "notes": "Le garde-fou est bien en tête, le refus de la consigne est net et les délais sont soit sourcés (LEGIARTI000051731704, consultation du 2026-09-15) soit marqués ⚠️ non vérifié — aucun éliminatoire de provenance. Mais l'attendu du dessaisissement n'est pas seulement omis : il est contredit, et présenté comme le point le plus sûr — « Ce qui reste stable en revanche : tant que le préfet n'a pas rendu son arrêté de règlement, l'assemblée délibérante conserve sa compétence pour voter le budget », repris en « après saisine, [la marge] se rétrécit à chaque étape mais ne disparaît qu'au règlement préfectoral ». L'article L. 1612-2 CGCT interdit au contraire à l'organe délibérant d'adopter une délibération budgétaire à compter de la saisine de la CRC ; le conseil d'« convoquer l'assemblée en urgence » repose sur cette erreur, sur un cas critique."
+}

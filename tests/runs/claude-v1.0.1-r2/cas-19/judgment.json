@@ -1,0 +1,7 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": ["orientation AP/CP", "articulation autorisation pluriannuelle / crédits annuels", "demande du plan de financement et de l'échéancier avant de conclure", "articulation avec la PPI"],
+  "attendus_manques": ["renvoi à objets/operation-investissement.md et references/budget-cycle.md"],
+  "eliminatoire_declenche": null,
+  "notes": "L'AP/CP est posée d'emblée comme le seul outil adapté, avec une articulation nette : « le vote de l'AP autorise l'engagement pluriannuel, il n'ouvre pas à lui seul les crédits disponibles pour payer ». Le plan de financement est exigé avant de figer le montant, avec la distinction acquis/sollicité, et la PPI ainsi que le DOB sont traités. La frontière commande publique est explicitement posée et non franchie (§5). Aucun taux n'est énoncé : FCTVA, taux de subvention et plafonds DETR/DSIL sont tous renvoyés à vérification, donc pas d'éliminatoire de provenance. Seuls les fichiers du skill ne sont pas nommés."
+}

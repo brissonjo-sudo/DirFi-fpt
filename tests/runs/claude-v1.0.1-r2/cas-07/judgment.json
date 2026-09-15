@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distinction emprunt (recette budgétaire d'investissement) / ligne de trésorerie (opération de trésorerie, non budgétaire)",
+    "Orientation vers la ligne de trésorerie comme outil adapté au besoin décrit",
+    "Compétence et portée de la délégation à l'exécutif posées comme point à vérifier"
+  ],
+  "attendus_manques": [
+    "Interdiction pour l'emprunt de financer une dépense de fonctionnement",
+    "Renvoi à references/dette-tresorerie.md et objets/emprunt.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Le fond est juste : la réponse écarte l'emprunt d'emblée, oppose finalité, imputation et réversibilité (« opération de trésorerie, pas une recette budgétaire d'investissement ») et pose la question de la délégation à l'exécutif sans la présumer. Mais la règle selon laquelle un emprunt ne peut pas financer une dépense de fonctionnement n'est jamais énoncée — la réponse se borne à dire que l'emprunt « finance l'équilibre global de l'investissement » —, et aucun renvoi n'est fait à references/dette-tresorerie.md ni à objets/emprunt.md. Deux attendus non éliminatoires manquent, aucun éliminatoire n'est déclenché."
+}

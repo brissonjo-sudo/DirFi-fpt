@@ -100,7 +100,7 @@ finances.
 
 | Cas | Qualification | Autorité de saisine | Effet sur l'exécution | Voie de régularisation |
 |---|---|---|---|---|
-| **Budget non voté** dans les délais | Carence de l'assemblée délibérante à adopter le budget primitif avant la date limite | Représentant de l'État saisit la CRC | Exécution provisoire limitée dans l'attente (mécanisme de continuité, à vérifier dans `budget-cycle.md`) ; l'assemblée reste compétente tant que le préfet n'a pas réglé le budget | Vote tardif du budget par l'assemblée avant que le préfet ne le règle d'office, sur la base des propositions de la CRC |
+| **Budget non voté** dans les délais | Carence de l'assemblée délibérante à adopter le budget primitif avant la date limite | Représentant de l'État saisit la CRC | Exécution provisoire limitée dans l'attente (mécanisme de continuité, à vérifier dans `budget-cycle.md`) ; **l'assemblée est dessaisie dès la saisine** et jusqu'au règlement préfectoral (L. 1612-2 al. 2) | Vote du budget par l'assemblée **avant la saisine** uniquement ; après la saisine, la régularisation passe par le règlement préfectoral, sur la base des propositions de la CRC |
 | Budget voté **en déséquilibre réel** | Non-respect de l'équilibre réel au sens de la notion définie en §5.2 | Représentant de l'État saisit la CRC dans un délai suivant la transmission du budget | Le budget reste en principe applicable jusqu'au règlement, sous réserve des effets propres à chaque étape (à vérifier) | Nouvelle délibération de l'assemblée reprenant les mesures de redressement proposées par la CRC, dans le délai imparti |
 | **Compte administratif** en déficit au-delà du seuil légal | Le déficit constaté au compte administratif dépasse un seuil, exprimé en proportion des recettes de fonctionnement et variable selon la strate | Représentant de l'État saisit la CRC | Le budget primitif suivant doit intégrer les mesures de redressement ; jusque-là le déficit reste supporté par le budget en cours | Mesures de redressement inscrites au budget primitif de l'exercice suivant, sur proposition de la CRC |
 | **Dépense obligatoire** non ou insuffisamment inscrite | Une dépense répondant à la notion de dépense obligatoire (§5.4) est absente du budget ou sous-dotée | Saisine ouverte à un cercle de personnes intéressées (créancier, préfet, comptable public, autres — à vérifier), qui saisissent la CRC | La dépense reste due indépendamment de son inscription ; le créancier n'est pas privé de sa créance | Mise en demeure d'inscrire les crédits ; à défaut, inscription d'office par le préfet ; à défaut d'exécution, mandatement d'office |
@@ -189,9 +189,39 @@ vérification.
 
 ### 6.2 Effets de la saisine sur les pouvoirs budgétaires de l'assemblée
 
-- La saisine **ne dessaisit pas immédiatement** l'assemblée délibérante :
-  celle-ci conserve, jusqu'à l'expiration du délai qui lui est imparti, la
-  compétence pour délibérer à nouveau et régulariser la situation.
+> **L'effet de la saisine n'est pas le même selon son fondement.** C'est le
+> point le plus contre-intuitif de cette brique, et une règle unique énoncée
+> pour « toute saisine de la CRC » est fausse dans un sens ou dans l'autre.
+
+**Budget non voté dans les délais — l'assemblée est DESSAISIE.** À compter de
+la saisine de la chambre régionale des comptes et jusqu'au règlement du budget
+par le représentant de l'État, l'organe délibérant **ne peut adopter aucune
+délibération sur le budget de l'exercice en cours** (CGCT, art. L. 1612-2,
+al. 2 — référence et identifiant au registre `references-verifiees.md` §2,
+vérifiés le 2026-09-15).
+
+Conséquences opérationnelles, à opposer fermement :
+
+- **Convoquer l'assemblée pour « voter le budget en urgence » après la saisine
+  est une fausse solution** : la délibération serait prise par une autorité
+  dessaisie, donc irrégulière. La fenêtre pour voter se referme à la saisine,
+  pas au règlement préfectoral.
+- Le dessaisissement porte sur le **budget de l'exercice en cours**. Il cesse
+  au règlement du budget par le préfet.
+- **Exception légale** : le mécanisme ne s'applique pas lorsque le défaut
+  d'adoption résulte de l'absence de communication, avant une date limite, des
+  informations indispensables à l'établissement du budget ; l'assemblée dispose
+  alors d'un délai propre pour arrêter le budget (al. 3 du même article — délai
+  à vérifier à la date d'usage).
+
+**Budget voté en déséquilibre réel — l'assemblée reste COMPÉTENTE.** La
+procédure repose au contraire sur elle : la chambre **demande une nouvelle
+délibération**, que l'assemblée doit prendre dans le délai imparti. Le règlement
+préfectoral n'intervient qu'à titre **subsidiaire**, si l'assemblée ne délibère
+pas ou délibère insuffisamment (CGCT, art. L. 1612-5 — registre
+`references-verifiees.md` §2, vérifié le 2026-09-15). Aucune clause de
+dessaisissement n'y figure.
+
 - Pendant l'instruction, l'exécution du budget en cours **se poursuit**
   selon les règles de continuité applicables (mécanisme de reconduction ou
   de crédits provisoires selon le cas — à vérifier dans `budget-cycle.md`),
@@ -272,9 +302,13 @@ Appliquer systématiquement le socle-sources (`SKILL.md` §5.4,
    préfet) et le **contrôle de légalité de droit commun** (tout motif de
    légalité, déféré direct au TA) — deux procédures cumulables, jamais
    substituables l'une à l'autre (§6.4).
-2. Croire que la saisine de la CRC **dessaisit immédiatement** l'assemblée —
-   faux : la marge de régularisation subsiste jusqu'au règlement effectif par
-   le préfet (§6.2, §6.3).
+2. Énoncer une règle **unique** sur l'effet de la saisine — faux dans un sens
+   ou dans l'autre selon le cas. **Budget non voté** : l'assemblée est
+   **dessaisie dès la saisine** et jusqu'au règlement préfectoral ; proposer de
+   la convoquer pour voter en urgence est une fausse solution, la délibération
+   serait irrégulière. **Budget en déséquilibre réel** : l'assemblée reste au
+   contraire **pleinement compétente**, la chambre lui demandant une nouvelle
+   délibération (§6.2).
 3. Affirmer qu'un budget qui « boucle à zéro » est nécessairement en
    équilibre réel — faux si l'une des trois conditions cumulatives de §5.2
    n'est pas remplie (sincérité, équilibre par section, couverture du capital

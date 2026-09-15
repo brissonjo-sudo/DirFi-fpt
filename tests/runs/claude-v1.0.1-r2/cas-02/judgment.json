@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose le critère valeur/durée de vie contre entretien courant",
+    "Ne cite aucun seuil chiffré d'immobilisation sans réserve"
+  ],
+  "attendus_manques": [
+    "Conséquences complètes (amortissement et financement par emprunt absents, seul le FCTVA est cité)",
+    "Tranche avant d'avoir levé les variables (montant notamment)",
+    "Renvoi à references/nomenclature-m57.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Le critère de section est bien posé et aucun seuil ni compte n'est inventé. Mais la réponse ouvre par « Réponse directe : dans la très grande majorité des cas […] s'impute en section d'investissement » et ne pose ses deux questions qu'ensuite, sans jamais interroger le montant. Les incidences annoncées se limitent au FCTVA et à l'inventaire : ni l'amortissement ni le financement par emprunt ne sont mentionnés. L'instruction M57 est citée, jamais le fichier references/nomenclature-m57.md."
+}

@@ -32,6 +32,24 @@
 | Débat d'orientation budgétaire (DOB) des communes ≥ 3 500 habitants ; rapport d'orientation budgétaire | CGCT, art. **L. 2312-1** | LEGIARTI000051731867 (en vigueur depuis le 01/01/2026) | 2026-09-15 | vérifié |
 | Contenu réglementaire détaillé du rapport d'orientation budgétaire | Décret n° 2016-841 du 24 juin 2016 | — | 2026-09-15 | ⚠️ non vérifié — identifiant JORFTEXT/LEGIARTI non confirmé lors de cette passe (texte repéré, non ouvert) |
 
+> **Effet de la saisine — règle vérifiée le 2026-09-15, opposable.** Les deux
+> cas de saisine n'ont **pas** le même effet sur la compétence de l'assemblée,
+> et c'est le contraire de ce que le skill affirmait jusqu'à la v1.0.1 :
+>
+> - **L. 1612-2 (budget non voté)**, al. 2 — *« À compter de la saisine de la
+>   chambre régionale des comptes et jusqu'au règlement du budget par le
+>   représentant de l'État, l'organe délibérant ne peut adopter de délibération
+>   sur le budget de l'exercice en cours. »* L'assemblée est donc **dessaisie
+>   dès la saisine**. Un alinéa 3 écarte le mécanisme lorsque le défaut
+>   d'adoption tient à l'absence de communication d'informations indispensables.
+> - **L. 1612-5 (budget en déséquilibre réel)** — **aucune clause de
+>   dessaisissement**. La chambre **demande une nouvelle délibération** à
+>   l'assemblée, qui reste pleinement compétente ; le règlement préfectoral est
+>   subsidiaire.
+>
+> Une règle unique énoncée pour « toute saisine de la CRC » est fausse dans un
+> sens ou dans l'autre. Détail opérationnel → `controle-budgetaire.md` §6.2.
+
 > **Note L. 1612-2** : la version consultée (en vigueur au 01/01/2026) confirme
 > le mécanisme complet — saisine de la chambre régionale des comptes par le
 > représentant de l'État, proposition sous un mois, règlement du budget par le
@@ -47,7 +65,7 @@
 |---|---|---|---|---|
 | Définition de l'équilibre réel du budget | CGCT, art. **L. 1612-4** | LEGIARTI000006389562 | 2026-09-15 | vérifié |
 | Saisine de la chambre régionale des comptes — budget non adopté | CGCT, art. **L. 1612-2** | LEGIARTI000051731704 | 2026-09-15 | vérifié (cf. §1) |
-| Saisine de la chambre régionale des comptes — budget non voté en équilibre réel | CGCT, art. **L. 1612-5** | — | 2026-09-15 | ⚠️ non vérifié — identifiant non confirmé lors de cette passe (article repéré par renvoi dans le texte de L. 1612-2/L. 1612-14, non ouvert directement) |
+| Saisine de la chambre régionale des comptes — budget non voté en équilibre réel | CGCT, art. **L. 1612-5** | LEGIARTI000006389622 | 2026-09-15 | vérifié — article ouvert directement sur Légifrance |
 | Saisine de la chambre régionale des comptes — compte administratif arrêté en déficit | CGCT, art. **L. 1612-14** | LEGIARTI000006389570 | 2026-09-15 | vérifié |
 | Saisine de la chambre régionale des comptes — dépense obligatoire non inscrite ou insuffisamment inscrite | CGCT, art. **L. 1612-15** | LEGIARTI000006389571 | 2026-09-15 | vérifié |
 

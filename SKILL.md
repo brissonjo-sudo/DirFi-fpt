@@ -17,18 +17,20 @@ description: >-
   marchés publics, ni pour le droit étranger.
 ---
 
-# Skill : dirfi-fpt (v1.0.1)
+# Skill : dirfi-fpt (v1.0.2)
 
-> **Métadonnées** — version : **1.0.1** · statut : correctif de sourcing et de
-> frontière, **postérieur à la mesure**. Dernier score de suite : campagne
-> complète `claude-v1.0.0-r1` achevée le 2026-09-15, qui mesure la **v1.0.0**
-> (28 cas, skill lu depuis le dépôt) — **16 réussites, 5 demi-réussites,
-> 7 échecs**, dont 3 sur les cas critiques : **seuil de release non atteint**.
-> Six des sept échecs tiennent à une même cause, l'auto-attestation de
-> vérification, que la v1.0.1 corrige à la racine (§5.4) ; le septième tient à
-> une frontière illustrée, corrigée en §5.6. Cette version **n'est pas couverte
-> par une campagne** — `r2` requise pour la mesurer · dernière
-> revue méthodologique : 2026-09-15 · périmètre : direction des finances,
+> **Métadonnées** — version : **1.0.2** · statut : correctif de fond sur
+> l'effet de la saisine de la chambre régionale des comptes, **postérieur à la
+> mesure**. Dernier score de suite : campagne complète `claude-v1.0.1-r2`
+> achevée le 2026-09-15, qui mesure la **v1.0.1** (28 cas, skill lu depuis le
+> dépôt) — **20 réussites, 7 demi-réussites, 1 échec**, cet échec portant sur un
+> cas critique : **seuil de release non atteint** (exigé : ≥ 25/28 et zéro échec
+> critique). La v1.0.1 avait corrigé l'auto-attestation, et `r2` le confirme :
+> les trois échecs critiques de `r1` passent tous, et aucune auto-attestation
+> nue n'est relevée sur le run. L'échec restant a révélé une **erreur de fond**
+> dans `controle-budgetaire.md`, corrigée en v1.0.2. Cette version **n'est pas
+> couverte par une campagne** — `r3` requise pour la mesurer · dernière revue
+> méthodologique : 2026-09-15 · périmètre : direction des finances,
 > collectivités territoriales (France) · dépendances recommandées :
 > `recherche-juridique` (validateur de fond et de vigueur), `drh-fpt` (volet RH
 > statutaire), `dpm-fpt` (volet métier police municipale) · compatibilité :

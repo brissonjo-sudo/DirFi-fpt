@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -40,7 +41,7 @@ def prepare_run(run_dir: Path, responder: str, judge: str) -> None:
     (run_dir / "suite.json").write_bytes(CASES_PATH.read_bytes())
     manifest = {
         "format_version": 1,
-        "skill_version": "1.0.0",
+        "skill_version": read_skill_version(),
         "created_at": datetime.now(UTC).isoformat(),
         "suite_sha256": suite_digest(),
         "responder": responder,
@@ -60,6 +61,22 @@ def prepare_run(run_dir: Path, responder: str, judge: str) -> None:
         case_dir.mkdir(parents=True, exist_ok=False)
         (case_dir / "prompt.md").write_text(case["prompt"] + "\n", encoding="utf-8")
 
+
+
+
+def read_skill_version() -> str:
+    """Lit la version du skill depuis le titre de SKILL.md.
+
+    Figer la version en dur dans ce script a produit un manifeste de run
+    annonçant 1.0.0 alors que le dépôt était déjà en 1.0.1 : un run est
+    d'abord une mesure attachée à une version précise, et se tromper de
+    version rend la mesure inexploitable.
+    """
+    skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+    match = re.search(r"^# Skill : [\w-]+ \(v([0-9]+\.[0-9]+\.[0-9]+)\)", skill, re.M)
+    if not match:
+        raise ValueError("Version introuvable dans le titre de SKILL.md")
+    return match.group(1)
 
 
 def case_dir_name(case: dict) -> str:

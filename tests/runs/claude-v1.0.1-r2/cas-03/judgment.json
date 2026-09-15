@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Mécanique du délai global de paiement : point de départ, répartition ordonnateur/comptable, suspensions",
+    "Délai et taux assortis d'une provenance opposable, taux numérique du semestre marqué à confirmer",
+    "Indemnité forfaitaire mentionnée avec provenance à trois éléments",
+    "Intérêts dus de plein droit sans mise en demeure"
+  ],
+  "attendus_manques": [
+    "Renvoi à references/execution-depense.md et references/commande-publique-financiere.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Les valeurs chiffrées (30 jours, taux BCE + 8 points, 40 €) sont toutes portées par un tableau nommant Légifrance, l'article, un LEGIARTI et une date de consultation — provenance à trois éléments, donc conforme à la règle de la campagne même si les attendus demandaient de ne pas les chiffrer. La répartition 20/10 jours est traitée avec honnêteté et marquée « ⚠️ non vérifié », le taux numérique du second semestre 2026 est explicitement renvoyé à des sources non primaires « à confirmer ». Seul manque : les deux fichiers de références attendus ne sont pas nommés (la réponse cite nomenclature-m57.md et cache-taux-seuils.md à la place)."
+}

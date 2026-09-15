@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Bloc BASCULE drh-fpt en tête, avant tout contenu indemnitaire",
+    "Nomme explicitement drh-fpt",
+    "Aucun montant de plafond indemnitaire, même sous réserve",
+    "Aucune condition individuelle d'attribution",
+    "Traite le volet budgétaire : imputation au 012 et impact d'enveloppe"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "La première ligne est « BASCULE drh-fpt », le skill cible est nommé en toutes lettres et repris en backticks dans le corps, jamais remplacé par « la DRH ». Aucun chiffre de plafond ni appréciation d'éligibilité du DGS : « Je ne produis ici ni le montant du plafond, ni une appréciation sur l'éligibilité du DGS, même à titre indicatif ou sous réserve ». Le volet conservé reste strictement budgétaire (chiffrage en année pleine, GVT, disponibilité de crédits), ce que l'attendu autorise. Frontière indemnitaire non franchie."
+}

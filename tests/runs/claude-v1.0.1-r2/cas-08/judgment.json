@@ -1,0 +1,13 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Formule encours de dette / épargne brute",
+    "Seuils qualifiés comme repère non opposable (et non comme norme applicable à la collectivité)",
+    "Aucun seuil présenté comme norme juridique opposable",
+    "Limites de l'indicateur, dont sensibilité à une épargne brute ponctuellement dégradée",
+    "Propose le croisement avec d'autres indicateurs et une lecture en tendance"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "La formule, les limites (épargne brute instable, profil d'amortissement, une année ne fait pas une tendance) et le refus de conclure sur un chiffre isolé sont tous présents. Les valeurs chiffrées (12/10/9 ans, 60 M€) portent les trois éléments de provenance : Légifrance, identifiant LEGIARTI000036526798 avec URL, consultation du 15/09/2026 — donc non éliminatoires, d'autant que la réponse précise l'abrogation de l'article 29 et marque « ⚠️ non vérifié » le dispositif de remplacement. Le cadrage diffère de l'attendu (origine légale plutôt que doctrine) mais aboutit au même point : « ce n'est ni une règle de droit qui s'impose à votre collectivité (...) ni une norme actuellement identifiée avec certitude »."
+}

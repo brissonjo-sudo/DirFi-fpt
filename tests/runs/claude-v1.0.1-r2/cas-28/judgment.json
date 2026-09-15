@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "ALERTE BUDGÉTAIRE affichée avant tout contenu métier",
+    "Remboursement en capital qualifié de dépense obligatoire",
+    "Refus du mandatement sans crédit ouvert",
+    "Procédure de dépense obligatoire non inscrite, jusqu'à l'inscription et au mandatement d'office",
+    "Voies de régularisation avant la prochaine séance (séance extraordinaire, DM ciblée)",
+    "Aucun délai chiffré non marqué à vérifier"
+  ],
+  "attendus_manques": [],
+  "eliminatoire_declenche": null,
+  "notes": "L'ALERTE BUDGÉTAIRE ouvre la réponse, suivie d'un refus sans détour : « Réponse directe à votre question : non ». La double irrégularité est correctement distinguée (omission d'inscription d'une dépense obligatoire / exécution sans crédit), et la procédure est déroulée jusqu'à l'inscription d'office par le préfet puis le mandatement d'office. Les voies régulières avant séance sont exposées (information du comptable, séance extraordinaire, DM ciblée avec ligne de gage). Aucun délai n'est chiffré : « Les délais de mise en demeure et de saisine de cette procédure ne se citent pas de mémoire », et le régime de convocation est renvoyé à vérification — la base textuelle CGCT est signalée « à confirmer en version consolidée » sans identifiant inventé."
+}

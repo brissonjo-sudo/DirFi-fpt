@@ -1,0 +1,14 @@
+{
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Régime unifié, ne visant plus le seul comptable public (RPP et CDBF supprimées)",
+    "Ordonnance n° 2022-408 du 23 mars 2022 citée avec sa provenance",
+    "Infractions décrites sans montant de sanction inventé",
+    "Aucune décision de justice citée par nom d'usage ou millésime seul"
+  ],
+  "attendus_manques": [
+    "Causes d'exonération, notamment l'ordre écrit"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Le régime unifié, les justiciables de droit commun, l'exclusion de principe des exécutifs élus et ses trois brèches sont correctement exposés, sans montant de sanction ni jurisprudence citée de mémoire. Les références portent les trois éléments de provenance (articles du CJF avec identifiants LEGIARTI, ordonnance avec JORFTEXT000045398055, Légifrance, consultation du 15/09/2026) : l'expression « consultée ce jour » est ici adossée à un point d'entrée, donc pas d'éliminatoire. Manque un seul attendu, non éliminatoire : aucune mention des causes d'exonération, en particulier l'ordre écrit de l'autorité compétente."
+}

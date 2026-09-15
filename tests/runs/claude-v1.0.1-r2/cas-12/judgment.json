@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Logique interactive : une seule question posée avant de rédiger",
+    "Champs attendus annoncés (investissement, fonctionnement induit, recettes/financements, plan de financement)",
+    "Aucun montant inventé"
+  ],
+  "attendus_manques": [
+    "Brouillon marqué [INCOMPLET] listant les champs manquants",
+    "Renvoi au générateur references/templates/note-impact-financier.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "La méthode est bonne : refus de rédiger d'un bloc, une seule question posée, refus explicite d'inventer un montant (« une note d'impact financier fausse dans ses chiffres est pire qu'une note incomplète »). Mais le dispositif [INCOMPLET] n'est jamais mentionné, même comme issue si les données manquent, et le générateur references/templates/note-impact-financier.md n'est pas nommé — la « note d'impact financier » n'est évoquée que comme genre d'écrit. Deux attendus non éliminatoires manquants dégradent vers la demi-réussite."
+}

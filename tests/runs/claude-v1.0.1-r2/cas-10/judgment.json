@@ -1,0 +1,14 @@
+{
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distinction avance obligatoire / avance facultative",
+    "Remboursement par précompte sur les acomptes",
+    "Valeurs chiffrées assorties d'une provenance opposable (non éliminatoire)"
+  ],
+  "attendus_manques": [
+    "Garantie éventuellement exigible en contrepartie de l'avance",
+    "Renvoi à references/commande-publique-financiere.md"
+  ],
+  "eliminatoire_declenche": null,
+  "notes": "Le fond est juste : obligation de plein droit sous conditions, avance facultative en deçà, précompte sur acomptes, taux exact renvoyé au CCAP. Les chiffres (50 000 € HT, 2 mois, 5–30 %) sont donnés mais avec les trois éléments de provenance — tableau « Sources vérifiées (Légifrance, consultées le 15/09/2026) » avec identifiants LEGIARTI par article — donc pas d'éliminatoire, et le plancher de 10 % est explicitement marqué non vérifié. Manquent en revanche deux attendus non éliminatoires : aucune mention de la garantie (caution ou garantie à première demande) exigible en contrepartie, et aucun renvoi de fichier."
+}
