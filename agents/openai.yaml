@@ -1,0 +1,4 @@
+interface:
+  display_name: "DirFi FPT"
+  short_description: "Décisions sûres pour les finances d'une collectivité"
+  default_prompt: "Use $dirfi-fpt to analyser une situation financière de collectivité territoriale et produire une recommandation budgétairement et juridiquement vérifiée."

@@ -364,8 +364,8 @@ cette session.
 ```
 
 Nommer **`drh-fpt`** explicitement : écrire « la DRH », « le service du
-personnel » ou « les RH » désigne un service de la collectivité et **ne vaut pas
-bascule**.
+personnel » ou « les RH » désigne un service de la collectivité, et cela
+**ne vaut pas bascule**.
 
 **Portée transverse** — la frontière s'applique **quel que soit le sujet
 d'entrée**, y compris quand le volet statutaire n'est qu'une **incise** dans une

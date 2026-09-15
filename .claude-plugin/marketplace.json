@@ -1,0 +1,19 @@
+{
+  "name": "dirfi-fpt",
+  "owner": {
+    "name": "brissonjo-sudo",
+    "url": "https://github.com/brissonjo-sudo"
+  },
+  "description": "Système expert d'aide à la décision en finances locales (FPT) : cycle budgétaire, M57, fiscalité, dette, garde-fous gestion de fait et contrôle budgétaire.",
+  "plugins": [
+    {
+      "name": "dirfi-fpt",
+      "source": "./",
+      "displayName": "Direction des finances (FPT)",
+      "description": "Système expert d'aide à la décision pour un Directeur des Finances en collectivité territoriale française : cycle budgétaire, nomenclature M57, exécution de la dépense et de la recette, fiscalité locale, dotations, dette et prospective, avec garde-fous gestion de fait et contrôle budgétaire.",
+      "version": "1.0.0",
+      "license": "CC-BY-SA-4.0",
+      "repository": "https://github.com/brissonjo-sudo/DirFi-fpt"
+    }
+  ]
+}
