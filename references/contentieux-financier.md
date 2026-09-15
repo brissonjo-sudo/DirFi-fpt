@@ -5,7 +5,7 @@
 > **Aucune décision de justice n'est citée ici par son nom d'usage, son
 > millésime ou son numéro** : toute recherche de jurisprudence financière
 > relève de `recherche-juridique`. **Aucun montant de sanction ni délai de
-> prescription n'est chiffré** : chacun est nommé, puis marqué « à vérifier ».
+> prescription n'est chiffré** : chacun est nommé, marqué « à vérifier ».
 
 ## 1. Périmètre / Exclusions
 
@@ -19,12 +19,11 @@
   (saisine préventive de la CRC par le préfet sur les quatre cas limitatifs)
   → `controle-budgetaire.md`. Le **maniement de fonds hors circuit du
   comptable**, en tant que garde-fou opposable **avant** tout montage →
-  `SKILL.md` §5.2 (cette brique traite ce qui se passe **après**, quand la
-  gestion de fait est déjà caractérisée ou alléguée). La **recherche de
-  jurisprudence** elle-même (identification, triangulation, portée d'une
-  décision) → `recherche-juridique`. La **procédure disciplinaire**
-  individuelle d'un agent → `drh-fpt` (`SKILL.md` §5.5). Le **retour
-  d'expérience** méthodologique après un cas → `retex.md`.
+  `SKILL.md` §5.2 (cette brique traite ce qui se passe **après**, une fois la
+  gestion de fait déjà caractérisée ou alléguée). La **recherche de
+  jurisprudence** elle-même → `recherche-juridique`. La **procédure
+  disciplinaire** individuelle d'un agent → `drh-fpt` (`SKILL.md` §5.5). Le
+  **retour d'expérience** méthodologique après un cas → `retex.md`.
 
 ---
 
@@ -70,21 +69,19 @@ financière compétente.
 - **Qualité de la personne visée** : ordonnateur, élu, agent, régisseur,
   comptable public — le régime applicable et la juridiction compétente en
   dépendent.
-- **Nature du fait allégué** : simple irrégularité d'exécution, maniement de
-  fonds sans titre (gestion de fait), ou faute de gestion ayant causé un
-  préjudice financier — trois qualifications distinctes, non exclusives.
-- **Existence d'un ordre écrit préalable** de l'autorité hiérarchique ou
-  d'une délibération couvrant l'opération — élément central pour une
-  éventuelle exonération (§5.2).
+- **Nature du fait allégué** : irrégularité d'exécution, maniement de fonds
+  sans titre (gestion de fait), ou faute de gestion ayant causé un préjudice
+  financier — qualifications distinctes, non exclusives.
+- **Existence d'un ordre écrit préalable** de l'autorité hiérarchique ou d'une
+  délibération couvrant l'opération — élément central pour l'exonération (§5.2).
 - **Caractère significatif du préjudice financier allégué** — condition
   posée par le régime unifié pour certaines qualifications ; appréciation
   casuistique, jamais présumée.
 - **Stade de la procédure** : risque identifié en interne, contrôle ou examen
   de la gestion en cours, réquisitoire déjà émis, instruction ouverte, ou
   décision déjà rendue.
-- **Volet parallèle éventuel** : procédure disciplinaire (`drh-fpt`),
-  procédure pénale, ou contrôle budgétaire (`controle-budgetaire.md`) sur les
-  mêmes faits — voies autonomes, cumulables.
+- **Volet parallèle éventuel** : procédure disciplinaire (`drh-fpt`), pénale,
+  ou contrôle budgétaire (`controle-budgetaire.md`) — voies autonomes, cumulables.
 
 ---
 
@@ -120,22 +117,18 @@ financière compétente.
 
 - **Ce qui change par rapport à l'ancien régime** : avant la réforme, le
   comptable public relevait d'une **responsabilité personnelle et pécuniaire
-  (RPP)** spécifique, distincte du régime de responsabilité applicable à
-  l'ordonnateur et aux autres gestionnaires (essentiellement disciplinaire).
-  Le régime unifié fait relever, en principe, **l'ensemble des gestionnaires
-  publics** — ordonnateurs, agents publics agissant sur délégation, comptables
-  publics — d'un même corps de règles de responsabilité financière devant la
-  même famille de juridictions, avec une même échelle de sanctions. La portée
-  exacte de cette unification (cas résiduels de régime spécifique, entrée en
-  vigueur par type d'organisme) **se vérifie** avant toute affirmation
-  catégorique.
+  (RPP)** spécifique, distincte du régime applicable à l'ordonnateur et aux
+  autres gestionnaires (essentiellement disciplinaire). Le régime unifié fait
+  relever, en principe, **l'ensemble des gestionnaires publics** — ordonnateurs,
+  agents publics agissant sur délégation, comptables publics — d'un même corps
+  de règles devant la même famille de juridictions, avec une même échelle de
+  sanctions. Portée exacte (cas résiduels, entrée en vigueur par type
+  d'organisme) **à vérifier** avant affirmation catégorique.
 - **Qui est justiciable** : tout **gestionnaire public** au sens large —
-  ordonnateur, élu local dans l'exercice de ses fonctions d'ordonnateur ou de
-  gestionnaire, fonctionnaire ou agent public, comptable public — dès lors
-  qu'il a personnellement pris part aux faits reprochés. Les exceptions et
-  régimes particuliers (notamment pour certains actes relevant strictement
-  d'une décision politique de l'assemblée délibérante, sans exécution
-  personnelle) sont à vérifier au cas par cas.
+  ordonnateur, élu local dans ses fonctions d'ordonnateur ou de gestionnaire,
+  agent public, comptable public — dès lors qu'il a personnellement pris part
+  aux faits reprochés. Exceptions et régimes particuliers à vérifier au cas
+  par cas.
 - **Infractions réprimées** (catégories, sans préjuger de la qualification
   exacte dans un cas donné) : **infraction aux règles d'exécution des
   recettes et des dépenses**, ou plus largement aux règles de gestion des
@@ -143,20 +136,17 @@ financière compétente.
   préjudice financier significatif** à l'organisme public concerné ou à un
   tiers — le caractère « grave » et « significatif » est une appréciation
   casuistique de la juridiction, jamais présumée par cette brique.
-- **Sanctions** : le régime prévoit une sanction de nature pécuniaire
-  (amende), dont le montant, le mode de calcul (plafond, part de
-  rémunération) et les critères de modulation ne sont **jamais** cités de
-  mémoire ici — à vérifier avant tout chiffrage.
+- **Sanctions** : le régime prévoit une sanction pécuniaire (amende), dont
+  montant, mode de calcul et critères de modulation ne sont **jamais** cités
+  de mémoire — à vérifier avant tout chiffrage.
 - **Procédure type** : voir §6.1.
 - **Causes d'exonération** — à apprécier au cas par cas, jamais présumées
-  automatiques : un **ordre écrit préalable** régulièrement donné par une
-  autorité hiérarchique ou par l'assemblée délibérante compétente peut, selon
-  les circonstances, atténuer ou exonérer la responsabilité de l'agent qui
-  l'a exécuté, sauf si l'irrégularité était manifeste et qu'il ne pouvait
-  l'ignorer ; des **circonstances** (force majeure, impossibilité matérielle
-  avérée) peuvent aussi être invoquées. Portée et limites exactes **à
-  vérifier** avant toute réponse engageante — un ordre écrit ne couvre pas
-  systématiquement son destinataire.
+  automatiques : un **ordre écrit préalable** de l'autorité hiérarchique ou de
+  l'assemblée délibérante peut atténuer ou exonérer l'agent qui l'a exécuté,
+  sauf irrégularité manifeste qu'il ne pouvait ignorer ; des **circonstances**
+  (force majeure, impossibilité matérielle avérée) peuvent aussi être
+  invoquées. Portée et limites exactes **à vérifier** avant toute réponse
+  engageante.
 
 ### 5.3 La gestion de fait
 
@@ -169,19 +159,16 @@ financière compétente.
   au comptable public (encaissement, décaissement, détention ou maniement de
   fonds publics) et l'**absence de titre régulier** justifiant cette
   opération. L'intention de nuire n'est pas un élément constitutif : la
-  gestion de fait peut être caractérisée même en l'absence de toute
-  malversation, par le seul fait objectif du maniement irrégulier.
-- **Procédure de déclaration** : la juridiction financière compétente peut
-  se saisir ou être saisie ; elle statue par un jugement qui **déclare** la
-  gestion de fait, après une procédure contradictoire. Ce jugement déclaratif
-  ne clôt pas l'affaire : il ouvre l'obligation, pour la personne déclarée
-  comptable de fait, de **rendre compte** comme le ferait un comptable
-  patent.
-- **La ligne de compte** : une fois la gestion de fait déclarée, son auteur
-  doit produire une reddition de compte (recettes et dépenses maniées
-  irrégulièrement, pièces justificatives) selon les mêmes exigences qu'un
-  compte de gestion régulier. La juridiction juge ensuite ce compte comme
-  elle jugerait celui d'un comptable patent (apurement, débet éventuel).
+  gestion de fait peut être caractérisée même sans malversation, par le seul
+  fait objectif du maniement irrégulier.
+- **Procédure de déclaration et ligne de compte** : la juridiction financière
+  compétente se saisit ou est saisie ; elle statue par un jugement qui
+  **déclare** la gestion de fait, après procédure contradictoire. Ce jugement
+  ouvre l'obligation, pour la personne déclarée comptable de fait, de
+  **rendre compte** comme le ferait un comptable patent : elle produit une
+  reddition de compte (recettes et dépenses maniées, pièces justificatives)
+  selon les mêmes exigences, et la juridiction juge ce compte comme celui
+  d'un comptable patent (apurement, débet éventuel).
 - **Conséquences pour l'auteur** : obligation de rendre compte, risque de
   mise en jeu de sa responsabilité financière au titre du régime unifié
   (§5.2) si les faits caractérisent en outre une infraction aux règles
@@ -207,12 +194,11 @@ financière compétente.
 - **Communication à l'assemblée délibérante** : les observations définitives
   font l'objet d'une communication obligatoire, inscrite à l'ordre du jour et
   débattue ; la collectivité peut être tenue de rendre compte des suites.
-- **Suites** : recommandations, suivi dans le temps, et — si les
-  constatations font apparaître des faits susceptibles de caractériser une
-  infraction relevant du régime de responsabilité financière ou une gestion
-  de fait — transmission au ministère public pour poursuites éventuelles.
-  Examen de la gestion et mise en cause de la responsabilité (§5.2) restent
-  deux démarches **distinctes**, la première pouvant déclencher la seconde.
+- **Suites** : recommandations, suivi dans le temps, et — si les constatations
+  révèlent des faits susceptibles de caractériser une infraction relevant du
+  régime de responsabilité financière ou une gestion de fait — transmission
+  au ministère public. Examen de la gestion et mise en cause de la
+  responsabilité (§5.2) restent deux démarches **distinctes**.
 
 ### 5.5 Le contentieux administratif des actes budgétaires et fiscaux
 
@@ -220,15 +206,13 @@ financière compétente.
   fiscale peut être attaquée devant le tribunal administratif par toute
   personne justifiant d'un **intérêt à agir** — administré, contribuable
   local, association, opérateur économique concerné selon l'objet de l'acte.
-- **Qui peut agir** : le **représentant de l'État**, par la voie du déféré
-  préfectoral (articulation avec `controle-budgetaire.md` §6.4 quand l'acte
-  est aussi transmissible au titre du contrôle budgétaire), et tout **tiers**
-  disposant d'un intérêt à agir suffisamment direct et certain — appréciation
-  casuistique.
+- **Qui peut agir** : le **représentant de l'État**, par le déféré préfectoral
+  (articulation avec `controle-budgetaire.md` §6.4 quand l'acte est aussi
+  transmissible au titre du contrôle budgétaire), et tout **tiers** disposant
+  d'un intérêt à agir direct et certain — appréciation casuistique.
 - **Référés** : selon l'urgence et l'atteinte alléguée, un référé-suspension
-  ou un autre référé d'urgence peut accompagner un recours au fond contre un
-  acte budgétaire ou fiscal ; conditions et délais **à vérifier** dans un cas
-  concret.
+  ou un autre référé d'urgence peut accompagner un recours au fond ; conditions
+  et délais **à vérifier** dans un cas concret.
 - **Contentieux fiscal propre** : le contentieux d'assiette ou de
   recouvrement d'une imposition locale suit des voies et délais spécifiques
   (réclamation préalable, rôle du comptable en recouvrement) qui relèvent de
@@ -276,13 +260,12 @@ Appliquer systématiquement le socle-sources (`SKILL.md` §5.4,
   d'appel unifiée, et la **date d'entrée en vigueur** précise de la réforme ;
 - le **montant** ou le **mode de calcul** d'une sanction pécuniaire, ou un
   **délai de prescription** devant le juge des comptes ;
-- les **conditions et la portée exacte** d'une cause d'exonération (ordre
-  écrit, circonstances) ;
+- les **conditions et la portée exacte** d'une cause d'exonération ;
 - les **conséquences statutaires ou électorales** d'une gestion de fait
   déclarée (notamment inéligibilité) ;
-- toute **référence jurisprudentielle**, quelle qu'en soit la source (CRC,
-  Cour des comptes, Conseil d'État) → `recherche-juridique` systématiquement,
-  jamais de nom d'usage, millésime ou numéro cité de mémoire ;
+- toute **référence jurisprudentielle** (CRC, Cour des comptes, Conseil
+  d'État) → `recherche-juridique` systématiquement, jamais de nom d'usage,
+  millésime ou numéro cité de mémoire ;
 - les **délais et conditions** d'un recours administratif (REP, référé)
   contre un acte budgétaire ou fiscal.
 
@@ -301,18 +284,17 @@ Appliquer systématiquement le socle-sources (`SKILL.md` §5.4,
    mécanisme automatique (§5.2).
 4. Confondre **gestion de fait** et **détournement pénal** (abus de
    confiance, concussion, prise illégale d'intérêts) — qualification
-   financière objective, indépendante de toute malversation, pouvant
-   coexister avec des faits pénalement qualifiables poursuivis par une voie
-   distincte.
+   financière objective, pouvant coexister avec des faits pénalement
+   qualifiables poursuivis par une voie distincte.
 5. Citer une décision de justice financière par son **nom d'usage**, son
-   **millésime** ou son **numéro** — interdit ici ; renvoyer systématiquement
-   à `recherche-juridique`.
+   **millésime** ou son **numéro** — interdit ici ; `recherche-juridique`
+   systématiquement.
 6. Inventer ou approximer un **montant de sanction** ou un **délai de
-   prescription** « à titre indicatif » — proscrit ; nommer la règle, marquer
-   « à vérifier ».
+   prescription** « à titre indicatif » — nommer la règle, marquer « à
+   vérifier ».
 7. Traiter le **contrôle budgétaire** (préventif, `controle-budgetaire.md`)
    et la **responsabilité financière** (répressive, cette brique) comme une
-   seule procédure — objets, déclencheurs et issues distincts.
+   seule procédure — objets et issues distincts.
 8. Oublier la **communication obligatoire à l'assemblée délibérante** des
    observations définitives d'un examen de la gestion.
 
@@ -324,27 +306,23 @@ Aucune des valeurs suivantes n'est chiffrée dans ce document ; toutes sont à
 confirmer sur source officielle avant tout usage en acte, avec leur date de
 référence :
 
-- **Montant, mode de calcul et plafond** de la sanction pécuniaire prévue par
-  le régime unifié de responsabilité financière.
-- **Délai de prescription** applicable à l'action devant le juge des comptes
-  (gestion de fait ou faute de gestion).
-- **Portée exacte des causes d'exonération** (ordre écrit préalable,
-  circonstances) et leurs limites.
+- **Montant, mode de calcul et plafond** de la sanction pécuniaire du régime
+  unifié de responsabilité financière.
+- **Délai de prescription** de l'action devant le juge des comptes (gestion
+  de fait ou faute de gestion).
+- **Portée exacte des causes d'exonération** et leurs limites.
 - **Conséquences statutaires ou électorales précises** d'une déclaration
-  définitive de gestion de fait, notamment en matière d'inéligibilité.
-- **Numérotation exacte**, au code des juridictions financières, des articles
-  définissant infractions, sanctions et gestion de fait : non stabilisée à ce
-  jour dans `references/references-verifiees.md` §5 (articles concurrents
-  repérés, aucun retenu avec certitude) — jamais de numéro précis sans
-  revérification immédiate.
-- **Délais de recours** (droit commun, déféré préfectoral, référés) contre un
-  acte budgétaire ou fiscal.
+  définitive de gestion de fait (notamment inéligibilité).
+- **Numérotation exacte**, au CJF, des articles définissant infractions,
+  sanctions et gestion de fait : non stabilisée dans
+  `references/references-verifiees.md` §5 (articles concurrents repérés,
+  aucun retenu avec certitude) — jamais de numéro précis sans revérification.
+- **Délais de recours** (droit commun, déféré préfectoral, référés).
 - **Référence structurelle stable**, citable avec la réserve « à confirmer en
-  version consolidée » : le **code des juridictions financières (CJF)**, dans
-  son architecture générale. L'**ordonnance de réforme du régime de
-  responsabilité financière (entrée en vigueur en 2023)** est, elle, **déjà
-  vérifiée** — voir `references/references-verifiees.md` §5 pour son numéro,
-  sa date et son identifiant, à relire avant citation dans un acte.
+  version consolidée » : le **CJF**, dans son architecture générale.
+  L'**ordonnance de réforme (2023)** est, elle, **déjà vérifiée** — voir
+  `references/references-verifiees.md` §5 pour son numéro et sa date, à
+  relire avant citation dans un acte.
 - Toute **référence jurisprudentielle** : aucune vérifiée à ce jour
   (`references/references-verifiees.md` §7) → `recherche-juridique`
   systématiquement, jamais de nom d'usage, millésime ou numéro cité seul.
@@ -357,19 +335,18 @@ référence :
   qualification prudente du risque, éléments factuels tracés, options de
   régularisation ou de réponse, sans anticiper la décision de la juridiction.
 - **Dossier de réponse à réquisitoire ou à observations provisoires** —
-  rassembler pièces justificatives et chronologie factuelle ; la rédaction de
-  la réponse relève du gestionnaire mis en cause, assisté le cas échéant d'un
-  conseil — cette brique prépare le dossier, elle ne plaide pas à sa place.
+  pièces justificatives et chronologie factuelle ; la rédaction de la réponse
+  relève du gestionnaire mis en cause, assisté le cas échéant d'un conseil —
+  cette brique prépare le dossier, elle ne plaide pas à sa place.
 - **Fiche de procédure financière** —
-  `references/templates/fiche-procedure-financiere.md`, pour documenter un
-  circuit interne prévenant le risque identifié (double contrôle, visa
-  systématique, traçabilité du service fait).
+  `references/templates/fiche-procedure-financiere.md`, pour un circuit
+  interne prévenant le risque identifié (double contrôle, visa systématique,
+  traçabilité du service fait).
 - **Signalement interne** dès qu'un risque de gestion de fait est détecté en
-  amont d'un montage envisagé : orienter vers le garde-fou `SKILL.md` §5.2
-  **avant** toute autre production.
-- **Mémoire en défense** : hors périmètre de production directe ; la
-  stratégie contentieuse relève de l'avocat ou du conseil de la personne mise
-  en cause.
+  amont d'un montage envisagé : garde-fou `SKILL.md` §5.2 **avant** toute
+  autre production.
+- **Mémoire en défense** : hors périmètre ; la stratégie contentieuse relève
+  de l'avocat ou du conseil de la personne mise en cause.
 
 ---
 
