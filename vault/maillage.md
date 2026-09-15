@@ -1,6 +1,6 @@
 ---
 tags: [skill/dirfi-fpt, maillage]
-version: 1.0.1
+version: 1.0.2
 date: 2026-09-15
 ---
 

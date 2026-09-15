@@ -129,3 +129,41 @@
 - **Action proposée** : expliciter les trois éléments d'une provenance opposable
   dans le barème, et poser qu'une valeur réellement vérifiée n'est pas un échec.
 - **Statut** : intégré v1.0.1
+
+### 2026-09-15 — Erreur de fond sur l'effet de la saisine de la CRC
+
+- **Type** : erreur
+- **Branche** : `references/controle-budgetaire.md` §6.2, §5, §8
+- **Contexte (anonymisé)** : unique échec de la campagne `r2`, sur un cas
+  critique portant sur un budget non voté dans les délais.
+- **Constat** : la réponse affirmait que l'assemblée conserve sa compétence tant
+  que le préfet n'a pas réglé le budget, et conseillait de la convoquer en
+  urgence. Elle **suivait fidèlement le skill** : la branche posait cette règle
+  et en faisait même un piège à éviter (« croire que la saisine dessaisit —
+  faux »). Vérification faite à la source, c'est le skill qui avait tort pour ce
+  cas de saisine : l'organe délibérant est dessaisi dès la saisine. La règle est
+  en revanche inverse pour un budget voté en déséquilibre réel, où l'assemblée
+  reste compétente.
+- **Action proposée** : distinguer explicitement les deux cas de saisine, poser
+  la conséquence opérationnelle (convoquer l'assemblée après la saisine est une
+  fausse solution), retourner le piège §8, et consigner la règle au registre
+  vérifié.
+- **Enseignement général** : une campagne d'évaluation ne mesure pas seulement
+  la forme des réponses. Ici, un juge a signalé une contradiction avec le droit,
+  et c'est le contenu du skill — relu plusieurs fois — qui était faux. Un cas de
+  test bien écrit trouve ce qu'aucune relecture ne trouve.
+- **Statut** : intégré v1.0.2
+
+### 2026-09-15 — Le correctif d'auto-attestation tient
+
+- **Type** : cas nouveau
+- **Branche** : `SKILL.md` §5.4
+- **Contexte (anonymisé)** : campagne `r2`, mesure de la v1.0.1.
+- **Constat** : les sept échecs de `r1` relevaient à six reprises de
+  l'auto-attestation. En `r2`, tous passent, et aucune auto-attestation nue
+  n'est relevée sur les 28 réponses. La règle de provenance à trois éléments a
+  été décisive sur plusieurs cas, en distinguant une valeur réellement vérifiée
+  d'une valeur habillée d'une formule.
+- **Action proposée** : aucune. Conserver la règle en l'état et la mesurer à
+  nouveau en `r3`.
+- **Statut** : intégré v1.0.1, confirmé par `r2`

@@ -8,6 +8,60 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.2] — 2026-09-15 — l'effet de la saisine dépend de son fondement
+
+Correctif issu de la campagne `claude-v1.0.1-r2` (28 cas, mesure de la v1.0.1) :
+**20 RÉUSSITE / 7 DEMI-RÉUSSITE / 1 ÉCHEC**, contre 16 / 5 / 7 en `r1`.
+
+### Confirmé par la mesure
+
+Le correctif d'auto-attestation de la v1.0.1 **tient**. Les trois échecs
+critiques de `r1` (cas 24, 25, 26) passent tous en réussite, comme les cas 1, 3,
+5 et 20 qui relevaient du même mécanisme. Aucune auto-attestation nue n'est
+relevée sur l'ensemble du run.
+
+### Corrigé
+
+- **Effet de la saisine de la chambre régionale des comptes**
+  (`references/controle-budgetaire.md` §6.2, tableau §5 et piège §8 ;
+  `references/references-verifiees.md` §2) — **erreur de fond**, révélée par
+  l'unique échec de `r2` et vérifiée à la source avant correction.
+
+  Le skill affirmait que la saisine « ne dessaisit pas immédiatement »
+  l'assemblée et en faisait un piège à éviter. C'est l'inverse pour le cas le
+  plus fréquent : en cas de **budget non voté**, l'organe délibérant ne peut
+  adopter aucune délibération sur le budget de l'exercice en cours **à compter
+  de la saisine** et jusqu'au règlement préfectoral (CGCT, art. L. 1612-2, al. 2
+  — identifiant au registre, vérifié le 2026-09-15). Conséquence opérationnelle
+  désormais opposable : **convoquer l'assemblée pour voter en urgence après la
+  saisine est une fausse solution**, la délibération serait prise par une
+  autorité dessaisie.
+
+  En revanche, pour un **budget voté en déséquilibre réel** (art. L. 1612-5),
+  aucune clause de dessaisissement n'existe : la chambre demande une nouvelle
+  délibération et l'assemblée reste pleinement compétente.
+
+  Le piège §8 devient donc l'inverse de ce qu'il était : ce n'est plus « croire
+  que la saisine dessaisit » qui est faux, c'est **énoncer une règle unique**
+  pour les deux cas.
+- **`references/references-verifiees.md`** — L. 1612-5 passe de « non vérifié »
+  à vérifié, avec son identifiant ; une note opposable consigne la règle
+  différenciée.
+
+### Non corrigé — assumé
+
+Les **renvois de fichiers non nommés** restent la cause dominante des
+7 demi-réussites, comme des 5 de `r1`. Toujours pas traité, pour la même
+raison : isoler l'effet de chaque correctif d'une campagne à l'autre.
+
+### À faire
+
+Campagne `r3` requise pour scorer la v1.0.2. Le seuil de release reste non
+atteint : il manque 5 réussites, et l'échec critique du cas 13 doit être
+reverifié sur la version corrigée.
+
+---
+
 ## [1.0.1] — 2026-09-15 — l'auto-attestation ne vaut plus provenance
 
 Correctif issu de la **première campagne d'évaluation** (`claude-v1.0.0-r1`,
