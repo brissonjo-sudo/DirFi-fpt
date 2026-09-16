@@ -35,14 +35,32 @@ la traçabilité manquait.
   contrôle désormais la traçabilité, avec la même formulation à charge que les
   autres tests : nommer la notion ne compte pas.
 
-### À faire
+### Mesuré — campagne `claude-v1.0.3-r3`, 2026-09-16
 
-Campagne `r3` requise. Elle mesurera **deux** correctifs d'un coup — la v1.0.2
-sur le fond, la v1.0.3 sur la traçabilité — ce qui était jusqu'ici évité. C'est
-assumé : les deux portent sur des dimensions distinctes et séparables à la
-lecture des jugements (un échec de fond n'est pas une demi-réussite de
-traçabilité), et attendre une campagne de plus pour la seule v1.0.3 coûterait
-davantage que la perte de résolution.
+**27 RÉUSSITE / 1 DEMI-RÉUSSITE / 0 ÉCHEC**, contre 20 / 7 / 1 en `r2`. Même
+empreinte de suite qu'en `r1` et `r2`. **Le seuil de release est atteint pour la
+première fois** : ≥ 25 sur 28 et zéro échec sur les neuf cas critiques.
+
+Le pari d'un double correctif mesuré d'un coup est tenu, et les deux effets se
+lisent séparément :
+
+- le **cas 13**, seul échec de `r2` et cas critique, passe en RÉUSSITE — c'est
+  le correctif de fond de la v1.0.2 ;
+- **six des sept demi-réussites** de `r2` (cas 1, 2, 4, 10, 12, 17) passent en
+  RÉUSSITE — c'est le correctif de traçabilité de cette version. Le renvoi de
+  fichier non nommé n'est plus relevé sur aucun cas du run.
+
+Aucune régression : tout cas classé RÉUSSITE en `r2` l'est encore en `r3`.
+
+### Reste ouvert
+
+Le **cas 7** demeure en demi-réussite, et ce n'est ni un défaut de traçabilité
+ni de provenance : trois attendus métier manquent — caractère non budgétaire de
+la ligne de trésorerie, interdiction de financer du fonctionnement par
+l'emprunt, renvoi à `objets/emprunt.md`. Deux autres manques isolés sont
+consignés au `JOURNAL.md` (cas 15 et 17). Correctifs candidats pour une v1.0.4,
+non bloquants pour la release. Détail dans
+`tests/runs/claude-v1.0.3-r3/RAPPORT.md`.
 
 ---
 

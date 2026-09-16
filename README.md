@@ -127,55 +127,50 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 **v1.0.3 — nommer le fichier, pas seulement la notion.**
 
-La campagne `r2` a fait remonter, sous la plume des quatre juges et déjà sous
-celle des juges de `r1`, un même reproche non éliminatoire : les réponses
-nomment la notion mobilisée — « la branche exécution », « la fiche régie » —
-sans jamais nommer le **fichier**. L'utilisateur ne peut alors ni vérifier la
+Toute branche, tout objet, tout générateur réellement mobilisé est **nommé par
+son chemin**, à l'endroit où sa règle est utilisée (`SKILL.md` §4, et point 16
+de l'auto-vérification §7). Sans le chemin, l'utilisateur ne peut ni vérifier la
 règle, ni la corriger, ni distinguer ce qui vient du skill de ce qui vient de la
-mémoire du modèle. Cette exigence ne figurait que dans le jeu de test : elle
-était **mesurée sans être prescrite**. La v1.0.3 la porte dans le skill
-(`SKILL.md` §4, et point 16 de l'auto-vérification §7) : toute branche, tout
-objet, tout générateur réellement mobilisé est **nommé par son chemin**, à
-l'endroit où sa règle est utilisée.
+mémoire du modèle.
 
-**Dernier score de suite — campagne `claude-v1.0.1-r2`**, achevée le 2026-09-15
-sur les 28 cas, **mesure la v1.0.1** (skill lu depuis le dépôt, non invoqué
-nativement) : **20 RÉUSSITE / 7 DEMI-RÉUSSITE / 1 ÉCHEC**, cet échec portant sur
-un cas critique. Le seuil de release — ≥ 25/28 et zéro échec critique — **n'est
-pas atteint**.
+**Dernier score de suite — campagne `claude-v1.0.3-r3`**, achevée le 2026-09-16
+sur les 28 cas, **mesure la v1.0.3** (skill lu depuis le dépôt, non invoqué
+nativement) : **27 RÉUSSITE / 1 DEMI-RÉUSSITE / 0 ÉCHEC**.
+
+**Le seuil de release est atteint pour la première fois** : ≥ 25 sur 28 **et**
+zéro échec sur les neuf cas critiques (13, 18, 22 à 28), tous en RÉUSSITE.
 
 | Campagne | Version mesurée | RÉUSSITE | DEMI | ÉCHEC | Échecs critiques |
 |---|---|---|---|---|---|
 | `r1` | 1.0.0 | 16 | 5 | 7 | 3 (cas 24, 25, 26) |
-| `r2` | 1.0.1 | **20** | 7 | **1** | 1 (cas 13) |
+| `r2` | 1.0.1 | 20 | 7 | 1 | 1 (cas 13) |
+| `r3` | 1.0.3 | **27** | 1 | **0** | **0** |
 
-**Le correctif de la v1.0.1 tient, et c'est mesuré.** Les trois échecs critiques
-de `r1` passent tous en réussite, comme les quatre autres échecs, qui relevaient
-du même mécanisme. **Aucune auto-attestation nue n'est relevée sur l'ensemble du
-run** : les valeurs portent source, point d'entrée et date, ou sont marquées non
-vérifiées.
+Les trois campagnes portent la même empreinte de suite SHA-256 : elles sont
+comparables.
 
-**L'échec restant a servi à quelque chose** : il a révélé une **erreur de fond**
-que ni la rédaction ni la relecture n'avaient vue. Le skill affirmait que la
-saisine de la chambre régionale des comptes ne dessaisit pas l'assemblée, et en
-faisait même un piège à éviter. Vérification faite à la source, c'est l'inverse
-pour le cas le plus fréquent :
+**`r3` mesurait deux correctifs à la fois, et les deux effets se lisent
+séparément.** Le **cas 13**, seul échec de `r2` et cas critique, passe en
+RÉUSSITE : c'est le correctif de fond de la v1.0.2, qui a distingué l'effet de
+la saisine de la chambre régionale des comptes selon son fondement —
+dessaisissement de l'assemblée sur budget non voté (CGCT, art. L. 1612-2),
+maintien de sa compétence sur déséquilibre réel (art. L. 1612-5). **Six des sept
+demi-réussites** de `r2` passent en RÉUSSITE : c'est le correctif de traçabilité
+de la v1.0.3. Le renvoi de fichier non nommé, cause dominante relevée par les
+quatre juges de `r1` et de `r2`, n'est plus relevé sur aucun cas du run.
 
-- **budget non voté** (CGCT, art. L. 1612-2) — l'assemblée est **dessaisie dès
-  la saisine** et jusqu'au règlement préfectoral. Proposer de la convoquer pour
-  voter en urgence est une fausse solution : la délibération serait irrégulière ;
-- **budget en déséquilibre réel** (art. L. 1612-5) — l'assemblée reste au
-  contraire **pleinement compétente**, la chambre lui demandant une nouvelle
-  délibération.
+**Aucune régression** : tout cas classé RÉUSSITE en `r2` l'est encore en `r3`.
 
-Une règle unique énoncée pour « toute saisine de la CRC » est donc fausse dans
-un sens ou dans l'autre. La **v1.0.2 a corrigé** la branche, le registre et le
-piège correspondant.
+Enseignement central de cette version : **une exigence qui ne figure que dans le
+jeu de test n'est pas une règle du skill.** Elle se mesure, mais rien ne la
+produit. Elle a été mesurée deux campagnes durant avant d'être prescrite.
 
-**Ni la v1.0.2 ni la v1.0.3 ne sont couvertes par une campagne.** Toutes deux
-sont postérieures à `r2` : la campagne **`r3` mesurera les deux correctifs à la
-fois** — le correctif de fond et le correctif de traçabilité. Aucun chiffre
-n'est annoncé pour ces versions avant cette mesure.
+**Ce qui reste ouvert** : le cas 7 demeure en demi-réussite, pour trois attendus
+métier manquants — caractère non budgétaire de la ligne de trésorerie,
+interdiction de financer du fonctionnement par l'emprunt, renvoi à
+`objets/emprunt.md`. Ni un défaut de traçabilité, ni un défaut de provenance.
+Correctif candidat pour une v1.0.4, non bloquant. Détail dans
+`tests/runs/claude-v1.0.3-r3/RAPPORT.md`.
 
 ## Licence
 
