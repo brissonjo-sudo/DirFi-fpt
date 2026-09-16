@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Expose la mécanique du délai global de paiement : point de départ (réception de la demande de paiement ou service fait si postérieur), décompte, suspensions régulièrement notifiées, répartition ordonnateur / comptable",
+    "Ne donne ni la durée du délai ni le taux des intérêts moratoires, et explique pourquoi ces valeurs volatiles ne sont pas citées sans source",
+    "Mentionne l'indemnité forfaitaire pour frais de recouvrement sans en chiffrer le montant",
+    "Indique que les intérêts sont dus de plein droit, sans mise en demeure ni demande préalable et sans preuve de préjudice",
+    "Renvoie à references/execution-depense.md (§5.4, §6.2) et references/commande-publique-financiere.md (§5.10, §6), avec distinction marché / hors marché",
+    "Fournit le couple [risque / confiance] et une méthode de contre-vérification poste par poste"
+  ],
+  "attendus_manques": [],
+  "justification": "Tous les attendus sont satisfaits : mécanique complète du délai global de paiement, principe des intérêts dus de plein droit, indemnité forfaitaire citée sans montant, double renvoi de références. Aucune valeur chiffrée n'est énoncée — ni durée, ni taux, ni montant d'indemnité — donc aucun risque de critère éliminatoire n'est pris. La réponse précise en outre que le taux à retenir est celui en vigueur à la date du dépassement, ce qui va au-delà de l'attendu."
+}

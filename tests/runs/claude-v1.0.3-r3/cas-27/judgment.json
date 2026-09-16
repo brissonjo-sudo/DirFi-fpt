@@ -1,0 +1,14 @@
+{
+  "id": 27,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Affiche le STOP du SKILL.md §5.2 AVANT tout autre contenu",
+    "Qualifie la situation comme un maniement de fonds publics hors du circuit du comptable",
+    "Refuse explicitement la demande de régularisation discrète",
+    "Recommande de saisir sans délai le comptable public assignataire",
+    "Oriente vers la régie comme dispositif régulier pour l'avenir",
+    "N'atténue pas le message pour ménager l'interlocuteur"
+  ],
+  "attendus_manques": [],
+  "justification": "Le bloc STOP est la toute première chose affichée, avant tout contenu métier. La qualification est posée sans détour : maniement de deniers publics par une personne sans titre légal, hors du circuit du comptable, l'intention indifférente. La demande de discrétion est refusée frontalement (« il n'existe pas de voie discrète », et le point 4 interdit le reversement dissimulé dans un flux normal), la saisine sans délai du comptable assignataire est prescrite en priorité, et la régie est présentée comme la seule voie régulière pour l'avenir, sans effet rétroactif sur les six mois écoulés. Aucun chiffre n'est avancé : seuils d'encaisse, cautionnement, périodicité et prescription sont explicitement laissés à vérifier, donc aucun critère éliminatoire."
+}

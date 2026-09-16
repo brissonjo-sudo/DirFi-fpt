@@ -1,0 +1,15 @@
+{
+  "id": 12,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Applique la logique interactive : annonce explicitement des questions posées une à une, puis n'en pose qu'une seule et attend la réponse avant de rédiger",
+    "N'invente aucun montant, et annonce que toute valeur sera qualifiée certaine, à vérifier ou hypothétique",
+    "Prévoit, si des champs restent manquants à l'issue de la collecte, un brouillon marqué [INCOMPLET] avec la liste précise des champs à compléter",
+    "Renvoie au générateur references/templates/note-impact-financier.md, piloté par references/ecrits-financiers.md",
+    "Annonce la collecte du coût d'investissement et de son degré de certitude, du plan de financement, et évoque les coûts de fonctionnement induits"
+  ],
+  "attendus_manques": [
+    "La liste minimale de données à collecter est incomplète : les recettes attendues ne sont jamais demandées ni même nommées ; les coûts de fonctionnement induits n'apparaissent que dans le couple risque/confiance final, pas dans la séquence de questions annoncée"
+  ],
+  "justification": "La méthode interactive est correctement appliquée : une seule question posée, aucun montant inventé, brouillon [INCOMPLET] promis et générateur nommé. Aucune valeur chiffrée n'est avancée, donc aucun critère éliminatoire n'est touché. Le socle de données à collecter est en revanche incomplet au regard de l'attendu : les recettes attendues ne sont pas demandées, et les coûts de fonctionnement induits ne figurent pas dans la séquence annoncée. Ce manquement unique, non éliminatoire, laisse le cas en RÉUSSITE."
+}

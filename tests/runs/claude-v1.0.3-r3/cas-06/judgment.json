@@ -1,0 +1,14 @@
+{
+  "id": 6,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Décompose la DGF en ses parts (forfaitaire, péréquation verticale DSU/DSR/DNP) et explique que l'écart peut venir d'une seule composante ou se répartir",
+    "Cite les variables explicatives usuelles : population DGF distincte de la population INSEE, indicateurs et données de calcul, garantie/écrêtement de la part forfaitaire, classement relatif en péréquation, variables d'ajustement de l'enveloppe normée",
+    "Oriente vers la fiche individuelle de notification DGCL comme source, avec comparaison ligne à ligne N / N-1",
+    "Ne donne aucun montant, aucun taux d'écrêtement ni aucun critère chiffré de répartition, et dit pourquoi",
+    "Indique la voie de contestation (demande de rectification auprès du service ayant notifié, puis recours) en marquant les délais et l'autorité exacte comme à vérifier",
+    "Fournit le couple [risque / confiance] et propose des livrables nommés"
+  ],
+  "attendus_manques": [],
+  "justification": "Tous les attendus sont couverts : décomposition de la DGF, causes typiques de variation, orientation vers la fiche de notification, voie de rectification sans délai inventé. Aucune valeur chiffrée n'est énoncée, y compris sur l'écrêtement et les seuils de classement, donc aucun critère éliminatoire n'est déclenché. La réponse écarte en outre explicitement le piège consistant à traiter toute baisse de DGF comme une anomalie."
+}

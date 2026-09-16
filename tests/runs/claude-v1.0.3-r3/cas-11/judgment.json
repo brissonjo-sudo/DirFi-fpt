@@ -1,0 +1,16 @@
+{
+  "id": 11,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Expose la réquisition de l'ordonnateur comme voie de droit et son caractère d'acte écrit et motivé, notifié avec accusé de réception conservé",
+    "Indique les cas dans lesquels le comptable DOIT refuser de déférer : indisponibilité des crédits, absence de justification du service fait, caractère non libératoire du règlement, sincérité de la dépense",
+    "Signale le transfert de responsabilité : la responsabilité personnelle du comptable est dégagée au profit de celle de l'ordonnateur, qui en répond devant l'assemblée et le juge compétent",
+    "Recommande d'abord d'analyser le motif exact du rejet et de régulariser si le motif est fondé, avant toute idée de réquisition",
+    "Renvoie à references/controle-interne-financier.md (et signale le relais de references/controle-budgetaire.md si le motif est l'absence de crédits)",
+    "Ne cite aucun numéro d'article ni aucun délai chiffré, en le disant explicitement"
+  ],
+  "attendus_manques": [
+    "La traçabilité de la réquisition est traitée du seul côté de l'ordonnateur (documenter, notifier, conserver l'accusé de réception) : la réponse ne dit pas que l'acte est transmis au-delà du comptable, au juge des comptes ou au comptable supérieur"
+  ],
+  "justification": "La réponse traite correctement les points de fond : réquisition écrite et motivée, liste des motifs de rejet qui ferment la réquisition, transfert de responsabilité vers l'ordonnateur, et priorité donnée à l'analyse du motif puis à la régularisation. Aucun chiffre, aucun numéro d'article ni délai n'est avancé, la réserve étant assumée et motivée, donc aucun critère éliminatoire n'est touché. Le seul point incomplet est le volet « transmise » de la traçabilité de l'acte de réquisition, qui reste cantonné à la notification au comptable. Manquement unique et non éliminatoire, d'où la RÉUSSITE."
+}

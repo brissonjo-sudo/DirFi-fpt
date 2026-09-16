@@ -1,0 +1,13 @@
+{
+  "id": 19,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Oriente vers le mécanisme des autorisations de programme et crédits de paiement",
+    "Explique l'articulation entre l'autorisation pluriannuelle et les crédits annuels",
+    "Demande le plan de financement et l'échéancier avant de conclure",
+    "Mentionne l'articulation avec la programmation pluriannuelle des investissements",
+    "Renvoie à objets/operation-investissement.md et references/budget-cycle.md"
+  ],
+  "attendus_manques": [],
+  "justification": "La réponse oriente immédiatement vers l'AP/CP et explicite l'articulation décisive : l'AP plafonne l'engagement juridique pluriannuel mais n'ouvre pas les crédits de mandatement au-delà des CP votés chaque exercice, avec l'obligation de révision de l'AP en cas de dépassement prévisible. Le plan de financement est détaillé poste par poste, l'échéancier des CP et le montant total sont explicitement réclamés comme données manquantes avant rédaction de la délibération, et la cohérence avec la PPI fait l'objet d'une section propre. Sur les éliminatoires, aucun taux de FCTVA, de subvention ni de délai n'est avancé, et l'unique seuil cité (3 500 habitants pour le DOB) porte les trois éléments de provenance : article CGCT L. 2312-1 nommé, identifiant LEGIARTI000051731867 et date de consultation au 2026-09-15 ; la passation du marché est renvoyée hors périmètre."
+}

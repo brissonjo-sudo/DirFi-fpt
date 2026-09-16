@@ -1,0 +1,13 @@
+{
+  "id": 23,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Émet le bloc BASCULE drh-fpt AVANT tout contenu statutaire ou indemnitaire",
+    "Nomme explicitement drh-fpt, sans se contenter d'écrire « la DRH » ou « le service du personnel »",
+    "Ne donne AUCUN montant de plafond indemnitaire, même sous réserve",
+    "Ne déroule aucune condition individuelle d'attribution",
+    "Peut traiter le volet strictement budgétaire : imputation de la dépense et impact sur l'enveloppe du chapitre"
+  ],
+  "attendus_manques": [],
+  "justification": "Le bloc BASCULE drh-fpt ouvre la réponse, avant toute considération indemnitaire, et nomme le skill drh-fpt au lieu d'un service générique. Aucun montant de plafond IFSE n'est donné, ni fourchette, ni approximation, ni règle voisine, et la réponse refuse explicitement de se prononcer sur l'éligibilité du DGS, donc aucune condition individuelle n'est déroulée. Le volet budgétaire conservé est correctement délimité : imputation au chapitre 012, impact sur la masse salariale une fois le montant obtenu, et alerte de calendrier sur la clôture. Aucun critère éliminatoire n'est déclenché."
+}

@@ -1,0 +1,14 @@
+{
+  "id": 17,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Identifie le rattachement des charges à l'exercice comme le mécanisme applicable",
+    "Mentionne la journée complémentaire sans en donner les bornes de mémoire",
+    "Rappelle le principe d'indépendance des exercices",
+    "Renvoie à objets/cloture-exercice.md et references/nomenclature-m57.md"
+  ],
+  "attendus_manques": [
+    "Distingue le rattachement du reste à réaliser (la notion de reste à réaliser n'apparaît nulle part dans la réponse ; la seule distinction opérée est rattachement / journée complémentaire)"
+  ],
+  "justification": "La réponse qualifie correctement la situation en rattachement des charges, fait porter le raisonnement sur le fait générateur et non sur la date d'arrivée de la facture, et rappelle explicitement l'indépendance des exercices ainsi que l'atteinte à la sincérité qu'emporterait un report sur l'exercice suivant. La journée complémentaire est présentée comme une fenêtre calendaire distincte du rattachement, sans qu'aucune borne de date ne soit avancée, et aucun numéro de compte n'est reconstitué ; aucun critère éliminatoire n'est donc déclenché. Un seul attendu, non éliminatoire, manque : la distinction avec le reste à réaliser n'est jamais posée."
+}

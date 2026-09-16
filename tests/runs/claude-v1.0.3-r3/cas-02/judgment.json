@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose le critère : augmentation de la valeur du patrimoine ou prolongation de la durée de vie contre entretien courant",
+    "Ne tranche pas : trois variables à lever (étendue du chantier, remplacement à l'identique ou amélioration, effet patrimonial) puis réponse conditionnelle aux deux branches",
+    "Renvoie à references/nomenclature-m57.md (§5.3 et §6.1), ainsi qu'à objets/immobilisation.md",
+    "Ne cite aucun seuil chiffré d'immobilisation ni aucun numéro de compte, et dit pourquoi",
+    "Fournit le couple [risque / confiance]"
+  ],
+  "attendus_manques": [
+    "Conséquences du classement incomplètes : l'éligibilité au FCTVA est bien signalée, mais ni l'amortissement ni le financement possible par emprunt ne sont mentionnés (seul « l'équilibre par section » est évoqué)"
+  ],
+  "justification": "Le critère de distinction est correctement posé et la réponse refuse de trancher tant que la nature exacte des travaux n'est pas connue, ce qui était l'enjeu du cas. Aucun seuil ni numéro de compte n'est inventé, donc aucun critère éliminatoire n'est déclenché. Seul l'attendu sur les conséquences du classement est partiellement couvert (FCTVA oui, amortissement et emprunt absents). Un seul attendu non éliminatoire manquant : RÉUSSITE."
+}

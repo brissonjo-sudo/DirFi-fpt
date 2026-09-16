@@ -1,0 +1,14 @@
+{
+  "id": 10,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue l'avance obligatoire, due au-delà d'un seuil réglementaire avec exclusions prévues par le texte, de l'avance facultative librement prévue au marché",
+    "Expose le remboursement par précompte sur les sommes dues au titulaire au fur et à mesure de l'exécution (acomptes), au rythme fixé par le marché",
+    "Ne donne ni le taux, ni le montant maximal, ni le seuil de montant, ni la durée d'exécution plancher : les quatre valeurs sont listées explicitement comme à vérifier et aucun chiffre n'est avancé",
+    "Renvoie à references/commande-publique-financiere.md (et à objets/marche-public.md, references/socle-sources-verification.md)"
+  ],
+  "attendus_manques": [
+    "Ne mentionne à aucun moment la garantie éventuellement exigible en contrepartie du versement de l'avance (garantie à première demande ou caution personnelle et solidaire) : le mot n'apparaît pas dans la réponse"
+  ],
+  "justification": "Le fond est juste et la discipline de sourcing tenue : aucune valeur chiffrée n'est énoncée, le seuil, le taux, le plafond et la durée minimale sont nommés comme valeurs à vérifier, ce qui écarte tout critère éliminatoire. La distinction obligatoire/facultative et le mécanisme du précompte sur acomptes sont exposés correctement, et le renvoi de fichier est nommé. Seule manque la garantie exigible en contrepartie de l'avance, attendu non éliminatoire. Un manquement unique laisse le cas en RÉUSSITE."
+}
