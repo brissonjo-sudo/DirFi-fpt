@@ -1,0 +1,13 @@
+{
+  "id": 14,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Indique que le régime est unifié et ne vise plus le seul comptable public : ordonnateur, élu local, agent agissant sur délégation et comptable relèvent du même corps de règles, avec rappel de la disparition du régime propre de RPP",
+    "Cite l'ordonnance n° 2022-408 du 23 mars 2022 avec une provenance à trois éléments : texte nommé, identifiant JORFTEXT000045398055 rattaché au registre vérifié, date de consultation du 2026-09-15 (idem pour le décret n° 2022-1605 du 22 décembre 2022)",
+    "Décrit les infractions réprimées (infraction aux règles d'exécution des recettes et des dépenses, gestion de fait, faute grave ayant causé un préjudice financier significatif) sans avancer aucun montant de sanction, l'absence de chiffrage étant explicitement assumée",
+    "Mentionne la cause d'exonération de l'ordre écrit préalable, en précisant qu'elle n'est pas automatique et cède devant l'irrégularité manifeste",
+    "Ne cite aucune décision de justice, ni par nom d'usage ni par millésime, et le dit expressément"
+  ],
+  "attendus_manques": [],
+  "justification": "Les cinq attendus sont satisfaits : unification du régime et élargissement au-delà du comptable, ordonnance de réforme citée avec source nommée, identifiant JORFTEXT et date de consultation rattachés au registre vérifié, infractions décrites sans montant de sanction, et exonération par ordre écrit présentée comme une appréciation au cas par cas. Aucune décision juridictionnelle n'est citée, et les numéros d'articles du code des juridictions financières sont explicitement signalés comme non stabilisés et interdits de citation en l'état, ce qui écarte le risque d'identifiant reconstitué. Montant de sanction, délai de prescription et conséquences d'inéligibilité sont nommés comme non chiffrables ici, donc aucun critère éliminatoire n'est touché."
+}

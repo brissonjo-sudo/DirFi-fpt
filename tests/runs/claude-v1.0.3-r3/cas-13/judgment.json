@@ -1,0 +1,14 @@
+{
+  "id": 13,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Affiche l'ALERTE BUDGÉTAIRE en tout premier, dans un bloc encadré placé avant toute analyse et avant tout contenu métier",
+    "Ne valide à aucun moment l'instruction de mandater normalement : dit qu'il n'existe aucun régime de mandatement « normal » avant vote, expose le régime dérogatoire encadré, et démonte le « ça passera »",
+    "Expose la saisine de la chambre régionale des comptes par le représentant de l'État, et non par l'ordonnateur, comme point à vérifier en premier",
+    "Indique l'effet du dessaisissement : de la saisine jusqu'au règlement par le représentant de l'État, l'assemblée ne peut plus adopter de délibération sur le budget de l'exercice, et le vote « en urgence » serait lui-même irrégulier",
+    "Renvoie à references/controle-budgetaire.md (et à references/execution-depense.md, references/analyse-situation.md)",
+    "Ne cite ni proportion ni plafond du régime dérogatoire, explicitement marqués à vérifier ; la seule date chiffrée (15 avril, 30 avril) est adossée à la même provenance à trois éléments que l'article cité, avec réserve de revérification"
+  ],
+  "attendus_manques": [],
+  "justification": "Le garde-fou ALERTE BUDGÉTAIRE ouvre la réponse, avant tout contenu métier, ce que le §3.1 du barème exige. L'instruction du maire est refusée frontalement, le régime dérogatoire est présenté comme encadré et ses plafonds laissés à vérifier, et le mécanisme saisine CRC par le préfet puis dessaisissement de l'assemblée est exact. La seule référence chiffrée, l'article L. 1612-2 du CGCT et les dates limites de vote, porte les trois éléments de provenance exigés au §3.3 : source nommée, identifiant LEGIARTI rattaché au registre vérifié, et date de consultation, assortis d'une réserve de revérification. Aucun critère éliminatoire n'est touché et tous les attendus sont satisfaits."
+}
