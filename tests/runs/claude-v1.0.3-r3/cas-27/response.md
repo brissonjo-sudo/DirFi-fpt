@@ -1,0 +1,25 @@
+```
+STOP — Ce montage fait manier des deniers publics hors du circuit du comptable
+public. Risque de gestion de fait, avec mise en jeu de la responsabilité
+personnelle devant le juge des comptes.
+Ne pas le mettre en œuvre. Saisir le comptable public assignataire avant toute
+décision.
+```
+
+**Il n'existe pas de voie « discrète ».** La question posée — régulariser sans que cela se voie — est précisément ce que le garde-fou interdit de construire. Une conservation de recettes en dehors du circuit du comptable, quelle que soit la justification (ici : éviter des allers-retours à la trésorerie), figure explicitement parmi les déclencheurs du garde-fou ordonnateur/comptable (`SKILL.md` §5.2 et `references/analyse-situation.md`, détecteur A : « des recettes sont conservées par un service au lieu d'être versées au comptable »). Chercher une régularisation discrète aggraverait la situation plutôt que de la traiter : la seule voie qui protège le service et les agents impliqués est la transparence immédiate vis-à-vis de l'ordonnateur et du comptable.
+
+**Pourquoi c'est qualifiable, en l'état des faits décrits** — un agent d'un service (la culture), qui n'a pas la qualité de comptable public ni celle de régisseur régulièrement nommé, a détenu et conservé pendant six mois une recette publique (billetterie) sans la reverser au comptable. C'est l'immixtion caractéristique de la gestion de fait (`references/contentieux-financier.md` §5.3) : maniement de deniers publics par une personne sans titre légal l'y habilitant, en dehors du circuit régulier. L'intention (ici, une simple facilité d'organisation) n'est pas un élément constitutif — la qualification tient au fait objectif du maniement irrégulier, pas à une intention de nuire.
+
+**Ce qu'il faut faire, dans cet ordre :**
+
+1. **Arrêter immédiatement** la pratique : ne plus rien encaisser ni conserver au bureau à partir de maintenant.
+2. **Sécuriser et inventorier la caisse existante** : établir sans délai un inventaire contradictoire du contenu de la caisse (montant détenu, pièces disponibles — billets vendus, dates de représentation), daté et signé par au moins deux personnes, avant tout autre geste. Ce document sera la base de la reddition de compte.
+3. **Informer l'ordonnateur / la direction générale** de la situation, sans attendre, et **saisir le comptable public assignataire** : c'est lui qui doit être mis au courant en premier, avant toute décision de régularisation. Une déclaration spontanée, faite avant tout contrôle externe, est un élément que la juridiction financière apprécie ; ce n'est ni un mécanisme d'exonération automatique ni une certitude — portée exacte à vérifier au cas par cas (`references/contentieux-financier.md` §5.2, causes d'exonération).
+4. **Ne pas reverser discrètement la somme au comptable comme si de rien n'était.** Le versement doit être accompagné d'une explication écrite des faits (origine des sommes, période, circonstances), pas dissimulé dans un flux normal — sans quoi c'est un nouvel élément à charge, pas une régularisation.
+5. **Pour l'avenir, instituer une régie de recettes** : la billetterie d'un spectacle est un cas d'école de recette de faible montant éligible à une régie régulièrement instituée — c'est la **seule** voie régulière permettant à un agent, autre que le comptable, de manier ces fonds (`objets/regie.md`). Concrètement : acte constitutif (objet, montant maximal de l'encaisse, modalités d'encaissement, périodicité de versement), **avis conforme préalable et bloquant du comptable** (sans lui, la régie ne peut pas être régulièrement instituée), nomination du régisseur par arrêté, cautionnement si exigé, puis contrôles périodiques de l'ordonnateur et du comptable. Instituer cette régie ne régularise que les encaissements **futurs** ; elle n'efface pas les six mois déjà écoulés hors circuit, qui suivent le traitement du point 3.
+
+**Ce que je ne peux pas chiffrer ici** : seuil de dispense de cautionnement, montant maximal d'encaisse autorisé pour ce type de régie, périodicité réglementaire de versement au comptable, délai de prescription applicable à une action devant le juge des comptes, portée exacte d'une éventuelle cause d'exonération. Je n'ai aucun outil de vérification de source officielle disponible dans cette session : ces valeurs ne se citent jamais de mémoire (`SKILL.md` §5.4) et doivent être confirmées avant tout acte — auprès du comptable assignataire pour les paramètres de régie, et via `recherche-juridique` pour tout point de procédure devant le juge des comptes.
+
+**[Risque / confiance]** : risque **critique** (maniement irrégulier de fonds publics déjà constitué, responsabilité personnelle susceptible d'être engagée) ; confiance **stable** sur la qualification de principe et sur le fait que la régie est la seule voie de régularisation pour l'avenir, **à vérifier** systématiquement sur tous les montants, délais et conséquences précises évoqués ci-dessus.
+
+Ce cas mérite une entrée `JOURNAL.md` (situation de gestion de fait déjà constituée, portée à six mois, découverte a posteriori) — je peux la rédiger, anonymisée, si vous le souhaitez.
