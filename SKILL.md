@@ -17,19 +17,17 @@ description: >-
   marchés publics, ni pour le droit étranger.
 ---
 
-# Skill : dirfi-fpt (v1.0.2)
+# Skill : dirfi-fpt (v1.0.3)
 
-> **Métadonnées** — version : **1.0.2** · statut : correctif de fond sur
-> l'effet de la saisine de la chambre régionale des comptes, **postérieur à la
-> mesure**. Dernier score de suite : campagne complète `claude-v1.0.1-r2`
-> achevée le 2026-09-15, qui mesure la **v1.0.1** (28 cas, skill lu depuis le
-> dépôt) — **20 réussites, 7 demi-réussites, 1 échec**, cet échec portant sur un
-> cas critique : **seuil de release non atteint** (exigé : ≥ 25/28 et zéro échec
-> critique). La v1.0.1 avait corrigé l'auto-attestation, et `r2` le confirme :
-> les trois échecs critiques de `r1` passent tous, et aucune auto-attestation
-> nue n'est relevée sur le run. L'échec restant a révélé une **erreur de fond**
-> dans `controle-budgetaire.md`, corrigée en v1.0.2. Cette version **n'est pas
-> couverte par une campagne** — `r3` requise pour la mesurer · dernière revue
+> **Métadonnées** — version : **1.0.3** · statut : traçabilité de la source
+> interne, **postérieure à la mesure**. Dernier score de suite : campagne
+> complète `claude-v1.0.1-r2` achevée le 2026-09-15, qui mesure la **v1.0.1**
+> (28 cas, skill lu depuis le dépôt) — **20 réussites, 7 demi-réussites,
+> 1 échec**. La v1.0.2 a corrigé l'erreur de fond que cet échec avait révélée ;
+> la v1.0.3 s'attaque à la cause dominante des demi-réussites, relevée
+> indépendamment par les trois juges de `r2` et déjà par ceux de `r1` : les
+> réponses ne nommaient pas le fichier qu'elles mobilisaient. Ni la v1.0.2 ni la
+> v1.0.3 **ne sont couvertes par une campagne** — `r3` requise · dernière revue
 > méthodologique : 2026-09-15 · périmètre : direction des finances,
 > collectivités territoriales (France) · dépendances recommandées :
 > `recherche-juridique` (validateur de fond et de vigueur), `drh-fpt` (volet RH
@@ -189,6 +187,30 @@ branche suit le gabarit `references/_gabarit-branche.md` et ouvre sur un bloc
 > AP/CP → cycle budgétaire **et** prospective ; subvention à une association →
 > subventions **et** garde-fou §5.2 ; emprunt → dette **et** compétence de
 > l'assemblée.
+
+### Traçabilité de la source interne — obligatoire
+
+Toute réponse qui mobilise une branche, un objet ou un générateur le **nomme par
+son chemin** : `references/execution-recette.md`, `objets/regie.md`,
+`references/templates/note-impact-financier.md`. Nommer la notion ne suffit pas :
+écrire « l'instruction M57 » là où la réponse s'appuie sur
+`references/nomenclature-m57.md` prive le lecteur du moyen de vérifier, de
+compléter et de corriger.
+
+Cette exigence n'est pas cosmétique. Elle sert trois choses :
+
+1. **Vérifier** — le directeur des finances qui reçoit la réponse peut ouvrir le
+   fichier et lire la règle complète, dont les points que la réponse a résumés.
+2. **Corriger** — quand une réponse se révèle fausse, le chemin dit **où** est
+   l'erreur. Sans lui, il faut la retrouver dans plus de onze mille lignes.
+3. **Distinguer** ce qui vient du skill de ce qui vient de la mémoire du modèle.
+   Une affirmation rattachée à un fichier est contrôlable ; une affirmation
+   flottante ne l'est pas.
+
+Le chemin se cite **là où la règle est mobilisée**, pas seulement dans une liste
+finale. Une réponse qui traite quatre sujets cite les quatre fichiers, chacun à
+sa place. En cas de doute sur le fichier compétent, passer par le routeur
+`references/analyse-situation.md` plutôt que de citer au jugé.
 
 ---
 
@@ -511,7 +533,10 @@ passer par `references/controle-budgetaire.md`.
 14. **Écrit** demandé effectivement produit (ou brouillon `[INCOMPLET]`) ?
 15. Pas de **donnée personnelle** (agent, administré, bénéficiaire) exposée
     inutilement.
-16. **Cas journalisable** apparu → proposé pour `JOURNAL.md` ?
+16. **Traçabilité de la source interne (§4)** — chaque branche, objet ou
+    générateur réellement mobilisé est-il **nommé par son chemin**, à l'endroit
+    où sa règle est utilisée ? Nommer la notion ne compte pas.
+17. **Cas journalisable** apparu → proposé pour `JOURNAL.md` ?
 
 ---
 

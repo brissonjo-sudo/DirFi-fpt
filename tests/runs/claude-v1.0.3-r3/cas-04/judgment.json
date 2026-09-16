@@ -1,0 +1,15 @@
+{
+  "id": 4,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue nettement les deux notions : l'admission en non-valeur est une mesure d'ordre budgétaire qui laisse la créance due en droit et réversible, la créance éteinte fait disparaître juridiquement la dette et interdit toute poursuite ultérieure",
+    "Indique que l'admission en non-valeur relève d'une délibération de l'assemblée délibérante sur proposition du comptable",
+    "Soulève la prescription de l'action en recouvrement comme point à vérifier impérativement, sans en donner la durée de mémoire, et évoque interruption et suspension",
+    "Renvoie à references/execution-recette.md (§5.4, §5.5, §6.2, §8, §10, §11)",
+    "Oriente sur les seuls éléments donnés vers l'admission en non-valeur, sous réserve des diligences documentées ; fournit le couple [risque / confiance]"
+  ],
+  "attendus_manques": [
+    "Ne signale pas l'imputation budgétaire distincte des deux opérations : la réponse qualifie la non-valeur de « mesure d'ordre budgétaire » mais n'oppose jamais les imputations respectives des deux traitements"
+  ],
+  "justification": "La distinction de fond est exacte et bien posée, la compétence (assemblée sur proposition du comptable) est correctement attribuée, et la prescription est soulevée sans durée citée de mémoire. Aucun numéro de compte n'est inventé et aucune valeur chiffrée n'est avancée : aucun critère éliminatoire. Seul manque l'attendu sur l'imputation budgétaire distincte des deux opérations, non éliminatoire et isolé : RÉUSSITE."
+}

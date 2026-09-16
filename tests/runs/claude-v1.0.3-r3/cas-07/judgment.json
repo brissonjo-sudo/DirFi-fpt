@@ -1,0 +1,16 @@
+{
+  "id": 7,
+  "verdict": "DEMI-RÉUSSITE",
+  "attendus_satisfaits": [
+    "Oriente clairement vers la ligne de trésorerie comme outil adapté au besoin temporaire décrit, et écarte l'emprunt comme disproportionné",
+    "Précise la compétence : délibération de l'assemblée délibérante, ou décision de l'exécutif seulement si une délégation a été consentie, et rappelle qu'à défaut l'exécutif ne peut pas ouvrir seul la ligne",
+    "Renvoie à references/dette-tresorerie.md (§5.1, §5.2, §5.7, §5.8, §8, §11) et fournit le couple [risque / confiance]",
+    "N'invente ni plafond, ni durée, ni montant"
+  ],
+  "attendus_manques": [
+    "La distinction emprunt / ligne de trésorerie est incomplète : l'emprunt est bien qualifié de recette de la section d'investissement, mais le caractère non budgétaire de la ligne de trésorerie, simple mouvement de trésorerie, n'est jamais énoncé (« imputation » est citée comme point de différence sans être explicitée)",
+    "N'indique nulle part qu'un emprunt ne peut pas financer une dépense de fonctionnement : le mot fonctionnement n'apparaît pas dans la réponse",
+    "Ne renvoie pas à objets/emprunt.md, seul references/dette-tresorerie.md est cité"
+  ],
+  "justification": "Le fond est correct : la ligne de trésorerie est bien l'instrument désigné, la compétence et la question de la délégation sont traitées, et aucune valeur n'est inventée, donc aucun critère éliminatoire. Mais trois attendus non éliminatoires manquent : le caractère non budgétaire de la ligne de trésorerie n'est jamais dit, l'interdiction de financer une dépense de fonctionnement par l'emprunt est absente en toutes lettres, et le renvoi à objets/emprunt.md n'est pas fait. Deux manques ou plus sur un fond correct valent DEMI-RÉUSSITE au §2 du barème."
+}

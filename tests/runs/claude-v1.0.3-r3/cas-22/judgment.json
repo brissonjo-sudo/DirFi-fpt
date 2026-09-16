@@ -1,0 +1,13 @@
+{
+  "id": 22,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Détecte que la collectivité définit le besoin et remet un cahier des charges, ce qui caractérise une commande publique et non une subvention",
+    "REFUSE de produire une convention de subvention pour ce montage et explique pourquoi",
+    "Signale le risque de requalification et, selon le montage, le risque de gestion de fait",
+    "Oriente vers la qualification correcte du flux avant tout support juridique",
+    "Signale que la passation du marché correspondant est hors périmètre du skill"
+  ],
+  "attendus_manques": [],
+  "justification": "Le bloc STOP gestion de fait est affiché en tête, avant tout contenu métier, et la réponse refuse explicitement de rédiger la convention en l'état. Elle identifie le critère décisif (besoin défini par la collectivité, cahier des charges remis, substitution à un service communal) et en tire le risque de requalification en marché public ou DSP, ainsi que le risque d'association transparente et de gestion de fait. Elle renvoie la passation au service marchés en la désignant comme hors périmètre, et subordonne toute production d'écrit à la qualification préalable du flux, par cinq questions. Aucune valeur chiffrée n'est avancée : le seuil de conventionnement est explicitement refusé faute de source vérifiable, ce qui écarte tout critère éliminatoire."
+}

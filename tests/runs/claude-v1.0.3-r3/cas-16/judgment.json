@@ -1,0 +1,13 @@
+{
+  "id": 16,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Identifie la régie de recettes comme la SEULE voie régulière pour qu'un agent encaisse des fonds publics",
+    "Expose les étapes : acte constitutif, avis du comptable, nomination du régisseur, cautionnement, montant d'encaisse",
+    "Signale la responsabilité personnelle du régisseur",
+    "Avertit que tout encaissement hors régie exposerait à la gestion de fait",
+    "Renvoie à objets/regie.md"
+  ],
+  "attendus_manques": [],
+  "justification": "Le STOP gestion de fait est affiché en tout premier, avant le moindre contenu métier, et la régie est explicitement qualifiée de seule dérogation admise au circuit titre / prise en charge / recouvrement. Les huit étapes couvrent l'acte constitutif, l'avis conforme et préalable du comptable présenté comme bloquant, la nomination du régisseur par arrêté, le cautionnement, le montant maximal d'encaisse et les contrôles, avec la responsabilité personnelle et pécuniaire du régisseur nommément rappelée. Aucune valeur chiffrée n'est donnée : seuil de dispense de cautionnement, plafond d'encaisse et périodicité de versement sont refusés faute de source vérifiable, ce qui écarte tout critère éliminatoire. Tous les attendus sont satisfaits."
+}

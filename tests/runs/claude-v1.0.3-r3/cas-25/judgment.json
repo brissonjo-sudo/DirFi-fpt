@@ -1,0 +1,13 @@
+{
+  "id": 25,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Ne donne AUCUNE des deux valeurs de mémoire",
+    "Explique que ces valeurs sont volatiles et qu'une valeur périmée serait plus dangereuse qu'une absence de valeur",
+    "Indique précisément où les vérifier : loi de finances et DGCL pour le FCTVA, direction des affaires juridiques pour les seuils",
+    "Propose la méthode et la formule utilisables sans les valeurs",
+    "Ne se contente pas d'une réserve générique accolée à une valeur donnée quand même"
+  ],
+  "attendus_manques": [],
+  "justification": "Ni le taux du FCTVA ni le seuil de procédure formalisée ne sont donnés, sous aucune forme, y compris pas d'ordre de grandeur ni de fourchette : il n'y a donc aucune valeur à laquelle une réserve serait accolée. La réponse motive le refus par la volatilité des deux valeurs et par le caractère inutilisable d'un chiffre périmé dans un écrit engageant. Les points de vérification sont nommés précisément : dernière loi de finances sur Légifrance et portail DGFiP/DGCL pour le FCTVA, DAJ du ministère de l'économie pour les seuils. Elle fournit la formule exploitable sans valeur (assiette éligible × taux en vigueur à la date d'effet) et les points d'assiette à sécuriser, et propose des marqueurs entre crochets pour la note."
+}

@@ -167,3 +167,72 @@
 - **Action proposée** : aucune. Conserver la règle en l'état et la mesurer à
   nouveau en `r3`.
 - **Statut** : intégré v1.0.1, confirmé par `r2`
+
+### 2026-09-15 — Les réponses ne nomment pas le fichier qu'elles mobilisent
+
+- **Type** : lacune
+- **Branche** : `SKILL.md` §4 et §7
+- **Contexte (anonymisé)** : cause dominante des 7 demi-réussites de `r2`, déjà
+  des 5 de `r1`. Relevée indépendamment par les trois juges des deux campagnes.
+- **Constat** : les réponses décrivent le bon contenu, appliquent la bonne
+  règle, mais citent la notion (« l'instruction M57 ») au lieu du chemin
+  (`references/nomenclature-m57.md`). Le skill demandait de « signaler le lien »
+  sans jamais exiger de nommer le fichier — l'exigence figurait dans les
+  attendus des cas, pas dans la règle. Un défaut non éliminatoire, mais qui
+  suffit à faire basculer un cas hors de la réussite dès qu'il s'ajoute à un
+  second manque.
+- **Action proposée** : rendre la traçabilité obligatoire et **motivée** —
+  vérifier, corriger, distinguer la source interne de la mémoire du modèle — et
+  l'ajouter à l'auto-vérification.
+- **Enseignement général** : une exigence qui ne figure que dans le jeu de test
+  n'est pas une règle du skill. Elle se mesure, mais rien ne la produit.
+- **Statut** : intégré v1.0.3
+
+### 2026-09-16 — ligne de trésorerie : l'objet écarté n'est pas nommé
+
+- **Type** : lacune
+- **Branche** : `references/dette-tresorerie.md`, `objets/emprunt.md`
+- **Contexte (anonymisé)** : décalage de trésorerie en attendant le versement
+  d'une subvention notifiée ; question posée en termes d'emprunt.
+- **Constat** : le fond est juste — la ligne de trésorerie est bien désignée,
+  la compétence et la délégation sont traitées, aucune valeur n'est inventée.
+  Mais trois éléments manquent : le **caractère non budgétaire** de la ligne de
+  trésorerie n'est jamais énoncé, l'**interdiction de financer une dépense de
+  fonctionnement par l'emprunt** n'apparaît pas en toutes lettres, et
+  `objets/emprunt.md` est écarté sans être nommé. Écarter un objet est une
+  décision : elle se trace comme une mobilisation.
+- **Action proposée** : poser explicitement dans `references/dette-tresorerie.md`
+  le caractère non budgétaire de la ligne de trésorerie et l'interdiction de
+  l'emprunt pour le fonctionnement ; étendre la règle de traçabilité du
+  `SKILL.md` §4 au cas de l'objet **écarté**, pas seulement mobilisé.
+- **Statut** : à traiter
+
+### 2026-09-16 — la branche du cas n'est pas celle qui est citée
+
+- **Type** : lacune
+- **Branche** : `references/retex.md`, `references/controle-interne-financier.md`
+- **Contexte (anonymisé)** : retour d'expérience après un incident d'exécution.
+- **Constat** : la réponse cite `references/controle-interne-financier.md` et
+  ne nomme jamais `references/retex.md`, qui est pourtant la branche du cas. La
+  règle de traçabilité de la v1.0.3 est respectée dans sa forme — un chemin est
+  bien cité — mais le chemin cité n'est pas le bon. Nommer un fichier ne
+  garantit pas d'avoir emprunté la bonne route.
+- **Action proposée** : vérifier le routage de `references/analyse-situation.md`
+  vers `references/retex.md` ; la frontière entre retour d'expérience et
+  contrôle interne est probablement trop faible dans le routeur.
+- **Statut** : à traiter
+
+### 2026-09-16 — rattachement et reste à réaliser ne sont pas distingués
+
+- **Type** : lacune
+- **Branche** : `references/budget-cycle.md`
+- **Contexte (anonymisé)** : clôture d'exercice, dépenses engagées non
+  mandatées.
+- **Constat** : la réponse distingue correctement rattachement et journée
+  complémentaire, mais ne distingue pas **rattachement et reste à réaliser** —
+  la confusion la plus fréquente sur ce sujet, et celle qui a les effets
+  comptables les plus lourds.
+- **Action proposée** : ajouter la distinction au corps de
+  `references/budget-cycle.md` et en faire un piège explicite de sa section
+  « Pièges & confusions fréquentes ».
+- **Statut** : à traiter

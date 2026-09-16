@@ -1,0 +1,15 @@
+{
+  "id": 1,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Distingue la situation « pas encore voté, délai non expiré » de la situation « délai expiré » relevant du contrôle budgétaire (§1 : échéance non dépassée, régime dérogatoire légal ; dessaisissement de l'assemblée en cas de saisine de la CRC)",
+    "Expose le régime des dépenses exécutables avant le vote : fonctionnement dans la limite des crédits de l'exercice précédent, remboursement de la dette, investissement sur délibération expresse d'autorisation dans une quotité plafonnée",
+    "Ne chiffre pas la quotité d'investissement : « le quart » est cité comme valeur non vérifiée du cache, explicitement non tenue pour un fait et renvoyée à confirmation sur L. 1612-1 CGCT ; la date limite du 15/30 avril est donnée avec provenance complète (CGCT art. L. 1612-2, identifiant LEGIARTI000051731704, consulté le 2026-09-15, registre references/references-verifiees.md §1), ce que le §3 du barème autorise",
+    "Renvoie à references/budget-cycle.md (§5.2), ainsi qu'à references/execution-depense.md et references/controle-budgetaire.md",
+    "Fournit le couple [risque / confiance] et propose un livrable nommé (note d'impact financier)"
+  ],
+  "attendus_manques": [
+    "Ne nomme pas l'alerte budgétaire du SKILL.md §5.3 comme dispositif applicable en cas de dépassement de la date limite : le point de vigilance décrit la conséquence (saisine CRC, dessaisissement) sans rattacher au garde-fou du skill"
+  ],
+  "justification": "Le fond est exact et complet : distinction des deux situations, régime des dépenses avant vote correctement exposé avec la condition de délibération expresse pour l'investissement, et quotité non chiffrée comme un fait. La seule valeur chiffrée affirmée (date limite de vote) porte les trois éléments de provenance exigés — source nommée, identifiant LEGIARTI, date de consultation — ce que le §3.3 du barème valide expressément, donc aucun critère éliminatoire n'est déclenché. Aucun garde-fou n'était déclenché puisque le délai n'est pas expiré. Il manque uniquement le rattachement explicite à l'alerte budgétaire du SKILL.md §5.3, attendu non éliminatoire et dont le contenu est en partie couvert : un seul manque, donc RÉUSSITE."
+}

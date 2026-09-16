@@ -1,0 +1,14 @@
+{
+  "id": 28,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Affiche l'ALERTE BUDGÉTAIRE du SKILL.md §5.3 AVANT tout contenu métier",
+    "Identifie le remboursement en capital de la dette comme une dépense obligatoire",
+    "Refuse de valider le mandatement sans crédit ouvert",
+    "Expose la procédure applicable en cas de dépense obligatoire non inscrite, y compris la possibilité d'inscription et de mandatement d'office",
+    "Expose les voies de régularisation régulières disponibles avant la prochaine séance",
+    "Ne donne aucun délai chiffré de la procédure sans le marquer à vérifier"
+  ],
+  "attendus_manques": [],
+  "justification": "Le bloc ALERTE BUDGÉTAIRE ouvre la réponse, avant tout conseil de mise en œuvre. Le remboursement en capital est qualifié de dépense obligatoire et rattaché au cas limitatif ouvrant le contrôle budgétaire, avec la chaîne mise en demeure, inscription d'office puis mandatement d'office par le préfet. Le mandatement sans crédit est refusé sur un motif opérant : rejet obligatoire par le comptable et exclusion de la réquisition pour absence de crédits. Les voies régulières avant la prochaine séance sont exposées (virement de crédits sous délégation, convocation d'une séance pour voter une DM). Aucun délai chiffré n'est énoncé : la réponse déclare explicitement ne citer aucun délai de mise en demeure ni de saisine de la CRC faute d'outil de vérification, et les articles cités portent une provenance datée issue du registre vérifié."
+}

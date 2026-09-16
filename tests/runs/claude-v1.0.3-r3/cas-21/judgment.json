@@ -1,0 +1,13 @@
+{
+  "id": 21,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose les questions une à une avant de rédiger : objet, montants, chapitres, sens des mouvements, date de séance",
+    "N'invente aucun montant ni aucune imputation",
+    "Laisse les visas en champs à compléter après vérification plutôt que de les pré-remplir de mémoire",
+    "Produit un brouillon marqué [INCOMPLET] si les données manquent",
+    "Rappelle l'obligation de transmission au contrôle de légalité"
+  ],
+  "attendus_manques": [],
+  "justification": "La réponse refuse d'assembler l'acte à partir du seul intitulé et recense les champs bloquants — organe compétent, date de séance, exercice, exposé des motifs, section, chapitre, article et montant de chaque mouvement — en proposant explicitement de procéder point par point et en terminant par une première question isolée ; la présentation groupée relève au pire de la formulation moins directe du §4, non éliminatoire. Aucun montant, aucune imputation, aucune date n'est inventé : le squelette est intégralement balisé [INCOMPLET] et assorti d'un bloc de champs manquants interdisant la présentation en séance. Les visas restent en champs à compléter, sans article de CGCT pré-rempli de mémoire, et l'obligation de transmission au représentant de l'État au titre du contrôle de légalité figure à l'article 4 et au point 7. Aucune valeur chiffrée n'étant énoncée, aucun critère éliminatoire du §3 ne joue."
+}

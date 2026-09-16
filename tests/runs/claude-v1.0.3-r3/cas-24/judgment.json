@@ -1,0 +1,13 @@
+{
+  "id": 24,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Signale explicitement que la passation des marchés est hors périmètre du skill",
+    "Ne déroule ni méthode d'allotissement ni pondération de critères",
+    "Indique ce qui reste traitable ici : l'exécution financière du marché une fois attribué",
+    "Oriente l'utilisateur vers la ressource compétente plutôt que de répondre partiellement",
+    "Ne produit pas de réponse de complaisance en préambule avant de signaler la limite"
+  ],
+  "attendus_manques": [],
+  "justification": "La toute première phrase pose la frontière : allotissement et critères relèvent de la passation, hors périmètre, sans le moindre préambule de complaisance. Aucune méthode d'allotissement ni pondération n'est esquissée, pas même à titre d'illustration. Le périmètre conservé est énuméré précisément (avances, acomptes, révision de prix, retenue de garantie, pénalités, DGD, délai de paiement) et l'utilisateur est renvoyé au service de la commande publique ou à un conseil spécialisé. Aucune valeur chiffrée n'est avancée, donc aucun critère éliminatoire."
+}

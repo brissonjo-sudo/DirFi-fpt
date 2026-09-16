@@ -1,0 +1,15 @@
+{
+  "id": 8,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Donne la formule de l'indicateur : encours de dette au 31 décembre rapporté à l'épargne brute de l'exercice, exprimé en années théoriques",
+    "Ne présente aucun seuil chiffré comme une norme juridique opposable : aucun chiffre de seuil n'est donné, le refus est explicite et motivé par l'absence d'outil de vérification",
+    "Signale les limites de l'indicateur : lecture en photo contre tendance, hypothèse d'épargne brute stable, profil d'amortissement ignoré, et effet d'une recette ou dépense exceptionnelle qui fausse ponctuellement l'épargne brute",
+    "Propose de croiser avec d'autres indicateurs : série de 3 à 5 exercices, épargne nette, périmètre consolidé, comparaison à la strate",
+    "Aucune valeur chiffrée n'est énoncée, donc aucun manquement de provenance"
+  ],
+  "attendus_manques": [
+    "Ne qualifie pas les seuils d'alerte comme relevant de la DOCTRINE et non de la réglementation : ils sont présentés comme des « repères qui circulent dans le débat public et dans certaines pratiques de contrôle », et la piste de vérification évoque même un « texte réglementaire applicable au ROB », ce qui laisse ouverte la lecture réglementaire que l'attendu demandait d'écarter"
+  ],
+  "justification": "La réponse tient l'essentiel : formule exacte, refus assumé de tout seuil chiffré, limites méthodologiques explicites dont la sensibilité à une épargne brute dégradée ponctuellement, et croisement avec la tendance, l'épargne nette et la strate. Aucun critère éliminatoire n'est touché puisqu'aucune valeur chiffrée n'est avancée. Il manque la qualification des seuils comme relevant de la doctrine, et la mention d'un possible « texte réglementaire applicable au ROB » va même dans le sens inverse. Ce manquement unique, non éliminatoire, laisse le cas en RÉUSSITE au titre du §2 du barème."
+}

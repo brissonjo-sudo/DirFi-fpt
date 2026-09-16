@@ -1,0 +1,13 @@
+{
+  "id": 9,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Pose la qualification AVANT le support : la réponse s'ouvre sur « avant de choisir l'écrit, il faut d'abord qualifier le flux » et demande qui a l'initiative du festival et qui en fixe le contenu",
+    "Indique que si la commune définit le besoin, impose un cahier des charges, des prestations et un calendrier, il s'agit d'une commande publique et non d'une subvention, la dénomination retenue par les parties étant indifférente",
+    "Signale le risque de requalification en marché public et sa conséquence : procédure de passation non suivie, refus du générateur de produire l'acte, orientation vers un support de commande publique",
+    "Mentionne l'obligation de convention au-delà du seuil réglementaire de conventionnement sans le chiffrer, en marquant la valeur comme à vérifier",
+    "Renvoie à references/subventions.md et à objets/subvention-association.md, ainsi qu'au générateur de convention et à objets/satellites.md"
+  ],
+  "attendus_manques": [],
+  "justification": "L'ordre attendu est respecté : la qualification subvention/marché est traitée avant toute proposition de support, avec la bonne ligne de partage (initiative et définition du besoin) et l'indifférence de la dénomination. Le seuil de conventionnement est nommé sans être chiffré, donc aucune valeur non sourcée n'est livrée et aucun critère éliminatoire n'est touché. La passation reste signalée comme hors périmètre et n'est pas traitée au fond. Les deux fichiers attendus sont cités. L'exposé des conséquences de la requalification reste bref mais présent."
+}

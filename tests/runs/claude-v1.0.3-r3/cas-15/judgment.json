@@ -1,0 +1,14 @@
+{
+  "id": 15,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Traite le cas comme un incident à analyser à la racine et non comme une série de rejets isolés",
+    "Propose d'identifier le motif commun de rejet auprès du comptable",
+    "Oriente vers une formalisation de la procédure interne",
+    "Propose une entrée JOURNAL.md anonymisée"
+  ],
+  "attendus_manques": [
+    "Renvoie à references/retex.md et references/controle-interne-financier.md (seul controle-interne-financier.md est cité ; retex.md, qui est la branche du cas, n'est jamais nommé)"
+  ],
+  "justification": "La réponse pose d'emblée que trois mois de rejets répétés relèvent d'une cause structurelle unique et non d'erreurs ponctuelles, et fait de l'identification du motif exact notifié par le comptable la première action, avant tout contournement ; elle oriente ensuite vers la formalisation d'une fiche de procédure interne et propose une entrée JOURNAL.md. Aucun critère éliminatoire du §3 n'est déclenché : aucun taux, seuil ni délai n'est énoncé, les valeurs volatiles (seuil de conventionnement, intérêts moratoires) sont explicitement renvoyées à vérification sans être données, et les deux garde-fous sont testés en tête de réponse et non en fin. Il manque un seul attendu, non éliminatoire : le renvoi à references/retex.md, pourtant branche du cas, est absent."
+}

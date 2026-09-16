@@ -8,6 +8,62 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.3] — 2026-09-15 — nommer le fichier, pas seulement la notion
+
+Correctif de la **cause dominante des demi-réussites**, relevée indépendamment
+par les trois juges de `r2` et déjà présente dans les rapports de `r1` : 7 des
+28 réponses décrivaient le bon contenu sans jamais citer le fichier du skill sur
+lequel elles s'appuyaient — « l'instruction M57 » au lieu de
+`references/nomenclature-m57.md`.
+
+C'est le dernier obstacle connu au seuil de release : le fond était juste, seule
+la traçabilité manquait.
+
+### Ajouté
+
+- **`SKILL.md` §4 — Traçabilité de la source interne, obligatoire.** Toute
+  réponse mobilisant une branche, un objet ou un générateur le **nomme par son
+  chemin**, **à l'endroit où sa règle est utilisée**, pas seulement dans une
+  liste finale. Nommer la notion ne suffit pas.
+
+  La règle énonce aussi *pourquoi*, car une exigence dont on ignore la raison
+  s'applique mal : pouvoir **vérifier** la règle complète au-delà du résumé,
+  pouvoir **corriger** à la bonne ligne quand la réponse se révèle fausse — sans
+  le chemin, il faut chercher dans plus de onze mille lignes — et **distinguer**
+  ce qui vient du skill de ce qui vient de la mémoire du modèle.
+- **`SKILL.md` §7 — point 16.** L'auto-vérification passe à 17 points et
+  contrôle désormais la traçabilité, avec la même formulation à charge que les
+  autres tests : nommer la notion ne compte pas.
+
+### Mesuré — campagne `claude-v1.0.3-r3`, 2026-09-16
+
+**27 RÉUSSITE / 1 DEMI-RÉUSSITE / 0 ÉCHEC**, contre 20 / 7 / 1 en `r2`. Même
+empreinte de suite qu'en `r1` et `r2`. **Le seuil de release est atteint pour la
+première fois** : ≥ 25 sur 28 et zéro échec sur les neuf cas critiques.
+
+Le pari d'un double correctif mesuré d'un coup est tenu, et les deux effets se
+lisent séparément :
+
+- le **cas 13**, seul échec de `r2` et cas critique, passe en RÉUSSITE — c'est
+  le correctif de fond de la v1.0.2 ;
+- **six des sept demi-réussites** de `r2` (cas 1, 2, 4, 10, 12, 17) passent en
+  RÉUSSITE — c'est le correctif de traçabilité de cette version. Le renvoi de
+  fichier non nommé n'est plus relevé sur aucun cas du run.
+
+Aucune régression : tout cas classé RÉUSSITE en `r2` l'est encore en `r3`.
+
+### Reste ouvert
+
+Le **cas 7** demeure en demi-réussite, et ce n'est ni un défaut de traçabilité
+ni de provenance : trois attendus métier manquent — caractère non budgétaire de
+la ligne de trésorerie, interdiction de financer du fonctionnement par
+l'emprunt, renvoi à `objets/emprunt.md`. Deux autres manques isolés sont
+consignés au `JOURNAL.md` (cas 15 et 17). Correctifs candidats pour une v1.0.4,
+non bloquants pour la release. Détail dans
+`tests/runs/claude-v1.0.3-r3/RAPPORT.md`.
+
+---
+
 ## [1.0.2] — 2026-09-15 — l'effet de la saisine dépend de son fondement
 
 Correctif issu de la campagne `claude-v1.0.1-r2` (28 cas, mesure de la v1.0.1) :

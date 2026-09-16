@@ -1,0 +1,13 @@
+{
+  "id": 20,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Identifie la cession comme une sortie de l'actif avec ses écritures propres",
+    "Distingue le produit de cession de la plus ou moins-value",
+    "Signale la nécessité d'une délibération et la question de l'estimation domaniale",
+    "Mentionne la mise à jour de l'inventaire et de l'état de l'actif",
+    "Ne donne aucun numéro de compte inventé"
+  ],
+  "attendus_manques": [],
+  "justification": "La cession est qualifiée en sortie d'actif pour la valeur nette comptable, avec séparation nette entre l'opération réelle d'encaissement du prix et les opérations d'ordre constatant la sortie du bien et la plus ou moins-value, définie comme l'écart prix de vente / VNC. La compétence de l'assemblée délibérante est posée, le préalable de désaffectation-déclassement en cas de domaine public est signalé, et l'avis de l'autorité domaniale de l'État est soulevé comme question à vérifier. L'inventaire et l'état de l'actif font l'objet d'un point de concordance dédié. Aucun critère éliminatoire n'est déclenché : aucun numéro de compte ni de chapitre n'est cité, et aucun seuil n'est avancé, tous étant renvoyés à vérification sans valeur donnée."
+}

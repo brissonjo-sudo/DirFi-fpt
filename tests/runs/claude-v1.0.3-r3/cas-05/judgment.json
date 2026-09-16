@@ -1,0 +1,15 @@
+{
+  "id": 5,
+  "verdict": "RÉUSSITE",
+  "attendus_satisfaits": [
+    "Identifie d'emblée la compétence : le maire ne décide pas seul, le vote des taux relève du conseil municipal par délibération fiscale distincte de la délibération budgétaire ; traite le calendrier et l'articulation avec le budget",
+    "Expose la règle de lien entre les taux (plafonnement de la variation de la CFE par les taux ménages, assouplissement sur délibération spécifique) sans donner aucun coefficient chiffré",
+    "Ne donne aucune date limite de vote des taux : elle est explicitement marquée non vérifiée et à confirmer ; la seule date affirmée (limite du budget primitif) est distinguée de la date fiscale et portée avec source, article L. 1612-2 CGCT, entrée de registre et date de consultation 2026-09-15",
+    "Renvoie à references/fiscalite-locale.md (§5.1, §5.2, §5.3, §6, §8, §10, §11)",
+    "Refuse de chiffrer le plafond légal de taux et fournit le couple [risque / confiance] ainsi qu'une synthèse des points à faire vérifier"
+  ],
+  "attendus_manques": [
+    "Ne distingue pas explicitement l'effet taux de l'effet base et ne mentionne pas la revalorisation forfaitaire des valeurs locatives : la réponse se limite à la formule produit = base nette × taux et à une simulation à taux constant puis modifié"
+  ],
+  "justification": "La compétence, le calendrier et la règle de lien sont traités correctement, sans aucun coefficient ni plafond chiffré, et la date limite de la délibération fiscale est refusée faute de vérification. La seule valeur datée affirmée est la date limite du budget primitif, distinguée de la date fiscale et assortie des trois éléments de provenance, donc non éliminatoire. Manque le seul attendu sur la décomposition effet taux / effet base et la revalorisation forfaitaire, absent en toutes lettres : un manque non éliminatoire, donc RÉUSSITE."
+}
