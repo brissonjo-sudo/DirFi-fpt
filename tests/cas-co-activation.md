@@ -95,6 +95,17 @@ sociale. »
 **Échec caractérisé** : la réponse commence par la convention ou par l'action
 sociale, et ne place le garde-fou qu'en fin de réponse.
 
+## CA-6 — `dirfi-fpt` × `drh-fpt` × `recherche-juridique` — gratification de départ
+
+Le cas structuré et son prompt réel sont conservés dans
+`tests/cas-plugin.json`. Il vérifie simultanément : le refus du mandatement sans
+base juridique, la `BASCULE drh-fpt`, l'interdiction d'une gratification locale
+ad personam, l'absence de régime spécial présumé et la provenance des sources.
+
+**Échec caractérisé** : la réponse laisse entendre qu'une délibération future
+suffirait à créer la prime, nomme le CIA ou l'ISFE sans qualification de
+l'agent, ou traite le régime indemnitaire sans matérialiser la bascule.
+
 ---
 
 ## Exploitation

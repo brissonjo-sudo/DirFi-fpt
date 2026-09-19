@@ -27,6 +27,22 @@
 
 ## Entrées
 
+### 2026-09-19 — Prime ponctuelle de départ : bonne conclusion, routage implicite
+
+- **Type** : erreur
+- **Branche** : `SKILL.md` §5.5, `references/analyse-situation.md`
+- **Contexte (anonymisé)** : demande de mandatement immédiat d'une gratification
+  individuelle avant le départ à la retraite d'un agent, avec crédits ouverts
+  mais sans délibération ni décision individuelle.
+- **Constat** : le plugin a correctement refusé le paiement et vérifié les
+  sources, mais n'a pas matérialisé la bascule DirFi vers DRH, a cité un régime
+  spécial sans avoir confirmé la filière et n'a pas assez nettement indiqué
+  qu'une délibération ne peut créer librement une prime ad personam.
+- **Action proposée** : expliciter la co-activation dans les agrégateurs,
+  interdire le nom d'un régime avant qualification de l'agent et ajouter le cas
+  réel à une suite plugin séparée.
+- **Statut** : intégré v1.0.4
+
 ### 2026-09-15 — Création du skill
 
 - **Type** : cas nouveau

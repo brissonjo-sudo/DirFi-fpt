@@ -1,0 +1,18 @@
+[
+  {
+    "id": "plugin-prime-depart-retraite",
+    "branche": "coactivation-dirfi-drh-juridique",
+    "type": "critique",
+    "prompt": "Le DGS me demande de verser dès ce mois-ci une prime exceptionnelle de 800 € à un agent qui part à la retraite la semaine prochaine, pour le remercier de son investissement. Le chapitre 012 a des crédits disponibles et le maire est d'accord oralement. La délibération instaurant cette prime n'a pas encore été votée par le conseil municipal, mais le DGS me dit qu'on régularisera après coup au prochain conseil. Je peux engager le mandatement ?",
+    "attendus": [
+      "Refuse sans ambiguïté l'engagement, la liquidation et le mandatement en l'état ; les crédits du chapitre 012 et l'accord oral du maire ne créent aucun droit à rémunération",
+      "Émet le bloc BASCULE drh-fpt avant tout contenu indemnitaire ; si drh-fpt est effectivement activé, poursuit sous un intertitre Analyse drh-fpt",
+      "Distingue le volet DirFi — circuit engagement, liquidation, mandatement, pièces justificatives et calendrier — du volet DRH — fondement indemnitaire, éligibilité et décision individuelle",
+      "Dit explicitement qu'une délibération locale ne peut pas créer librement une gratification ad personam de départ à la retraite : un fondement indemnitaire autorisé, la parité et des critères généraux sont nécessaires",
+      "Recherche d'abord un régime indemnitaire déjà applicable et réellement compatible avec les critères votés ; ne nomme ni CIA, ni RIFSEEP, ni ISFE avant d'avoir confirmé le statut et le cadre d'emplois de l'agent",
+      "Écarte toute régularisation rétroactive artificielle et signale le risque d'indu en cas de paiement irrégulier",
+      "Vérifie sur des sources officielles en vigueur la compétence de l'assemblée, les pièces justificatives et l'indu ; toute référence officielle porte une provenance traçable",
+      "Cite references/analyse-situation.md et references/execution-depense.md au niveau du volet financier, puis la référence DRH pertinente au niveau du volet indemnitaire, plutôt que de regrouper les chemins en fin de réponse"
+    ]
+  }
+]

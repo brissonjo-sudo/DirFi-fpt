@@ -8,6 +8,35 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.4] — 2026-09-19 — co-activation DirFi / DRH dans le plugin
+
+Correctif issu d'un test réel du plugin `collectivite-territoriale` sur une
+gratification de départ à la retraite demandée sans délibération préalable.
+La conclusion produite était juste, mais la transition entre les responsabilités
+DirFi et DRH restait implicite et une délibération future pouvait sembler
+suffire à créer une prime locale autonome.
+
+### Corrigé
+
+- Le bloc `BASCULE drh-fpt` reste obligatoire dans un plugin agrégateur ; si
+  `drh-fpt` est effectivement activé, il peut poursuivre la même réponse sous
+  un intertitre explicite sans attribuer son analyse à `dirfi-fpt`.
+- Une gratification ponctuelle ne peut pas être présentée comme créable par la
+  seule volonté locale : fondement indemnitaire, parité, critères généraux et
+  absence de traitement ad personam doivent être contrôlés.
+- Le RIFSEEP, le CIA, l'ISFE ou tout régime spécial ne sont plus nommés avant
+  confirmation du statut, du cadre d'emplois et de la délibération applicable.
+
+### Test ajouté
+
+- `tests/cas-plugin.json` conserve le prompt réel et ses invariants de décision,
+  de routage et de vérification juridique.
+- `scripts/eval_suite.py prepare --cases ...` permet de préparer séparément une
+  campagne plugin sans modifier la suite historique de 28 cas.
+
+Cette version est postérieure à la campagne `claude-v1.0.3-r3` ; aucune nouvelle
+campagne complète n'est revendiquée.
+
 ## [1.0.3] — 2026-09-15 — nommer le fichier, pas seulement la notion
 
 Correctif de la **cause dominante des demi-réussites**, relevée indépendamment
@@ -58,7 +87,7 @@ Le **cas 7** demeure en demi-réussite, et ce n'est ni un défaut de traçabilit
 ni de provenance : trois attendus métier manquent — caractère non budgétaire de
 la ligne de trésorerie, interdiction de financer du fonctionnement par
 l'emprunt, renvoi à `objets/emprunt.md`. Deux autres manques isolés sont
-consignés au `JOURNAL.md` (cas 15 et 17). Correctifs candidats pour une v1.0.4,
+consignés au `JOURNAL.md` (cas 15 et 17). Correctifs candidats pour une version ultérieure,
 non bloquants pour la release. Détail dans
 `tests/runs/claude-v1.0.3-r3/RAPPORT.md`.
 

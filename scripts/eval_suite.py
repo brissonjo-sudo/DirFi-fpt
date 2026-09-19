@@ -32,18 +32,21 @@ def frozen_suite_path(run_dir: Path) -> Path:
     return snapshot if snapshot.is_file() else CASES_PATH
 
 
-def prepare_run(run_dir: Path, responder: str, judge: str) -> None:
+def prepare_run(
+    run_dir: Path, responder: str, judge: str, cases_path: Path = CASES_PATH
+) -> None:
     """Crée un run sans exposer les attendus au répondant."""
     if run_dir.exists() and any(run_dir.iterdir()):
         raise ValueError(f"Le dossier de run n'est pas vide : {run_dir}")
     run_dir.mkdir(parents=True, exist_ok=True)
-    cases = load_cases()
-    (run_dir / "suite.json").write_bytes(CASES_PATH.read_bytes())
+    cases = load_cases(cases_path)
+    (run_dir / "suite.json").write_bytes(cases_path.read_bytes())
     manifest = {
         "format_version": 1,
         "skill_version": read_skill_version(),
         "created_at": datetime.now(UTC).isoformat(),
-        "suite_sha256": suite_digest(),
+        "suite_sha256": suite_digest(cases_path),
+        "suite_source": cases_path.name,
         "responder": responder,
         "judge": judge,
         "case_count": len(cases),
@@ -157,6 +160,12 @@ def parse_args() -> argparse.Namespace:
     prepare.add_argument("--run-dir", required=True, type=Path)
     prepare.add_argument("--responder", required=True)
     prepare.add_argument("--judge", required=True)
+    prepare.add_argument(
+        "--cases",
+        type=Path,
+        default=CASES_PATH,
+        help="suite JSON à figer dans le run (défaut : tests/cas-de-test.json)",
+    )
     summarize = subparsers.add_parser(
         "summarize", help="valider et synthétiser un run complet"
     )
@@ -170,7 +179,7 @@ def main() -> int:
     try:
         run_dir = args.run_dir.resolve()
         if args.command == "prepare":
-            prepare_run(run_dir, args.responder, args.judge)
+            prepare_run(run_dir, args.responder, args.judge, args.cases.resolve())
             print(f"[OK] Run préparé : {run_dir}")
             print("[OK] Ajouter response.md et judgment.json dans chaque dossier de cas")
         else:

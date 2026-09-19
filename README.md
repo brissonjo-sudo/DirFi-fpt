@@ -102,7 +102,7 @@ claude plugin marketplace add brissonjo-sudo/DirFi-fpt
 
 ```
 python3 scripts/package_skill.py
-# produit dist/dirfi-fpt-1.0.3.zip
+# produit dist/dirfi-fpt-1.0.4.zip
 ```
 
 ## Validation
@@ -125,13 +125,13 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
 
-**v1.0.3 — nommer le fichier, pas seulement la notion.**
+**v1.0.4 — coordonner DirFi et DRH dans un plugin agrégateur.**
 
-Toute branche, tout objet, tout générateur réellement mobilisé est **nommé par
-son chemin**, à l'endroit où sa règle est utilisée (`SKILL.md` §4, et point 16
-de l'auto-vérification §7). Sans le chemin, l'utilisateur ne peut ni vérifier la
-règle, ni la corriger, ni distinguer ce qui vient du skill de ce qui vient de la
-mémoire du modèle.
+Le bloc `BASCULE drh-fpt` reste obligatoire quand une réponse passe du circuit
+financier au régime indemnitaire. Dans un plugin qui charge réellement les deux
+skills, la même réponse peut ensuite continuer sous un intertitre
+`Analyse drh-fpt`, sans que `dirfi-fpt` franchisse sa frontière. Le cas réel
+d'une gratification de départ à la retraite est conservé dans la suite plugin.
 
 **Dernier score de suite — campagne `claude-v1.0.3-r3`**, achevée le 2026-09-16
 sur les 28 cas, **mesure la v1.0.3** (skill lu depuis le dépôt, non invoqué
@@ -165,11 +165,11 @@ Enseignement central de cette version : **une exigence qui ne figure que dans le
 jeu de test n'est pas une règle du skill.** Elle se mesure, mais rien ne la
 produit. Elle a été mesurée deux campagnes durant avant d'être prescrite.
 
-**Ce qui reste ouvert** : le cas 7 demeure en demi-réussite, pour trois attendus
+La v1.0.4 est postérieure à cette mesure. **Ce qui reste ouvert** : le cas 7 demeure en demi-réussite, pour trois attendus
 métier manquants — caractère non budgétaire de la ligne de trésorerie,
 interdiction de financer du fonctionnement par l'emprunt, renvoi à
 `objets/emprunt.md`. Ni un défaut de traçabilité, ni un défaut de provenance.
-Correctif candidat pour une v1.0.4, non bloquant. Détail dans
+Correctif candidat pour une version ultérieure, non bloquant. Détail dans
 `tests/runs/claude-v1.0.3-r3/RAPPORT.md`.
 
 ## Licence
