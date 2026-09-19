@@ -323,6 +323,31 @@ def validate_cases(validation: Validation) -> None:
         "tests/cas-de-test.json : identifiants dupliqués",
     )
 
+    plugin_path = ROOT / "tests" / "cas-plugin.json"
+    try:
+        plugin_cases = json.loads(read_text(plugin_path))
+    except (OSError, json.JSONDecodeError) as error:
+        validation.require(False, f"tests/cas-plugin.json : lecture impossible ({error})")
+        return
+    validation.require(
+        isinstance(plugin_cases, list) and len(plugin_cases) >= 1,
+        "tests/cas-plugin.json : au moins un cas plugin est requis",
+    )
+    if isinstance(plugin_cases, list):
+        for index, case in enumerate(plugin_cases, start=1):
+            validation.require(
+                isinstance(case, dict) and set(case) == expected_keys,
+                f"cas plugin {index} : schéma invalide",
+            )
+            if not isinstance(case, dict):
+                continue
+            validation.require(bool(case.get("prompt")), f"cas plugin {index} : prompt vide")
+            attendus = case.get("attendus")
+            validation.require(
+                isinstance(attendus, list) and len(attendus) >= MIN_ATTENDUS,
+                f"cas plugin {index} : attendus insuffisants",
+            )
+
 
 def extract_markdown_targets(text: str) -> set[str]:
     """Extrait les chemins Markdown locaux cités en backticks ou en lien."""

@@ -1,6 +1,6 @@
 ---
 tags: [skill/dirfi-fpt, index]
-version: 1.0.3
+version: 1.0.4
 date: 2026-09-15
 ---
 
