@@ -252,3 +252,18 @@
   `references/budget-cycle.md` et en faire un piège explicite de sa section
   « Pièges & confusions fréquentes ».
 - **Statut** : à traiter
+
+### 2026-10-21 — Prime de départ : mention conditionnelle après bascule DRH
+
+- **Type** : lacune
+- **Branche** : `SKILL.md` §5.5, `references/analyse-situation.md`
+- **Contexte (anonymisé)** : demande d'une gratification de départ à la
+  retraite sans base établie ; le régime de l'agent n'est pas qualifié.
+- **Constat** : l'interdiction de nommer un régime empêchait aussi le repère
+  strictement conditionnel admis côté `drh-fpt` après consultation de la
+  réponse ministérielle du 22/05/2025 (Sénat, question écrite n° 01222,
+  consultation du 21/10/2026 ; registre §8).
+- **Action proposée** : conserver la non-présomption et la bascule préalable,
+  permettre le seul repère conditionnel avec renvoi vers `drh-fpt`, et adapter
+  les deux attendus autorisés par la décision humaine du 21/10/2026.
+- **Statut** : intégré v1.0.5 ; contrôles locaux distincts d'une campagne modèle

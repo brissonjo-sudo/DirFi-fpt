@@ -103,8 +103,10 @@ base juridique, la `BASCULE drh-fpt`, l'interdiction d'une gratification locale
 ad personam, l'absence de régime spécial présumé et la provenance des sources.
 
 **Échec caractérisé** : la réponse laisse entendre qu'une délibération future
-suffirait à créer la prime, nomme le CIA ou l'ISFE sans qualification de
-l'agent, ou traite le régime indemnitaire sans matérialiser la bascule.
+suffirait à créer la prime, nomme le CIA ou l'ISFE en présumant le régime de
+l'agent ou sans `BASCULE drh-fpt`, ou traite le régime indemnitaire sans
+matérialiser la bascule. La mention strictement conditionnelle (« si l'agent
+relève du RIFSEEP — à vérifier — »), après la bascule, est permise.
 
 ---
 

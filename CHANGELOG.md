@@ -8,6 +8,22 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.5] — 2026-10-21 — CIA conditionnel et bascule DRH
+
+- La frontière DRH conserve l'interdiction de présumer le régime de l'agent ;
+  le repère CIA strictement conditionnel est permis après `BASCULE drh-fpt`
+  pour une prime de départ, avec renvoi au §5.7 du module rémunération et paie
+  de `drh-fpt`, sans qualification individuelle ni autorisation de payer.
+- La réponse ministérielle du 22/05/2025 (question écrite n° 01222, Sénat,
+  consultée le 21/10/2026) est consignée dans une section de doctrine
+  officielle hors Légifrance du registre, sans identifiant Légifrance inventé.
+- Sur décision humaine du 21/10/2026, seul le point de présomption du régime
+  de `tests/cas-plugin.json` et l'échec caractérisé CA-6 de
+  `tests/cas-co-activation.md` sont adaptés ; les autres attendus restent
+  inchangés.
+- Versions du noyau, de la documentation et des manifestes alignées sur 1.0.5.
+  Aucune nouvelle campagne ni mesure de qualité modèle n'est revendiquée.
+
 ## [1.0.4] — 2026-09-19 — co-activation DirFi / DRH dans le plugin
 
 Correctif issu d'un test réel du plugin `collectivite-territoriale` sur une
