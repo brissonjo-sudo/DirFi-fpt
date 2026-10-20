@@ -102,7 +102,7 @@ claude plugin marketplace add brissonjo-sudo/DirFi-fpt
 
 ```
 python3 scripts/package_skill.py
-# produit dist/dirfi-fpt-1.0.4.zip
+# produit dist/dirfi-fpt-1.0.5.zip
 ```
 
 ## Validation
@@ -125,13 +125,16 @@ en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
 
-**v1.0.4 — coordonner DirFi et DRH dans un plugin agrégateur.**
+**v1.0.5 — permettre le CIA strictement conditionnel après bascule DRH.**
 
 Le bloc `BASCULE drh-fpt` reste obligatoire quand une réponse passe du circuit
 financier au régime indemnitaire. Dans un plugin qui charge réellement les deux
 skills, la même réponse peut ensuite continuer sous un intertitre
 `Analyse drh-fpt`, sans que `dirfi-fpt` franchisse sa frontière. Le cas réel
 d'une gratification de départ à la retraite est conservé dans la suite plugin.
+La mention « si l'agent relève du RIFSEEP — à vérifier — » est permise après
+la bascule ; elle ne vaut ni qualification du régime ni autorisation de payer.
+Le fond de l'analyse reste côté `drh-fpt` (`SKILL.md` §5.5).
 
 **Dernier score de suite — campagne `claude-v1.0.3-r3`**, achevée le 2026-09-16
 sur les 28 cas, **mesure la v1.0.3** (skill lu depuis le dépôt, non invoqué
@@ -165,7 +168,7 @@ Enseignement central de cette version : **une exigence qui ne figure que dans le
 jeu de test n'est pas une règle du skill.** Elle se mesure, mais rien ne la
 produit. Elle a été mesurée deux campagnes durant avant d'être prescrite.
 
-La v1.0.4 est postérieure à cette mesure. **Ce qui reste ouvert** : le cas 7 demeure en demi-réussite, pour trois attendus
+La v1.0.5 est postérieure à cette mesure et n'a pas été évaluée par une nouvelle campagne. **Ce qui reste ouvert** : le cas 7 demeure en demi-réussite, pour trois attendus
 métier manquants — caractère non budgétaire de la ligne de trésorerie,
 interdiction de financer du fonctionnement par l'emprunt, renvoi à
 `objets/emprunt.md`. Ni un défaut de traçabilité, ni un défaut de provenance.
