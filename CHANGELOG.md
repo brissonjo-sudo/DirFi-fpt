@@ -8,6 +8,17 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [Non publié] — 2026-11-01 — Licence EUPL 1.2
+
+- Passage du dépôt à la licence publique de l'Union européenne (EUPL) 1.2,
+  à compter de cette version : textes officiels de la Commission européenne,
+  anglais dans `LICENSE` et français dans `LICENCE.fr.txt`.
+- Champ `license` des manifestes `.claude-plugin/plugin.json` et
+  `.claude-plugin/marketplace.json` : `EUPL-1.2`.
+- Les versions antérieures restent sous leur licence d'origine (CC-BY-SA-4.0),
+  sans réécriture de l'historique.
+- Aucun changement de comportement du skill.
+
 ## [1.0.5] — 2026-10-21 — CIA conditionnel et bascule DRH
 
 - La frontière DRH conserve l'interdiction de présumer le régime de l'agent ;
