@@ -8,7 +8,7 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
-## [Non publié] — 2026-11-01 — Licence EUPL 1.2
+## [Non publié] - 2026-11-01 - Licence EUPL 1.2
 
 - Passage du dépôt à la licence publique de l'Union européenne (EUPL) 1.2,
   à compter de cette version : textes officiels de la Commission européenne,
