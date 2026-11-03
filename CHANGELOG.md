@@ -25,7 +25,7 @@ PATCH : correctif de fond, sans nouvelle branche ni nouvel objet.
 
 ## [1.0.6] — 2026-11-03 — veille juridique et réforme budgétaire 2026
 
-Mineure : la réforme budgétaire et comptable (ordonnance n° 2025-526,
+PATCH (correctif de fond) : la réforme budgétaire et comptable (ordonnance n° 2025-526,
 applicable à compter de l'exercice 2026) modifie une règle enseignée.
 
 - **Approbation des comptes** : le déficit qui déclenche la saisine de la
