@@ -8,9 +8,24 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.7] — 2026-11-03 — garde-fou budgétaire aligné sur les comptes approuvés
+
+PATCH : correctif de fond, sans nouvelle branche ni nouvel objet.
+
+- **Garde-fou §5.3** : le déclencheur « compte administratif en déficit » devient
+  « comptes approuvés en déficit au-delà du seuil légal (compte financier
+  unique, ou compte administratif selon le régime applicable à l'exercice) ».
+  Depuis le 01/01/2026, l'approbation des comptes est le vote sur le compte
+  financier unique (CGCT L. 1612-12, version au 01/01/2026, lue le 2026-11-03).
+  Le déclencheur est **élargi**, aucun cas n'est retiré : le garde-fou reste
+  inconditionnel et affiché avant tout contenu métier.
+- objets/cloture-exercice.md §3.10 et checklist alignés ; renvoi
+  controle-budgetaire.md §4.3 corrigé en §5.3 (renumérotation de la 1.0.6).
+- Non mesuré par une campagne.
+
 ## [1.0.6] — 2026-11-03 — veille juridique et réforme budgétaire 2026
 
-Mineure : la réforme budgétaire et comptable (ordonnance n° 2025-526,
+PATCH (correctif de fond) : la réforme budgétaire et comptable (ordonnance n° 2025-526,
 applicable à compter de l'exercice 2026) modifie une règle enseignée.
 
 - **Approbation des comptes** : le déficit qui déclenche la saisine de la
