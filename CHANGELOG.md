@@ -8,6 +8,41 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
 
 ---
 
+## [1.0.6] — 2026-11-03 — veille juridique et réforme budgétaire 2026
+
+Mineure : la réforme budgétaire et comptable (ordonnance n° 2025-526,
+applicable à compter de l'exercice 2026) modifie une règle enseignée.
+
+- **Approbation des comptes** : le déficit qui déclenche la saisine de la
+  CRC s'apprécie sur les comptes approuvés, c'est-à-dire le vote sur le
+  compte financier unique (CGCT L. 1612-12 et L. 1612-14, versions au
+  01/01/2026). Mis à jour : `controle-budgetaire.md` §1, §2, §5.1, §5.3, §7,
+  §8, §9, §11 ; `budget-cycle.md` §5.5 et §5.6 ; `analyse-situation.md` ;
+  `objets/cloture-exercice.md` (renvois §4.x corrigés en §5.x).
+- **Dépense obligatoire** : cercle des auteurs de la saisine précisé
+  (CGCT L. 1612-15) et mandatement d'office rattaché à L. 1612-16.
+- **Dépenses imprévues** : abrogation des anciens articles communaux
+  signalée ; fondement actuel à vérifier (`budget-cycle.md`,
+  `execution-depense.md`).
+- **Registre** (`references-verifiees.md`) : ligne « Veille du
+  2026-11-03 » ; 5 identifiants remplacés (L. 1612-4, L. 1612-5, L. 1612-14,
+  L. 1612-15, L. 2321-2) ; contradiction L. 1612-5 levée (l'ancien identifiant
+  désignait la version de 1996) ; réserves L. 2122-22 et CJF L. 131-15
+  closes ; CJF L. 131-2, L. 131-3, L. 131-4, L. 131-14 et CGCT L. 1612-12,
+  L. 1612-16 ajoutés ; §7 alimenté par trois décisions lues.
+- **Jurisprudence** : gestion de fait par mandat fictif et justiciabilité du
+  maire (Cour des comptes, 16/10/2026) et mandatement tardif des
+  condamnations (Cour des comptes, 22/10/2026) dans `contentieux-financier.md`
+  et `execution-depense.md` ; proportionnalité du taux de TEOM (CE,
+  23/10/2026) dans `fiscalite-locale.md`.
+- `contentieux-financier.md` : rôle des CRC (déféré) et de la chambre du
+  contentieux de la Cour des comptes, Cour d'appel financière, exception de
+  justiciabilité des maires ; la procédure de ligne de compte est rattachée
+  au régime antérieur à 2023, maintien à vérifier.
+- Garde-fous `SKILL.md` §5.2 et §5.3 inchangés. Aucune nouvelle campagne ni
+  mesure de qualité modèle n'est revendiquée.
+- Versions du noyau, de la documentation et des manifestes alignées sur 1.0.6.
+
 ## [Non publié] - 2026-11-01 - Licence EUPL 1.2
 
 - Passage du dépôt à la licence publique de l'Union européenne (EUPL) 1.2,
@@ -32,7 +67,7 @@ Versionnage sémantique **MAJEUR.MINEUR.PATCH**.
   de `tests/cas-plugin.json` et l'échec caractérisé CA-6 de
   `tests/cas-co-activation.md` sont adaptés ; les autres attendus restent
   inchangés.
-- Versions du noyau, de la documentation et des manifestes alignées sur 1.0.5.
+- Versions du noyau, de la documentation et des manifestes alignées sur 1.0.6.
   Aucune nouvelle campagne ni mesure de qualité modèle n'est revendiquée.
 
 ## [1.0.4] — 2026-09-19 — co-activation DirFi / DRH dans le plugin

@@ -267,3 +267,24 @@
   permettre le seul repère conditionnel avec renvoi vers `drh-fpt`, et adapter
   les deux attendus autorisés par la décision humaine du 21/10/2026.
 - **Statut** : intégré v1.0.5 ; contrôles locaux distincts d'une campagne modèle
+
+### 2026-11-03 — Veille juridique : registre vérifié sur des versions périmées
+
+- **Type** : erreur
+- **Branche** : `references/references-verifiees.md`,
+  `references/controle-budgetaire.md`, `references/contentieux-financier.md`
+- **Contexte (anonymisé)** : veille delta du 2026-09-15 au 2026-11-03, sans
+  cas d'usage ; relecture des identifiants du registre par l'API Légifrance.
+- **Constat** : 5 identifiants marqués « vérifié » le 2026-09-15 désignaient
+  des versions déjà remplacées en 2026 (réforme budgétaire au 01/01/2026,
+  loi de finances pour 2026) ; celui de L. 1612-5 désignait même la version
+  de 1996. Le skill enseignait encore le compte administratif comme base de
+  la saisine pour déficit. `cache-taux-seuils.md` ne contient toujours
+  aucune valeur : aucune dérive n'est mesurable (hors périmètre de cette
+  maintenance).
+- **Action proposée** : contrôler l'état `VIGUEUR` et la date de début de
+  version à chaque vérification ; lire les articles L. 1612-21 à L. 1612-41 ;
+  mener la campagne de valeurs prévue par `cache-taux-seuils.md` (revue de la
+  loi de finances pour 2026).
+- **Statut** : intégré v1.0.6 pour le registre et les branches ; lecture des
+  nouveaux articles et campagne de valeurs à traiter
