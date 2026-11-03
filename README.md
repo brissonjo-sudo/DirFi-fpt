@@ -102,7 +102,7 @@ claude plugin marketplace add brissonjo-sudo/DirFi-fpt
 
 ```
 python3 scripts/package_skill.py
-# produit dist/dirfi-fpt-1.0.5.zip
+# produit dist/dirfi-fpt-1.0.6.zip
 ```
 
 ## Validation
@@ -124,6 +124,15 @@ tracées dans `docs/adr/`. Deux revues annuelles : **revue de loi de finances**
 en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
+
+**v1.0.6 — veille juridique du 2026-11-03.** Réforme budgétaire applicable à
+compter de l'exercice 2026 : l'approbation des comptes est le vote sur le
+compte financier unique, et c'est elle qui déclenche la saisine de la chambre
+régionale des comptes en cas de déficit. Registre recontrôlé (5 versions
+remplacées corrigées, réserves L. 1612-5, L. 2122-22 et CJF L. 131-15
+closes) ; trois décisions vérifiées intégrées (gestion de fait par mandat
+fictif, mandatement tardif des condamnations, proportionnalité de la TEOM).
+Détail dans `CHANGELOG.md`.
 
 **v1.0.5 — permettre le CIA strictement conditionnel après bascule DRH.**
 
