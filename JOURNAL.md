@@ -288,3 +288,17 @@
   loi de finances pour 2026).
 - **Statut** : intégré v1.0.6 pour le registre et les branches ; lecture des
   nouveaux articles et campagne de valeurs à traiter
+### 2026-11-03 — Garde-fou §5.3 : déclencheur resté sur le compte administratif
+
+- **Type** : erreur
+- **Branche** : `SKILL.md` §5.3, `objets/cloture-exercice.md`
+- **Contexte (anonymisé)** : suite de la veille du même jour, sans cas d'usage.
+- **Constat** : après la réforme intégrée en v1.0.6, le déclencheur du
+  garde-fou budgétaire citait encore le « compte administratif en déficit »,
+  alors que l'approbation des comptes est le vote sur le compte financier
+  unique depuis le 01/01/2026. Un renvoi `controle-budgetaire.md` §4.3
+  avait échappé à la renumérotation.
+- **Action proposée** : élargir le déclencheur aux comptes approuvés (CFU, ou
+  compte administratif selon le régime applicable), sans retirer de cas ;
+  corriger le renvoi en §5.3.
+- **Statut** : intégré v1.0.7

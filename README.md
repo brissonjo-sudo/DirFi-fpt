@@ -102,7 +102,7 @@ claude plugin marketplace add brissonjo-sudo/DirFi-fpt
 
 ```
 python3 scripts/package_skill.py
-# produit dist/dirfi-fpt-1.0.6.zip
+# produit dist/dirfi-fpt-1.0.7.zip
 ```
 
 ## Validation
@@ -124,6 +124,8 @@ tracées dans `docs/adr/`. Deux revues annuelles : **revue de loi de finances**
 en janvier, **revue de rentrée** au 1er septembre.
 
 ## Version
+
+**v1.0.7 — garde-fou budgétaire aligné sur les comptes approuvés.** Le déclencheur du §5.3 vise les comptes approuvés (compte financier unique, ou compte administratif selon le régime applicable à l'exercice).
 
 **v1.0.6 — veille juridique du 2026-11-03.** Réforme budgétaire applicable à
 compter de l'exercice 2026 : l'approbation des comptes est le vote sur le
